@@ -1,0 +1,42 @@
+Jubei
+
+InitialDash: sighlty increase
+
+Runspeed: increase
+
+5B: Now it moves him forward
+
+6C: AttackP1: 70 -> 100
+
+Air5A: airuntechabletime 14 -> 18
+
+Air5B: airuntechabletime 19 -> 25 and 26 -> 30
+       Both hits high now
+
+Air5C: airuntechabletime 21 -> 28
+
+Air2C: increase untechabletime
+
+New Gating: J.A -> J.B -> J.C and/or J.2C
+            J.2A -> J.C or J.2C
+            some reverse beats too
+
+Fireball(236C and j.236C): startup frame: 30 -> 25
+
+Rekkozan(236236A ver): the ender untechabletime 1 -> 10
+
+Form Two: DEmon Fox (214B): Damage: 870 -> 900
+                            untechabletime: 1 -> 5
+                            Airuntechabletime: 40 -> 60
+                            increase hitstun
+                            j.214B hitcancle into j.fireball
+
+
+
+
+
+
+
+
+
+

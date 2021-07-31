@@ -1,0 +1,11 @@
+Kokonoe
+
+2A - Hits low instead of mid
+
+Teleport - Takes corner
+
+Blackhole. and the OD ver - (for OD)untechabletime: 25 (when hit the ground)
+                            (Non-OD)untechabletime: 10 (when hit the ground)
+
+5D and OD ver: Mindamage: Always does Damage of 600 and 900
+ 
