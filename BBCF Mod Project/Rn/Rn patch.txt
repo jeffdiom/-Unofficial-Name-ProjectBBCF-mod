@@ -18,6 +18,8 @@ Air attack: overall increase the airuntech time
 623D: airuntechable: 42 -> 50
       Damage: 600 -> 800
 
+214D and j.214D: Hits overhead now
+
 spin kick(214 after Gauntlet Hades): damage: 800 -> 1000
                                      airuntechabletime: 38 -> 60
                                      StaterRating: 2 -> 3
@@ -32,7 +34,6 @@ Ax Kick (214D after Upper): normal hit ground bounces now
                             decrease the recovery frames by 6
 
 Not over yet (22C): increase grab range
-                    90% bonus proration 
 
 Hell's Fang(214A): increase hitstun
                    Airuntech time: 40 -> 45
