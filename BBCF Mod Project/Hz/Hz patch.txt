@@ -22,6 +22,7 @@ Ourobros - Recharges faster
            increase blockstun
            increase airuntechable time
            increase hitstun
+           Stocks 2 -> 3
 
 Jameijin(j.214B) -  Hits overhead now instead of mid
                     Airuntechabletime: 50 -> 60

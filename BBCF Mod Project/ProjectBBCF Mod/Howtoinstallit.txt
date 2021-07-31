@@ -1,0 +1,7 @@
+Drag and drop (or copy and paste) the Data folder to here:
+
+SteamLibrary\steamapps\common\BlazBlue Centralfiction\data
+
+Click yes to replace and you are all set
+
+(Only 5 characters got changes so for are Ranga, Jin, Jubei, Hazama, and Kokonoe.)
