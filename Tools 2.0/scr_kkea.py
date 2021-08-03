@@ -1829,14 +1829,14 @@ def Fireball_Hontai():
             clearUponHandler(5)
             sendToLabel(99)
     if (SLOT_52 == 1):
-        FireBall(4, 1, 1, 1, 4, 0, 4, 4)
+        FireBall(6, 1, 1, 1, 6, 0, 6, 6)
         loopRelated(17, 240)
     if (SLOT_53 == 1):
         FireBall(12, 1, 1, 1, 1, 0, 0, 0)
         loopRelated(17, 360)
     if (SLOT_54 == 1):
         FireBall(18, 1, 1, 1, 1, 0, 0, 0)
-        loopRelated(17, 360)
+        loopRelated(17, 480)
 
     def upon_54():
         sendToLabel(99)
@@ -2911,7 +2911,7 @@ def efkk_UltraSokidan_Hontai_OD():
         SLOT_54 = 1
         callSubroutine('Fireball_Hontai')
         AttackLevel_(3)
-        Damage(360)
+        Damage(420)
         AttackP1(80)
         AttackP2(60)
         hitstun(30)
@@ -2990,7 +2990,7 @@ def efkk_UltraSokidan_Hontai_OD():
     SLOT_55 = 14
     RefreshMultihit()
     AttackLevel_(5)
-    Damage(2000)
+    Damage(2500)
     Unknown9287()
     Unknown11092(0)
     GroundedHitstunAnimation(17)
