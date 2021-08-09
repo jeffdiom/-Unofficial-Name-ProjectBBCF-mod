@@ -4057,7 +4057,7 @@ def Freeze_Shot():
         Hitstop(2)
         StarterRating(3)
         ComboFreezeAmount(6)
-        FreezeLength(180)
+        FreezeLength(120)
         ChipPercentage(15)
         PushbackX(18000)
         AttackAttributes(0, 0, 0, 1, 0)
@@ -4367,14 +4367,14 @@ def Warp():
         else:
             Unknown47(1, 2, 22, 2, 51, 2, 52)
         SLOT_12 = SLOT_52
-        Unknown1019(110)
+        Unknown1019(100)
         Unknown1015(-150000)
         Unknown2015(50)
-        if (SLOT_52 < 270000):
-            Unknown1015(270000)
+        if (SLOT_52 < 300000):
+            Unknown1015(300000)
     else:
-        physicsXImpulse(-270000)
-        Unknown1019(-110)
+        physicsXImpulse(-300000)
+        Unknown1019(-100)
     setInvincible(1)
     Collidable(0)
     Unknown2006()
@@ -4439,7 +4439,6 @@ def SpinAssault():
                     AirUntechableTime(60)
                     StarterRating(3)
                     ChipPercentage(6)
-                    AttackP2(72)
                     if SLOT_51:
                         Unknown23001(10, 40)
                         Unknown2072('0500000000000000702ffcff409c000001000000')

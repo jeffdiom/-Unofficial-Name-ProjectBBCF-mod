@@ -226,7 +226,7 @@ def MatchInit():
     Move_EndRegister()
     Move_Register('CommandThrow', INPUT_SPECIALMOVE)
     Move_AirGround_(0x2000)
-    Move_Input_(0xca)
+    Move_Input_(INPUT_632146)
     Move_Input_(INPUT_PRESS_A)
     Unknown14004(1)
     Unknown15010()
@@ -3928,7 +3928,7 @@ def CommandThrowDrop():
     def upon_IMMEDIATE():
         Unknown17012(2, 1, 0)
         AttackLevel_(4)
-        Damage(2500)
+        Damage(2800)
         AttackP2(60)
         Unknown11068(1)
         Unknown11078(1)
