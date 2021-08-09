@@ -562,6 +562,7 @@
     },
     "1084": {
         "format": "i",
+        "name": "endMomentum",
         "size": 8
     },
     "1085": {
@@ -1220,6 +1221,9 @@
         "size": 8
     },
     "4045": {
+        "auto": "autostr",
+        "format": "32si",
+        "name": "PFX",
         "size": 40
     },
     "4046": {
@@ -1236,6 +1240,7 @@
     },
     "4049": {
         "format": "i",
+        "name": "PFX_Scale",
         "size": 8
     },
     "4050": {
@@ -1438,6 +1443,7 @@
     },
     "9016": {
         "format": "i",
+        "name": "SlashFX",
         "size": 8
     },
     "9017": {
