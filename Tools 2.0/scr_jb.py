@@ -8,9 +8,9 @@ def MatchInit():
     Health(11000)
     WalkFSpeed(4200)
     WalkBSpeed(3300)
-    DashFInitialVelocity(17500)
+    DashFInitialVelocity(18000)
     DashFAccel(2500)
-    DashFMaxVelocity(30000)
+    DashFMaxVelocity(32000)
     JumpYVelocity(40000)
     SuperJumpYVelocity(50000)
     Unknown12007(10000)
@@ -2672,7 +2672,7 @@ def NmlAtk2B():
         callSubroutine('AddChainD')
     sprite('jb231_00', 3)
     sprite('jb231_01', 2)
-    physicsXImpulse(12000)
+    physicsXImpulse(10000)
     GenericSFX(1)
     SFX_0('003_swing_grap_0_1')
     sprite('jb231_02', 2)
@@ -2815,7 +2815,6 @@ def NmlAtkAIR5A():
         HitOrBlockCancel('NmlAtkAIR5B')
         HitOrBlockCancel('NmlAtkAIR5C')
         HitOrBlockCancel('NmlAtkAIR2C')
-        
         HitOrBlockCancel('NmlAtkAirThrow')
         callSubroutine('AddChainD')
 
@@ -2859,7 +2858,6 @@ def NmlAtkAIR5B():
         AirPushbackY(20000)
         AirUntechableTime(25)
         HitOverhead(2)
-        HitOrBlockCancel('NmlAtkAIR5A')
         HitOrBlockCancel('NmlAtkAIR5C')
         HitOrBlockCancel('NmlAtkAIR2C')
         if SLOT_94:
@@ -3134,7 +3132,7 @@ def NmlAtk6C():
         AttackLevel_(4)
         Damage(800)
         AttackP1(100)
-        Unknown11090(110)
+        BonusProrationPct(110)
         GroundedHitstunAnimation(3)
         AirHitstunAnimation(11)
         AirPushbackY(-60000)
@@ -3513,7 +3511,7 @@ def NmlAtk5D_SP():
         SFX_1('jb106')
         Unknown2037(1)
     else:
-		SFX_1('jb108')
+        SFX_1('jb108')
     label(100)
     sprite('jb203_02', 3)
     Unknown23183('jb203_02ex00', 3, 2, 36)
@@ -3530,13 +3528,13 @@ def NmlAtk5D_SP():
     Collidable(0)
     Unknown3001(0)
     if (not SLOT_58):
-		SLOT_63 = 1
+        SLOT_63 = 1
 
     def upon_3():
-		if (SLOT_23 <= 1000):
-			SLOT_23 = 1000
-			if (not SLOT_58):
-				SLOT_63 = 1
+        if (SLOT_23 <= 1000):
+            SLOT_23 = 1000
+            if (not SLOT_58):
+                SLOT_63 = 1
     loopRest()
     label(1)
     sprite('jb203_16', 6)
@@ -3549,9 +3547,9 @@ def NmlAtk5D_SP():
     Unknown1043()
     Unknown3001(255)
     if SLOT_2:
-		SFX_1('jb107')
+        SFX_1('jb107')
     else:
-		SFX_1('jb109')
+        SFX_1('jb109')
     RapidCancellable(1)
     if SLOT_58:
         JumpCancel_(1)
@@ -6770,7 +6768,7 @@ def BurstDD():
         Unknown11069('BurstDDAdd')
         blockstun(26)
         Hitstop(20)
-        Unknown11091(10)
+        MinimumDamagePct(10)
         setInvincible(1)
         endMomentum(1)
 
@@ -6815,7 +6813,7 @@ def BurstDD_Easy():
         Unknown11069('BurstDDAdd')
         blockstun(26)
         Hitstop(20)
-        Unknown11091(10)
+        MinimumDamagePct(10)
         setInvincible(1)
         endMomentum(1)
 
@@ -6872,7 +6870,7 @@ def BurstDDAdd():
         SlashFX(1)
         Unknown11069('BurstDDAdd')
         Unknown11064(1)
-        Unknown11091(10)
+        MinimumDamagePct(10)
         Unknown23024(1)
         Unknown11108(3)
 
@@ -7045,7 +7043,7 @@ def AstralHeat():
         Unknown11069('AstralHeat')
         AttackLevel_(5)
         Damage(0)
-        Unknown11091(100)
+        MinimumDamagePct(100)
         Hitstop(3)
         Unknown11072(1, 180000, 0)
         GroundedHitstunAnimation(2)
