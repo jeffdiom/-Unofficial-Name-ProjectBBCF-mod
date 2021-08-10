@@ -5495,7 +5495,7 @@ def OiuchiExe():
         Wallbounce(1)
         Unknown9346(1)
         Wallstick(1)
-        WallstickLength(21)
+        WallstickLength(30)
         AirHitstunAfterWallbounce(30)
         Unknown11068(0)
         Unknown12052(2)
