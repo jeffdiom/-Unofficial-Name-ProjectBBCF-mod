@@ -1984,7 +1984,7 @@ def NmlAtk5A():
         AttackLevel_(1)
         Damage(300)
         HitAirUnblockable(0)
-        blockstun(13)
+        blockstun(11)
         StarterRating(2)
         AirPushbackY(20000)
         PushbackX(12000)
@@ -2136,7 +2136,7 @@ def NmlAtk2A():
         HitAirUnblockable(0)
         HitLow(2)
         PushbackX(12000)
-        blockstun(13)
+        blockstun(11)
         StarterRating(2)
         PunchFX(1)
         AirUntechableTime(18)
@@ -3004,7 +3004,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        ThrowRange(100000)
+        ThrowRange(90000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -3095,7 +3095,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        ThrowRange(100000)
+        ThrowRange(90000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -6462,7 +6462,7 @@ def AstralHeat():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('AstralHeat_2nd', 5, 0, 0)
-        ThrowRange(600000)
+        ThrowRange(300000)
 
         def upon_3():
             if (SLOT_2 > 3):
