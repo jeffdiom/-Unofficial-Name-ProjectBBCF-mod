@@ -2608,6 +2608,7 @@ def efkk400_Hand002nd():
         AttackP2(70)
         AirHitstunAnimation(10)
         GroundedHitstunAnimation(10)
+        GroundUntechableTime(-1)
         AirPushbackX(2000)
         AirPushbackY(12000)
         PushbackX(12000)
