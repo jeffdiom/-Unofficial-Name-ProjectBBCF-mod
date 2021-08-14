@@ -1606,7 +1606,7 @@ def efkk_403_TrapB():
     sprite('kk403_h13', 120)
 
     def upon_3():
-        if (SLOT_19 < 250000):
+        if (SLOT_19 < 300000):
             sendToLabel(1)
         if (not SLOT_21):
             sendToLabel(0)

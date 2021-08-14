@@ -4648,7 +4648,7 @@ def AirSpecial():
     def upon_IMMEDIATE():
         AttackDefaults_AirSpecial()
         AttackLevel_(2)
-        AirUntechableTime(30)
+        AirUntechableTime(33)
         hitstun(20)
         Unknown11033(1)
         Damage(200)
@@ -4737,7 +4737,7 @@ def AirSpecialTsuika():
         GroundedHitstunAnimation(17)
         AirPushbackX(16000)
         AirPushbackY(-40000)
-        AirUntechableTime(40)
+        AirUntechableTime(60)
         AttackP2(90)
         GroundUntechableTime(1)
         endMomentum(1)
