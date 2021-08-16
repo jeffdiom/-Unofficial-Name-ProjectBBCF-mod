@@ -3044,7 +3044,7 @@ def RushAssault():
         Damage(400)
         AttackP1(100)
         AttackP2(100)
-        blockstun(22)
+        blockstun(19)
         Unknown11092(1)
         GroundedHitstunAnimation(4)
         AirPushbackX(2500)
