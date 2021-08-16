@@ -4358,7 +4358,7 @@ def Warp():
         setInvincible(1)
         Unknown11063(1)
         endMomentum(1)
-        Unknown2015(50)
+        Unknown2015(40)
         callSubroutine('Delete_hole')
     sprite('kk404_00ex00', 4)
     sprite('kk404_00ex02', 1)
@@ -4369,14 +4369,14 @@ def Warp():
         else:
             Unknown47(1, 2, 22, 2, 51, 2, 52)
         SLOT_12 = SLOT_52
-        Unknown1019(100)
+        Unknown1019(110)
         Unknown1015(-150000)
-        Unknown2015(50)
-        if (SLOT_52 < 300000):
-            Unknown1015(300000)
+        Unknown2015(40)
+        if (SLOT_52 < 270000):
+            Unknown1015(270000)
     else:
         physicsXImpulse(-300000)
-        Unknown1019(-100)
+        Unknown1019(-110)
     setInvincible(1)
     Collidable(0)
     SFX_3('kkse_19')
@@ -6898,7 +6898,7 @@ def RlAstralDamage():
             SFX_1('kk054')
     sprite('kk900_00', 32767)
     Collidable(0)
-    ProjectileGoThruWall(0)
+    ProjectileHitWall(0)
     Unknown2034(0)
     Unknown20001(1)
     CameraControlEnable(1)
@@ -8689,7 +8689,7 @@ def CmnActMatchWin():
     loopRest()
     ExitState()
     label(20)
-    ProjectileGoThruWall(0)
+    ProjectileHitWall(0)
     Unknown2034(0)
     Unknown20003(1)
     sprite('kk611_00', 6)
@@ -9192,7 +9192,7 @@ def CmnActMatchWin():
     if SLOT_109:
         sendToLabel(10)
     sprite('keep', 1)
-    ProjectileGoThruWall(0)
+    ProjectileHitWall(0)
     Unknown2034(0)
     CameraControlEnable(1)
     Unknown2019(750)

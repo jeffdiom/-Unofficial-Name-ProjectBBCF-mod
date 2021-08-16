@@ -1062,7 +1062,7 @@ def efkk_denpa2():
 
 @Subroutine
 def Drive_SetPosition():
-    ProjectileGoThruWall(1)
+    ProjectileHitWall(1)
     Unknown23023()
     Unknown2003(1)
     Unknown23022(1)
@@ -1503,7 +1503,7 @@ def efkk_403_TrapA():
 
     def upon_IMMEDIATE():
         Unknown23023()
-        ProjectileGoThruWall(1)
+        ProjectileHitWall(1)
         GFX_OffsetX(110000)
         Unknown23022(1)
         GFX_SetPalette(0)
@@ -1573,7 +1573,7 @@ def efkk_403_TrapB():
 
     def upon_IMMEDIATE():
         Unknown23023()
-        ProjectileGoThruWall(1)
+        ProjectileHitWall(1)
         GFX_OffsetX(110000)
         Unknown2003(1)
         Unknown23022(1)
@@ -1606,7 +1606,7 @@ def efkk_403_TrapB():
     sprite('kk403_h13', 120)
 
     def upon_3():
-        if (SLOT_19 < 300000):
+        if (SLOT_19 < 250000):
             sendToLabel(1)
         if (not SLOT_21):
             sendToLabel(0)
@@ -1877,6 +1877,7 @@ def efkk_fireball_Hontai():
     physicsYImpulse(12000)
     physicsXImpulse(2000)
     setGravity(400)
+    ProjectileHitWall(0)
     GFX_0('efkk_FireBallroop', -1)
     Unknown2037(1)
     loopRest()
@@ -1889,6 +1890,7 @@ def efkk_fireball_Hontai():
     physicsYImpulse(12000)
     physicsXImpulse(4000)
     setGravity(200)
+    ProjectileHitWall(0)
     GFX_0('efkk_FireBallroop', -1)
     Unknown2037(1)
     loopRest()
@@ -1901,6 +1903,7 @@ def efkk_fireball_Hontai():
     physicsYImpulse(12000)
     physicsXImpulse(8000)
     setGravity(200)
+    ProjectileHitWall(0)
     GFX_0('efkk_FireBallroop', -1)
     Unknown2037(1)
     loopRest()
@@ -3277,7 +3280,7 @@ def efkk_AtkGravityBallexe():
         CameraControlEnable(1)
         Unknown20009(800)
         Unknown23181(240)
-        ProjectileGoThruWall(1)
+        ProjectileHitWall(1)
     sprite('keep', 9)
     Unknown23027()
     Unknown5000(0, 0)
@@ -3708,7 +3711,7 @@ def efkk_AtkGravityBall_OD():
         Unknown23015(1)
         GFX_OffsetY(200000)
         GFX_OffsetX(700000)
-        ProjectileGoThruWall(1)
+        ProjectileHitWall(1)
         PhysicsPull(999, 12000, 12000)
 
         def upon_34():
@@ -3759,7 +3762,7 @@ def efkk_AtkGravityBallexe_OD():
         Unknown2054(1)
         GFX_SetPalette(2)
         Unknown23015(3)
-        ProjectileGoThruWall(1)
+        ProjectileHitWall(1)
         AttackLevel_(0)
         Damage(0)
         StarterRating(3)
@@ -3932,7 +3935,7 @@ def efkk_AtkGravityBallexe2nd_OD():
         StarterRating(3)
         Unknown9001(4)
         Unknown2003(1)
-        ProjectileGoThruWall(1)
+        ProjectileHitWall(1)
         Unknown4009(22)
         Unknown2054(1)
         Unknown23001(0, 0)
@@ -4406,7 +4409,7 @@ def efkk_BigTagerAtk():
         MinimumDamagePct(5)
         AttackP2(97)
         ChipPercentage(10)
-        AirUntechableTime(100)
+        AirUntechableTime(120)
         GroundUntechableTime(1)
         Hitstop(0)
         AirPushbackX(100000)
@@ -4760,11 +4763,11 @@ def efkk_BigTagerAtk_OD():
         Unknown2011()
         Unknown4011(3)
         AttackLevel_(5)
-        Damage(200)
+        Damage(300)
         MinimumDamagePct(5)
         AttackP2(97)
         ChipPercentage(10)
-        AirUntechableTime(100)
+        AirUntechableTime(120)
         GroundUntechableTime(1)
         Hitstop(0)
         AirPushbackX(100000)

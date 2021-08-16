@@ -2021,7 +2021,7 @@
     "2053": {
         "format": "i",
         "size": 8,
-        "name": "ProjectileGoThruWall"
+        "name": "ProjectileHitWall"
     },
     "2054": {
         "format": "i",
@@ -2200,7 +2200,8 @@
     },
     "22019": {
         "format": "5i",
-        "size": 24
+        "size": 24,
+        "name":"defineInvincibility"
     },
     "22020": {
         "format": "i",
