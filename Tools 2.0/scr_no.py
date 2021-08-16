@@ -663,6 +663,7 @@ def MatchInit():
     Unknown15024('NmlAtk6D', 'con5A', 10000000)
     Unknown15024('NmlAtk6D', 'con6B', 10000000)
     Unknown15024('NmlAtkAIR5D', 'con4D', 10000000)
+    Unknown15024('NmlAtkAIR5D', 'AirSpecial', 10000000)
     Unknown15024('NmlAtkAIR4D', 'con5A', 10000000)
     Unknown15024('con5A', 'con6B', 10000000)
     Unknown15024('con6A', 'con5B', 10000000)
@@ -3021,6 +3022,10 @@ def NmlAtkAIR5D():
         Unknown1017()
         Unknown1022()
         JumpCancel_(1)
+        def upon_ON_HIT_OR_BLOCK():
+            Unknown14072('AirSpecial')
+            Unknown14072('UltimateAirShot')
+            Unknown14072('UltimateAirShotOD')
     sprite('no253_00', 3)
     sprite('no253_01', 4)
     SFX_1('no111')
@@ -4648,7 +4653,7 @@ def AirSpecial():
     def upon_IMMEDIATE():
         AttackDefaults_AirSpecial()
         AttackLevel_(2)
-        AirUntechableTime(33)
+        AirUntechableTime(36)
         hitstun(20)
         Unknown11033(1)
         Damage(200)
