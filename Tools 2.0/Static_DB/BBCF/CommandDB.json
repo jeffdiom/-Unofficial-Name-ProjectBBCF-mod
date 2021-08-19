@@ -727,7 +727,8 @@
     },
     "11089": {
         "format": "i",
-        "size": 8
+        "size": 8,
+        "name": "SameMoveProration"
     },
     "1109": {
         "format": "ii",

@@ -1603,7 +1603,7 @@ def efkk_403_TrapB():
     sprite('kk403_h10', 2)
     sprite('kk403_h11', 2)
     sprite('kk403_h12', 2)
-    sprite('kk403_h13', 120)
+    sprite('kk403_h13', 240)
 
     def upon_3():
         if (SLOT_19 < 250000):
@@ -5231,7 +5231,7 @@ def BurstDD_Atk():
         AttackLevel_(4)
         Damage(200)
         AttackP2(100)
-        Unknown11089(-1)
+        SameMoveProration(-1)
         AirUntechableTime(100)
         GroundedHitstunAnimation(12)
         AirHitstunAnimation(12)
@@ -5258,7 +5258,7 @@ def BurstDD_missile():
         AttackLevel_(4)
         Damage(60)
         AttackP2(100)
-        Unknown11089(-1)
+        SameMoveProration(-1)
         AirUntechableTime(100)
         GroundedHitstunAnimation(12)
         AirHitstunAnimation(12)
