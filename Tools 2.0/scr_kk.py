@@ -1984,7 +1984,6 @@ def NmlAtk5A():
         AttackLevel_(1)
         Damage(300)
         HitAirUnblockable(0)
-        blockstun(11)
         StarterRating(2)
         AirPushbackY(20000)
         PushbackX(12000)
@@ -4371,7 +4370,7 @@ def Warp():
         if (SLOT_52 < 270000):
             Unknown1015(270000)
     else:
-        physicsXImpulse(-300000)
+        physicsXImpulse(-270000)
         Unknown1019(-110)
     setInvincible(1)
     Collidable(0)
