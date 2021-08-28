@@ -2614,6 +2614,11 @@ def NmlAtkAIR2C():
         WallbounceReboundTime(0)
         HitOrBlockCancel('NmlAtkAIR5D')
         HitOrBlockCancel('NmlAtkAIR4D')
+ 
+        def upon_ON_HIT_OR_BLOCK():
+            Unknown14072('UltimateAirShot')
+            Unknown14072('UltimateAirShotOD')
+
     sprite('no293_00', 2)
     sprite('no293_01', 3)
     sprite('no293_02', 3)
@@ -3600,7 +3605,7 @@ def ThrowExe():
         GroundUntechableTime(3)
         PushbackX(10000)
         JumpCancel_(1)
-        StarterRating(2)
+        StarterRating(3)
         zIndexInterval(0, 50)
     sprite('no310_01', 1)
     StartMultihit()
@@ -3679,7 +3684,7 @@ def BackThrowExe():
         Hitstop(0)
         GroundUntechableTime(3)
         JumpCancel_(1)
-        StarterRating(2)
+        StarterRating(3)
         zIndexInterval(0, 50)
         Unknown13021(1)
         Unknown21005(1)
@@ -3765,7 +3770,7 @@ def AirThrowExe():
         AirPushbackX(-6000)
         GroundUntechableTime(16)
         AirUntechableTime(40)
-        StarterRating(2)
+        StarterRating(3)
         Unknown22004(0, 0)
         Unknown13021(1)
         Unknown21005(1)
@@ -4458,6 +4463,7 @@ def con8D():
         defineInvincibility(0, 0, 1, 0, 0)
         if SLOT_110:
             SLOT_58 = 1
+            HitOverhead(2)
             GroundUntechableTime(1)
     sprite('no213_00', 3)
     SFX_3('nose_07')
@@ -5078,6 +5084,11 @@ def AirSpecialTsuika():
         AttackP2(90)
         GroundUntechableTime(1)
         endMomentum(1)
+        JumpCancel_(1)
+
+        def upon_ON_HIT_OR_BLOCK():
+            Unknown14072('UltimateAirShot')
+            Unknown14072('UltimateAirShotOD')
     sprite('no293_00', 2)
     sprite('no293_01', 2)
     sprite('no293_02', 2)
@@ -5167,7 +5178,7 @@ def SpecialThrowExe():
         AirHitstunAnimation(10)
         GroundedHitstunAnimation(10)
         Hitstop(0)
-        GroundUntechableTime(32)
+        GroundUntechableTime(33)
         Unknown11002(-1)
         AirPushbackY(-30000)
         Unknown11072(1, -50000, -500000)

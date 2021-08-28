@@ -2851,7 +2851,7 @@ def NmlAtkAIR2C():
 def NmlAtkExcite():
 
     def upon_IMMEDIATE():
-        Unknown17013()
+        AttackDefaults_Taunt()
         loopRelated(17, 61)
 
         def upon_17():
