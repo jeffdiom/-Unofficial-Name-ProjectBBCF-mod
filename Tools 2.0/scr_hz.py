@@ -4193,7 +4193,7 @@ def NmlAtkGuardCrush():
         EnableGroundBounce(1)
         GroundbounceHeight(30)
         PushbackX(8000)
-        blockstun(25)
+        blockstun(24)
         Unknown23086(1)
         StarterRating(2)
 

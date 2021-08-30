@@ -3006,7 +3006,7 @@ def NmlAtkGuardCrush():
         WallstickLength(35)
         AirHitstunAfterWallbounce(60)
         PushbackX(8000)
-        blockstun(30)
+        blockstun(24)
         Unknown23086(1)
         StarterRating(3)
 
@@ -3090,7 +3090,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        ThrowRange(90000)
+        ThrowRange(80000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -3181,7 +3181,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        ThrowRange(90000)
+        ThrowRange(80000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -3937,7 +3937,7 @@ def Assault_A_2nd():
         Unknown9346(1)
         hitstun(30)
         StunLength(60)
-        WallbounceReboundTime(10)
+        WallbounceReboundTime(5)
         AirUntechableTime(60)
         GroundUntechableTime(-1)
         AirPushbackX(75000)
@@ -4455,13 +4455,13 @@ def Warp():
         else:
             Unknown47(1, 2, 22, 2, 51, 2, 52)
         SLOT_12 = SLOT_52
-        Unknown1019(110)
+        Unknown1019(120)
         Unknown1015(-150000)
         if (SLOT_52 < 270000):
             Unknown1015(270000)
     else:
         physicsXImpulse(-270000)
-        Unknown1019(-110)
+        Unknown1019(-120)
     setInvincible(1)
     Collidable(0)
     SFX_3('kkse_19')

@@ -3512,7 +3512,7 @@ def NmlAtkGuardCrush():
         YImpluseBeforeWallbounce(1800)
         AirUntechableTime(60)
         PushbackX(8000)
-        blockstun(25)
+        blockstun(24)
         Unknown23086(1)
         StarterRating(2)
 
