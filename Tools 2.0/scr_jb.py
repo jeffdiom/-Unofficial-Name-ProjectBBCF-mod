@@ -3854,6 +3854,7 @@ def ThrowExe():
         Unknown11080(1)
         Unknown11050(5, '')
         Unknown11069('ThrowExe')
+        JumpCancel_(0)
         RapidCancellable(0)
         Unknown2004(1, 0)
     sprite('jb310_02', 3)
