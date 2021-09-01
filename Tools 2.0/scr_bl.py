@@ -428,7 +428,7 @@ def MatchInit():
     Move_EndRegister()
     Move_Register('CommandThrow', INPUT_SPECIALMOVE)
     Move_AirGround_(0x2000)
-    Move_Input_(INPUT_214)
+    Move_Input_(INPUT_63214)
     Move_Input_(INPUT_PRESS_B)
     Unknown14004(1)
     Unknown15010()
@@ -1155,6 +1155,7 @@ def CmnActFDash():
     Unknown8010(100, 1, 1)
     sprite('bl032_06', 2)
     sprite('bl032_07', 2)
+    FreeAttack(1)
     ExitState()
 
 @State
@@ -2026,7 +2027,7 @@ def NmlAtk5A():
     def upon_IMMEDIATE():
         AttackDefaults_StandingNormal()
         AttackLevel_(1)
-        PushbackX(12000)
+        PushbackX(10000)
         HitAirUnblockable(0)
         StarterRating(2)
         blockstun(12)
@@ -3144,7 +3145,7 @@ def NmlAtk2A():
     def upon_IMMEDIATE():
         AttackDefaults_CrouchingNormal()
         AttackLevel_(1)
-        PushbackX(12000)
+        PushbackX(10000)
         HitAirUnblockable(0)
         StarterRating(2)
         blockstun(12)

@@ -4404,11 +4404,11 @@ def Lightning_Shot_A():
     sprite('kk403_06', 3)
     sprite('kk403_07', 5)
     sprite('kk403_08', 5)
-    sprite('kk403_09', 5)
+    sprite('kk403_09', 5) 
     WhiffCancelEnable(0)
     sprite('kk403_10', 2)
     Recovery()
-    sprite('kk403_11', 1)
+    sprite('kk403_11', 2)
 
 @State
 def Lightning_Shot_B():
@@ -4432,7 +4432,7 @@ def Lightning_Shot_B():
     sprite('kk403_08', 2)
     sprite('kk403_09', 2)
     WhiffCancelEnable(0)
-    sprite('kk403_10', 2)
+    sprite('kk403_10', 1)
     Recovery()
     sprite('kk403_11', 1)
 
@@ -4476,10 +4476,10 @@ def Warp():
     SFX_1('kk206')
     sprite('kk404_03ex02', 3)
     sprite('kk404_04ex02', 3)
+    WhiffCancelEnable(0)
     sprite('kk404_05ex02', 3)
     sprite('kk404_06ex02', 3)
     sprite('kk404_07ex02', 3)
-    WhiffCancelEnable(0)
     setInvincible(0)
     Collidable(1)
     sprite('kk404_08ex02', 2)
