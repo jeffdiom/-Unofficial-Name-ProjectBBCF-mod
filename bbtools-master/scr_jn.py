@@ -2771,7 +2771,7 @@ def ThrowExe():
     Hitstop(0)
     AirHitstunAnimation(9)
     GroundedHitstunAnimation(9)
-    FreezeCount(6)
+    FreezeCount(4)
     FreezeDuration(60)
 
     def upon_12():
@@ -2813,7 +2813,7 @@ def BackThrowExe():
         Damage(1500)
         AttackP2(50)
         StarterRating(3)
-        FreezeCount(6)
+        FreezeCount(4)
         FreezeDuration(60)
         AirPushbackX(12000)
         YImpluseBeforeWallbounce(1400)
@@ -2867,7 +2867,7 @@ def NmlAtkAirThrow():
 
     def upon_IMMEDIATE():
         Unknown17011('AirThrowExe', 1, 1, 0)
-        ThrowRange(120000)
+        ThrowRange(140000)
     sprite('jn320_00', 3)
     sprite('jn320_01', 3)
     SFX_0('010_swing_sword_0')
@@ -2895,7 +2895,7 @@ def AirThrowExe():
         setGravity(0)
         AirHitstunAnimation(9)
         GroundedHitstunAnimation(9)
-        FreezeCount(6)
+        FreezeCount(4)
         FreezeDuration(70)
         AirPushbackX(5000)
         AirPushbackY(30000)
@@ -3990,7 +3990,7 @@ def AntiAir_D():
     AirHitstunAfterWallbounce(45)
     Unknown9362(1)
     Unknown9364(30)
-    GroundUntechableTime(15)
+    GroundUntechableTime(16)
     Unknown9202(30)
     Unknown9251()
     HitAirUnblockable(0)
