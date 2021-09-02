@@ -6,7 +6,7 @@ def PreInit():
 def MatchInit():
     Health(13000)
     WalkFSpeed(6300)
-    WalkBSpeed(4900)
+    WalkBSpeed(4800)
     DashFInitialVelocity(0)
     DashFAccel(0)
     Unknown12025(12000)
@@ -1845,6 +1845,7 @@ def NmlAtk5D():
         AirPushbackY(5000)
         Unknown9215()
         Hitstop(15)
+        blockstun(21)
         AirUntechableTime(40)
         Unknown9202(15)
         Unknown9204(22)
@@ -1930,6 +1931,7 @@ def NmlAtk4D():
         HitAirUnblockable(0)
         AirUntechableTime(30)
         Unknown9156(28)
+        blockstun(17)
         AirHitstunAfterWallbounce(50)
         StarterRating(2)
         JumpCancel_(0)
@@ -2205,9 +2207,9 @@ def NmlAtk3C():
         AirHitstunAnimation(11)
         GroundedHitstunAnimation(11)
         AirPushbackX(0)
-        AirPushbackY(19000)
+        AirPushbackY(20000)
         PushbackX(14000)
-        AirUntechableTime(58)
+        AirUntechableTime(60)
         GroundUntechableTimeCTonly(3)
         Unknown11065(1)
         HitLow(2)
@@ -4009,7 +4011,7 @@ def CommandThrowDrop():
     def upon_IMMEDIATE():
         Unknown17012(2, 1, 0)
         AttackLevel_(4)
-        Damage(2800)
+        Damage(2700)
         AttackP2(60)
         Unknown11068(1)
         Unknown11078(1)
@@ -4467,7 +4469,7 @@ def CommandThrowB2_Tuika_Drop():
     def upon_IMMEDIATE():
         Unknown17012(2, 1, 0)
         AttackLevel_(4)
-        Damage(1400)
+        Damage(1600)
         AttackP2(100)
         Unknown11068(1)
         Unknown11078(1)
@@ -4533,7 +4535,7 @@ def CommandThrowC():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('CommandThrowUchiageC', 2, 1, 0)
-        ThrowRange(210000)
+        ThrowRange(220000)
         zIndexInterval(0, 50)
         sendToLabelUpon(17, 1)
         Unknown23001(0, 0)
@@ -4660,7 +4662,7 @@ def CommandThrowDropC():
     def upon_IMMEDIATE():
         Unknown17012(2, 1, 0)
         AttackLevel_(4)
-        Damage(2700)
+        Damage(2900)
         AttackP2(60)
         Unknown11068(1)
         Unknown11078(1)
@@ -4983,7 +4985,7 @@ def OiuchiExe():
         Unknown17012(2, 0, 0)
         endMomentum(1)
         AttackLevel_(0)
-        Damage(400)
+        Damage(100)
         if SLOT_137:
             DamageMultiplier(80)
         AttackP2(80)
@@ -4993,9 +4995,9 @@ def OiuchiExe():
         AirHitstunAnimation(5)
         GroundedHitstunAnimation(5)
         Unknown11094(1)
-        hitstun(40)
-        AirUntechableTime(40)
-        AirPushbackX(2400)
+        hitstun(36)
+        AirUntechableTime(36)
+        AirPushbackX(-9000)
         AirPushbackY(5000)
         YImpluseBeforeWallbounce(1200)
         PushbackX(0)
@@ -5555,12 +5557,12 @@ def GETB():
     clearUponHandler(3)
     Unknown21003(0, 0)
     SFX_0('006_swing_blade_0')
-    sprite('tg432_49', 8)
+    sprite('tg432_49', 12)
     sprite('tg432_50', 7)
     SFX_1('tg155')
-    sprite('tg432_51', 7)
-    sprite('tg432_52', 6)
-    sprite('tg432_53', 6)
+    sprite('tg432_51', 8)
+    sprite('tg432_52', 7)
+    sprite('tg432_53', 7)
 
 @State
 def GETBexe():
@@ -5736,7 +5738,7 @@ def GETBDrop():
         Unknown21005(1)
         Unknown23083(1)
         Hitstop(20)
-        Damage(5000)
+        Damage(4900)
         if SLOT_137:
             DamageMultiplier(80)
         Unknown11068(1)
@@ -5997,12 +5999,12 @@ def GETB_OD():
     clearUponHandler(3)
     Unknown21003(0, 0)
     SFX_0('006_swing_blade_0')
-    sprite('tg432_49', 8)
+    sprite('tg432_49', 12)
     sprite('tg432_50', 7)
     SFX_1('tg155')
-    sprite('tg432_51', 7)
-    sprite('tg432_52', 6)
-    sprite('tg432_53', 6)
+    sprite('tg432_51', 8)
+    sprite('tg432_52', 7)
+    sprite('tg432_53', 7)
 
 @State
 def GETBexe_OD():
