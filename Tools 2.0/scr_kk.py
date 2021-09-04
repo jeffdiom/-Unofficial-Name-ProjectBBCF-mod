@@ -2137,6 +2137,7 @@ def NmlAtk2A():
         StarterRating(2)
         PunchFX(1)
         AirUntechableTime(18)
+        blockstun(10)
         WhiffCancel('NmlAtk2A')
         HitOrBlockCancel('NmlAtk5A')
         HitOrBlockCancel('NmlAtk2A')
@@ -2165,7 +2166,7 @@ def NmlAtk2A():
     WhiffCancelEnable(1)
     Recovery()
     Unknown2063()
-    sprite('kk230_05', 4)
+    sprite('kk230_05', 3)
     sprite('kk230_06', 3)
 
 @State

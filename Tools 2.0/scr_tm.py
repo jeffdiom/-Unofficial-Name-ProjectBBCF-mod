@@ -4001,7 +4001,7 @@ def Assault():
     SFX_0('003_swing_grap_0_2')
     GFX_1('ef_dashbrake', -1)
     GFX_Unload('tmef_400_Aura')
-    sprite('tm400_05', 3)
+    sprite('tm400_05', 6)
     sprite('tm400_06', 1)
     Recovery()
     sprite('tm400_25', 2)
@@ -4064,7 +4064,7 @@ def Assault():
 
     def upon_12():
         Unknown2037(1)
-        HeatChange(200)
+        HeatChange(700)
         GFX_0('HeatDrainEff', 103)
         if SLOT_52:
             Unknown48(23, 2, 56, 22, 2, 122)
@@ -4087,7 +4087,7 @@ def Assault():
     Damage(1000)
     if SLOT_137:
         DamageMultiplier(80)
-    AirPushbackX(-8000)
+    AirPushbackX(-9000)
     AirPushbackY(-55000)
     GroundUntechableTime(5)
     HitCancel('Oiuchi')
@@ -4357,12 +4357,14 @@ def MidAssault():
         Damage(800)
         AttackP1(80)
         HitOverhead(2)
+        BonusProrationPct(110)
         GroundedHitstunAnimation(3)
         hitstun(24)
         AirPushbackY(-30000)
         PushbackX(8000)
         StarterRating(3)
         GroundUntechableTime(1)
+        FatalCounter(1)
         GroundUntechableTimeCTonly(15)
 
         def upon_11():
@@ -4414,7 +4416,7 @@ def Oiuchi():
         AirPushbackY(-30000)
         AirUntechableTime(60)
         AirHitstunAfterWallbounce(40)
-        GroundUntechableTime(40)
+        GroundUntechableTime(45)
         Unknown9202(1)
         Unknown11057(800)
         Hitstop(6)
@@ -4473,7 +4475,7 @@ def Oiuchi():
     SFX_0('005_swing_grap_2_0')
     sprite('tm402_03', 3)
     RefreshMultihit()
-    GroundUntechableTime(40)
+    GroundUntechableTime(45)
     AirPushbackX(0)
     Hitstop(6)
     Unknown11032(-1, -1, -1, -1)
@@ -4492,7 +4494,7 @@ def Oiuchi():
     SLOT_54 = 1
     SLOT_53 = 1
     SLOT_51 = 0
-    GroundUntechableTime(40)
+    GroundUntechableTime(45)
     Damage(250)
     Hitstop(1)
     Unknown19(0, 2, 2)
@@ -4504,7 +4506,7 @@ def Oiuchi():
     SFX_0('005_swing_grap_2_0')
     sprite('tm402_03', 2)
     RefreshMultihit()
-    GroundUntechableTime(40)
+    GroundUntechableTime(45)
     sprite('tm402_04', 1)
     SFX_0('213_bound_1')
     Unknown19(0, 2, 2)
@@ -4516,7 +4518,7 @@ def Oiuchi():
     SFX_0('005_swing_grap_2_0')
     sprite('tm402_03', 2)
     RefreshMultihit()
-    GroundUntechableTime(40)
+    GroundUntechableTime(45)
     gotoLabel(11)
     label(11)
     sprite('tm402_04', 3)
@@ -4532,7 +4534,7 @@ def Oiuchi():
     sprite('tm402_03', 3)
     RefreshMultihit()
     AirPushbackX(0)
-    GroundUntechableTime(40)
+    GroundUntechableTime(45)
     Hitstop(6)
     Unknown11032(-1, -1, -1, -1)
     ScreenShake(0, 8000)
@@ -4574,6 +4576,7 @@ def Oiuchi():
     GroundUntechableTime(-1)
     Hitstop(4)
     Unknown11064(0)
+    BonusProrationPct(110)
     if SLOT_53:
         BonusProrationPct(110)
     clearUponHandler(12)
