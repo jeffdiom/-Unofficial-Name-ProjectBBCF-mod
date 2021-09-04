@@ -1,0 +1,126 @@
+=======================
+Noel v0.574
+=======================
+4D: Fatal counters now
+
+d.4D: same with 4D
+
+***New***: Old 2D/d.2D is back and now a new input is 8D/d.8D
+
+8D: damage 250 -> 350
+    now groundbounces
+    mid -> overhead
+    start-up reduce 26f -> 25f
+    OD version: now have gounduntechtime props
+    OD version: damage 250 -> 700
+   
+
+d.8D: Damage 300 -> 400
+      now groundbounces
+      still hits mid
+      start-up reduce 19f -> 18f
+      OD version: now have grounduntechtime props
+
+6C: second hit increase hitstop 5 -> 9
+
+=======================
+Kokonoe v0.574
+=======================
+22C: Adjust the teleport travel Distance (without her drive active)
+
+5A: reduce recovery (-2 -> 0 on block)
+
+2A: reduce start-up 7f -> 6f
+    still -2 on block
+    
+
+3C: lower the blockstun for the first hit (+1 -> 0 on block)
+    Second hit still -1 on block
+    Start-up reduce 14f -> 11f 
+
+j.2C: start-up reduce 17f -> 15f
+      TK j.2C start-up will be 21f -> 19f
+
+5C: reduce blockstun (-6 -> -4 on block)
+    reduce recovery
+
+2C: increase blockstun
+    (+1 -> +3 on block)
+
+22B(trap): Before it proc 90f -> 240f (1.5sec -> 4sec) just like in CP (not cpex version)
+
+=======================
+Terumi v0.574
+=======================
+
+5B: Damage 500 -> 550
+
+5D: Damage 620 -> 640
+
+J.2D: increase hitstun
+
+6B: Damage 650 -> 666
+
+236D: increase airuntechable time
+
+214C: starterrating 2 -> 3
+
+=======================
+Jubei v0.574
+=======================
+5B: Damage 500 -> 575
+    increase airuntechable time
+
+5C: Damage 575 -> 600
+
+2B: increase block stun (+2 -> +3 on block)
+
+6C: StarterRating 2 -> 3
+    Damage 800 -> 900
+
+Rising Justice (j.236C): reduce recovery
+
+Divine Form j.236D/j.214D 6D/4D during Fissuring Slash (Air OK): reduce recovery
+
+
+=======================
+Jin v0.574
+=======================
+2A: adjust the hitboxes and hurtboxes
+
+5B: reduce recovery (-3 -> -2 on block)
+    increase active frame
+    First hit 400 -> 600 Damage
+    Second hit is still 400 damage
+    increase airuntechable time
+
+5C: reduce recovery (-6 -> -5 on block)
+
+3C: reduce start-up (13f -> 12f)
+
+2C: reduce recovery (-17 - 16 on block)
+
+6C: damage 1060 -> 1100
+
+623C: reduce start-up (13f -> 12f)
+      Revert the starterrating 3 -> 0
+      reduce recovery
+      lower the blockstun
+
+623D: reduce start-up (13f -> 12f)
+      reduce recovery (-26 -> -24 on block)
+
+=======================
+Ragna v0.574
+=======================
+2A: increase start-up frames (5f -> 7f) just like in the base game
+    decrease the airuntechable time
+
+2B: increase airuntechable time
+
+2C: increase blockstun (+1 -> +2 on block)
+
+
+
+
+

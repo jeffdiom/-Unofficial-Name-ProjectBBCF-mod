@@ -1,0 +1,114 @@
+=======================
+Hibiki PBBCF alpha v0.6
+========================
+
+5A: reduce recovery 
+
+2A: increase blockstun 
+
+5B: increase airuntechable time 
+    increase hitstun
+
+2C: increase airuntechable time
+
+5C: increase airuntechable time
+
+3C: increase airuntechable time
+    increase blockstun 
+
+6C: last hit wall sticks now
+    Damage 620 -> 660
+
+6B: reduce start-up (18f -> 16f)
+    
+4B: reduce start-up (25f -> 24f)
+    damage 700 -> 800
+
+4BB: damage 500 -> 600
+     reduce start-up (16f -> 15f)
+
+Thrashing claw (B during Soaring Kick): starterrating 2 -> 3
+
+Pulverizing Fin (C during Soaring Kick): increase grab range
+                                         damage 2500 -> 2600
+                                        
+Dual Wing Smash: Heaven (214): reduce start-up
+                               StarterRating 2 -> 3
+                               WhiffCancelable to 214D
+
+Dual Wing Smash: Earth (214B): increase blockstun 
+                               reduce start-up
+                               StarterRating 2 -> 3 
+                               WhiffCancelable to 214D
+
+Dual Wing Smash: reduce the recovery 
+
+Soaring Slash: Revolution(214D): reduce reccovery 
+
+===========================
+Kokonoe Alpha v0.6
+============================
+
+2A: start-up increase 6f -> 7f X
+
+3C: slower start-up 11f -> 12f
+
+6A: reduce recovery
+   
+6A (Hold): AttackLevel 3 -> 4
+           increase blockstun
+
+Gravtion (normal): now as BonusProrationPct 110%
+                   and OD version
+
+*** Overall adjusted most of the airuntechable times in her moves 
+
+=======================
+Noel PBBCF alpha v0.6
+========================
+J.2C: Special cancleable in the air now
+
+214C -> J.2C follow up: Special cancleable in the air now
+
+d.8D (OD version): hits mid -> overheads
+
+=======================
+Jin PBBCF alpha v0.6
+========================
+
+5B: second hit damage lowered 600 -> 400 X
+
+22C: now has BonusPro 110%
+
+623B: AttackP1 85 -> 82 like in the base game X
+
+623D: Fully charged has now BonusPro 110%
+      First hit AttackP1 80 -> 70 like in the base game X
+
+Drive: Frostbite And Overdrive: Frost End: increase overall the freezecount
+
+6D, 5D, 8D and j.5D: increase freezecount 1 -> 2
+
+Touga Hyojin: now freezes the opponent
+              StaterRating 2 -> 3
+
+Touga Hyojin (OD version): AttackP2 72 -> 82
+
+=======================
+Ranga PBBCF alpha v0.6
+========================
+
+5B: remove Jumpcancel on hit X
+
+2C: reduce knockback
+
+Belial Edge (214A): Always hit the sweetspot
+
+Straight Punch (236C after Upper) -> now has BonusProrationPct 110%
+
+
+
+
+
+
+

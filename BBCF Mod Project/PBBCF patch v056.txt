@@ -1,0 +1,67 @@
+=======================
+Jin alpha v0.56
+=======================
+Hizansen (j.214C): AttackP2 79 -> 75
+
+Ice Car (214B): AttackP2 79 -> 75
+
+=======================
+Terumi v0.56
+=======================
+Increase F.walkspeed, b.walkspeed, intitalrunspeed
+
+F.Throw B.throw and airthrow: StarterRating 2 -> 3
+
+5B: increase air untechable time
+
+5C: untechable air time 22f -> 26f
+    second hit hitstun increase
+
+2A: start-up reduce 7f -> 6f
+
+2C: start-up reduce 13f ->12f
+
+3C: untechable air time 40f -> 60f
+    CT gounduntechtime 1f -> 5f
+
+6A: AirUntechableTime 28 -> 30
+    start-up reduce 9 -> 8
+
+6C (last hit): increase ground bounce hight
+
+6B: increase blockstun
+
+j.B: increase airuntechtime
+
+j.C: increase airuntechtime
+
+j.5D: start-up reduce 20f -> 15f
+
+j.2D: damage 640 -> 660
+
+Agonizing Fang - Tsuishouga (214C): increase hitstun
+      
+Snakebite - Jagaku (236D): start up reduce 16f -> 14f
+                           New: Hitcancle into Cleaving Fang - Garengeki (22C)
+                           Followup Heat gains 27% -> 23%
+
+Retaliating Fang - Gasenshou (214D): start up reduce 25f -> 24f
+                                     increase grab range
+
+Cleaving Fang - Garengeki (22C): AttackP2 79 -> 80
+                                 increase GroundUntechableTime
+                                 Last hit: now wallsticks
+                                
+++++++++++++++++++++++++++++++++++++++++
+Only 7 characters that got modded so far
+*Ranga
+*Jin
+*Tager
+*Hazama
+*Kokonoe
+*Jubei
+*Terumi
++++++++++++++++++++++++++++++++++++++++++
+
+
+

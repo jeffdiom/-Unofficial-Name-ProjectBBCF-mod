@@ -1,0 +1,173 @@
+Project BBCF Mod alpha v0.4 Patch
+=======================
+Jin alpha v0.4
+=======================
+Increase the hitstun for 5C and 2C
+
+SnowStorm (22C): AttackLevel 3 -> 4
+		 AttackP1 90 -> 100
+                 AttackP2 89 -> 100
+
+Ice Car (214C version): AttackP2 89 -> 79 (The OD verson is still AttackP2 89)
+                        increase untechabletime 10 -> 15
+
+EX Ice Car (214D): AttackP2 89 -> 90
+
+EX Ice Car (214D ~ C): increase untechabletime 20 -> 25
+                      AttackP2 89 -> 90
+
+Hizangkei (j.214D): Second hit AttackP2 82 -> 85
+
+Hizansen (j.214C): AttackP2 82 -> 79 (The OD verson is still AttackP2 82)
+                   Added untechabletime on the ground
+
+EX DP (623D): First hit AttackP1 70 -> 80
+
+=======================
+Ranga alpha v0.4
+=======================
+Straight Punch (236 C after Upper): airuntechabletime 40 -> 60
+                                    
+
+Ax Kick (214D after Upper): OD ver airuntechabletime 60 -> 90
+                            Add: bounces the opponent without OD state
+                            Decrease the recovery state
+
+Blood Scythe (214D and J.214D): Gaurd All -> Overhead
+
+=======================
+Kokonoe alpha v0.4
+=======================
+Decrease Recovery frames for her 5A, 2A, and 2B, 214A/B/C(Fireball), 22A/B (lightig trap)
+
+Decrease start up frames: 2C, 6C, 3C and 2A
+
+Stocks: 9 -> 10
+
+New Gating option: 5B -> 6B
+                   2B -> 6B
+
+5A: increase airuntechabletime
+
+2A: Guard mid -> low
+    increase airuntechable time
+
+5C: increase hitstun
+
+2c: increase hitstun
+    increase blockstun by 2 frames
+
+3C: increase airuntechabletime
+    slightly increase hitstun
+    slightly increase active frame
+    Remove the hurtbox inbetween Kokonoe and the hitbox
+    Second hit: mid -> low
+
+6A: airuntechabletime  24 -> 36
+    StarterRating 2 -> 3
+    
+Hold 6A: airuntechabletime 40 -> 60
+
+Freeze Ray (236C): AttackLevel 3 -> 4
+
+Teleport(22C): decrease the recovery frames
+               the Invul-frames comes out on frame 1 instead of 4 
+
+Gravition(Drive): increase airuntechable time 60 -> 70
+                  OD version: 60 -> 100
+                  OD version: first hit of the move will always do the initial damage
+                  AttackP2: 92 -> 100
+
+Zero Gravity(632146D): New: Grounduntechabletime 10 instead of ground bounce
+                            Same with the OD version, but Grounduntechabletime 25
+
+And More.... A lot more changes than I thought but this what I could remeber so far.
+
+=======================
+Hazama alpha v0.4
+=======================
+Stocks: 2 -> 3
+
+Walkspeed - increase by 200
+
+InitialDash - increase by 2000
+
+2B - Startup Frame: 10 -> 9 
+ 
+5C - Airuntechabletime: 21 -> 32
+     increase blockstun
+
+2C - Airuntechabletime: 25 -> 35
+
+6A - Attack P1: 70 -> 90
+     Startup Frame: 22 -> 20
+     StarterRating: 2 -> 3
+
+6B - Startup Frame: 25 -> 20
+     untechabletime: 1 -> 5 
+
+Ourobros - Recharges faster 
+           AttackLevel: 1 -> 3
+           increase blockstun
+           increase airuntechable time
+           increase hitstun
+           Stocks 2 -> 3
+
+Jameijin(j.214B) -  Hits overhead now instead of mid
+                    Airuntechabletime: 50 -> 60
+                    untechabletime: 1 -> 15
+                    
+Gasaishou(236C)- increase grab range
+                 Airuntechabletime: 40 -> 60
+                 Damage: 600 -> 800
+                 StarterRating: 2 -> 3 
+
+Orochi Burensou and the OD ver (Stance ~ 632146D) - increase throw range
+
+=======================
+Jubei alpha v0.4
+=======================
+Jubei
+
+InitialDash: sighlty increase
+
+Runspeed: increase
+
+5B: Now it moves him forward
+
+6C: AttackP1: 70 -> 100
+
+Air5A: airuntechabletime 14 -> 18
+
+Air5B: airuntechabletime 19 -> 25 and 26 -> 30
+       Both hits high now
+
+Air5C: airuntechabletime 21 -> 28
+
+Air2C: increase untechabletime
+
+New Gating: J.A -> J.B -> J.C and/or J.2C
+            J.2A -> J.C or J.2C
+            some reverse beats too
+
+Fireball(236C and j.236C): startup frame: 30 -> 25
+
+Rekkozan(236236A ver): the ender untechabletime 1 -> 10
+
+Form Two: DEmon Fox (214B): Damage: 870 -> 900
+                            untechabletime: 1 -> 5
+                            Airuntechabletime: 40 -> 60
+                            increase hitstun
+                            j.214B hitcancle into j.fireball
+
+
+
+
+
+
+
+
+
+
+
+                 
