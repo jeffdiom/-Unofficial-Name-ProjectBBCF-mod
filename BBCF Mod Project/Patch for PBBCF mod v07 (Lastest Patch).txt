@@ -162,7 +162,7 @@ Terumi PBBCF alpha v0.7C
 
 
 ========================
-Jin PBBCF alpha v0.7C
+Jin PBBCF alpha v0.7D
 ========================
 
 6A: fatal counter hit -> normal counter hit X
@@ -172,6 +172,20 @@ Jin PBBCF alpha v0.7C
 3C: increase active frame
 
 623D: increase active frame
+
+5B: adjusted the hurtboxes and hitboxes
+
+5C and 2C: reduce hitstun
+
+6C: reduce start-up 19f -> 18f
+    increase active frame
+    redcue recovery
+
+j.214C: reverted the AttackP2
+        reduce grounduntechabletime 10 -> 5
+
+j.214D: AttackP2 85 -> 90 (second hit)
+        
 
 ========================
 Ragna PBBCF alpha v0.7C
