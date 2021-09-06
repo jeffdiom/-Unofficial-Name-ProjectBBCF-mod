@@ -2142,7 +2142,8 @@ def NmlAtk3C():
         SlashFX(1)
         AirPushbackY(18000)
         AttackP1(90)
-        AirUntechableTime(40)
+        StarterRating(3)
+        AirUntechableTime(60)
         GroundUntechableTimeCTonly(1)
         Unknown11065(1)
     sprite('hz240_00', 3)
@@ -4195,7 +4196,7 @@ def NmlAtkGuardCrush():
         PushbackX(8000)
         blockstun(24)
         Unknown23086(1)
-        StarterRating(2)
+        StarterRating(3)
 
         def upon_61():
             PushbackX(39900)

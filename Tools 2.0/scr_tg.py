@@ -2209,6 +2209,7 @@ def NmlAtk3C():
         AirPushbackY(20000)
         PushbackX(14000)
         AirUntechableTime(60)
+        StarterRating(3)
         GroundUntechableTimeCTonly(3)
         Unknown11065(1)
         HitLow(2)

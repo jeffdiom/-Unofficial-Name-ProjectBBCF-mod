@@ -2425,7 +2425,7 @@ def NmlAtk3C():
         GroundedHitstunAnimation(11)
         AirPushbackX(6000)
         AirPushbackY(8000)
-        AirUntechableTime(40)
+        AirUntechableTime(60)
         GroundUntechableTime(3)
         Unknown11065(1)
         FatalCounter(1)
