@@ -1845,7 +1845,6 @@ def NmlAtk5D():
         AirPushbackY(5000)
         Unknown9215()
         Hitstop(15)
-        blockstun(21)
         AirUntechableTime(40)
         Unknown9202(15)
         Unknown9204(22)
