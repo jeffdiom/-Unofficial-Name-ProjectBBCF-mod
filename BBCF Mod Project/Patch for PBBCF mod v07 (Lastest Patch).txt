@@ -68,7 +68,7 @@ Serpentine Assault (720A): increase damage and the follow up
 ========================
 Kokone PBBCF alpha v0.7
 ========================
-J.2C:  adjusted the j.2C hitboxes and hurtboxes
+J.2C: adjusted the hitboxes and the hurtboxes
 
 Teleport (22C): increase recovery 29f -> 30f
 
@@ -143,8 +143,6 @@ Impact Driver (360B after wed catapault): damage 1400 -> 1600
 
 4D: increase blockstun ( -1 -> 0 on block)
 
-5D: increase blockstn ( -6 -> -5 on block)
-
 22D: damage 400 -> 100
 
 Genesic Emerald Tager Buster (720C): increase whiff recovery
@@ -180,6 +178,8 @@ Jin PBBCF alpha v0.7D
 6C: reduce start-up 19f -> 18f
     increase active frame
     redcue recovery
+
+6D: reduce start-up 31f -> 30f
 
 j.214C: reverted the AttackP2
         reduce grounduntechabletime 10 -> 5
