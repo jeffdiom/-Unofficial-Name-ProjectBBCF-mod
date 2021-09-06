@@ -738,7 +738,7 @@ def CheckOverDriveFreeze():
     if SLOT_110:
         Unknown9287()
         Unknown11001(6, 0, 5)
-        FreezeCount(3)
+        FreezeCount(6)
 
         def upon_12():
             ScreenShake(20000, 20000)
@@ -1861,7 +1861,7 @@ def NmlAtk5C():
         Damage(800)
         Unknown9016(1)
         AirUntechableTime(30)
-        hitstun(21)
+        hitstun(18)
         callSubroutine('CheckOverDriveNormal')
         HitOrBlockCancel('NmlAtk6B')
         HitOrBlockCancel('NmlAtk2C')
@@ -1914,7 +1914,6 @@ def NmlAtk5D():
         callSubroutine('CheckDriveFlash')
         callSubroutine('CheckOverDriveFreeze')
         if SLOT_110:
-            FreezeCount(4)
             FreezeDuration(45)
         HitOrBlockCancel('ShortDash')
     sprite('jn203_00', 2)
@@ -2028,7 +2027,7 @@ def NmlAtk2C():
         Unknown9016(1)
         AirUntechableTime(36)
         HitAirUnblockable(3)
-        hitstun(21)
+        hitstun(18)
         Unknown11058('0000000001000000000000000000000000000000')
         callSubroutine('CheckOverDriveNormal')
         HitOrBlockCancel('NmlAtk6B')
@@ -2304,8 +2303,7 @@ def NmlAtkAIR5D():
         callSubroutine('CheckDriveFlash')
         callSubroutine('CheckOverDriveFreeze')
         if SLOT_110:
-            FreezeCount(4)
-            FreezeDuration(60)
+            FreezeDuration(90)
     sprite('jn253_00', 3)
     sprite('jn253_01', 3)
     Unknown7009(3)
@@ -2452,12 +2450,12 @@ def NmlAtk6C():
     sprite('jn212_00', 2)
     sprite('jn212_01', 2)
     sprite('jn212_02', 2)
-    sprite('jn212_03', 3)
+    sprite('jn212_03', 2)
     SFX_4('jn109')
     sprite('jn212_04', 3)
     sprite('jn212_05', 3)
     sprite('jn212_06', 3)
-    sprite('jn212_07', 3)
+    sprite('jn212_07', 4)
     GFX_0('zan_a0', -1)
     SFX_0('009_swing_rapier_2')
     sprite('jn212_08', 3)
@@ -2471,7 +2469,7 @@ def NmlAtk6C():
     sprite('jn212_14', 3)
     GFX_0('EffNoutou', 0)
     sprite('jn212_15', 5)
-    sprite('jn212_16', 5)
+    sprite('jn212_16', 4)
 
 @State
 def NmlAtk6D():
@@ -3352,7 +3350,7 @@ def Assault():
         StarterRating(2)
         if SLOT_110:
             StarterRating(3)
-            FreezeCount(5)
+            FreezeCount(6)
             FreezeDuration(45)
             AttackP2(89)
         HitOrBlockCancel('Assault_2nd')
@@ -3436,7 +3434,7 @@ def Assault_2nd():
         Unknown11058('0100000000000000000000000000000000000000')
         Unknown9016(1)
         if SLOT_110:
-            FreezeCount(5)
+            FreezeCount(6)
             FreezeDuration(45)
         Unknown23087(120000)
         sendToLabelUpon(2, 3)
@@ -3639,7 +3637,7 @@ def AirAssault():
         AttackLevel_(4)
         Damage(1000)
         AttackP1(90)
-        AttackP2(75)
+        AttackP2(82)
         GroundedHitstunAnimation(2)
         HitstunP2(8)
         Unknown9142(99)
@@ -3649,13 +3647,12 @@ def AirAssault():
         Unknown11058('0100000000000000000000000000000000000000')
         AirUntechableTime(60)
         PushbackX(19800)
-        GroundUntechableTime(10)
+        GroundUntechableTime(5)
         Unknown9016(1)
         StarterRating(3)
         if SLOT_110:
-            FreezeCount(5)
+            FreezeCount(6)
             FreezeDuration(60)
-            AttackP2(82)
         callSubroutine('CheckDriveFlash')
         if SLOT_137:
             Unknown10000(80)
@@ -3760,9 +3757,9 @@ def AirAssault_D():
     AirPushbackX(24000)
     AirPushbackY(-36000)
     AirUntechableTime(60)
-    GroundUntechableTime(25)
+    GroundUntechableTime(28)
     Unknown9251()
-    AttackP2(85)
+    AttackP2(90)
     HitOverhead(2)
     Hitstop(12)
     Unknown11046(0)
@@ -3771,7 +3768,7 @@ def AirAssault_D():
         AirPushbackY(-80000)
         Unknown9190(1)
         Unknown9118(45)
-        AirUntechableTime(90)
+        AirUntechableTime(108)
         Unknown9311()
     Unknown22004(6, 1)
     if SLOT_137:
@@ -3808,7 +3805,7 @@ def AntiAir_Fast():
         Unknown9016(1)
         StarterRating(2)
         if SLOT_110:
-            FreezeCount(5)
+            FreezeCount(6)
             FreezeDuration(60)
         callSubroutine('CheckDriveFlash')
     sprite('jn405_00', 2)
@@ -3868,7 +3865,7 @@ def AntiAir_Slow():
         Unknown9016(1)
         Unknown2004(1, 0)
         if SLOT_110:
-            FreezeCount(5)
+            FreezeCount(6)
             FreezeDuration(90)
         setInvincible(1)
         callSubroutine('CheckDriveFlash')

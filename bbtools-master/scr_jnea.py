@@ -64,7 +64,7 @@ def EMB_JN_AH():
 def CheckOverDriveShotFreeze():
     if SLOT_110:
         Unknown9287()
-        FreezeCount(3)
+        FreezeCount(6)
         Unknown11001(6, 0, 5)
 
         def upon_12():
@@ -1112,7 +1112,7 @@ def ice_shot():
         Unknown12052(1)
 
         def upon_32():
-            FreezeCount(5)
+            FreezeCount(6)
             FreezeDuration(30)
         SLOT_4 = 1
 
@@ -1200,7 +1200,7 @@ def air_ice_shot():
         Unknown12052(1)
 
         def upon_32():
-            FreezeCount(5)
+            FreezeCount(6)
             FreezeDuration(30)
         SLOT_4 = 1
 
@@ -1527,7 +1527,7 @@ def UltimateSlashShotObj():
         Unknown9202(20)
         Hitstop(0)
         FreezeCount(20)
-        FreezeDuration(50)
+        FreezeDuration(55)
         Unknown9016(1)
         Unknown11057(600)
         Unknown11043(0)
@@ -1600,12 +1600,12 @@ def OverDriveSlashShotObj():
         HitstunP2(60)
         Unknown9142(40)
         Unknown9324(9)
-        AirUntechableTime(30)
+        AirUntechableTime(60)
         AirPushbackX(30000)
         AirPushbackY(1000)
         Unknown9202(20)
         Hitstop(0)
-        FreezeCount(30)
+        FreezeCount(40)
         FreezeDuration(120)
         Unknown9016(1)
         Unknown11057(600)
