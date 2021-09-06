@@ -132,7 +132,7 @@ Rekkas 236A -> 236B -> 236C: increase all the airuntechable time
 6B_norod: decrease start-up frame 17f -> 15f
 
 ========================
-Tager PBBCF alpha v0.7B
+Tager PBBCF alpha v0.7D
 ========================
 
 GTD (632146A): damage 2800 -> 2700
@@ -188,7 +188,7 @@ j.214D: AttackP2 85 -> 90 (second hit)
         
 
 ========================
-Ragna PBBCF alpha v0.7C
+Ragna PBBCF alpha v0.7D
 ========================
 Axl Kick (214D after 236C): increase ground bounce 
 
@@ -197,6 +197,16 @@ increase intinial dash speed
 Straight Punch (236C after 236C): AttackP2 82 -> 86
 
 Beilal edge (214A): increase airuntechable time
+
+2C: adjusted the hurtboxes and the hitboxes
+
+5C: adjusted the hitboxes
+
+========================
+Hibiki PBBCF alpha v0.7D
+========================
+
+214A/B: both can whiffcancel in 214C
 
 
 
