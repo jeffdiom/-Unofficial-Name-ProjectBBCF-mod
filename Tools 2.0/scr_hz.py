@@ -4196,7 +4196,7 @@ def NmlAtkGuardCrush():
         PushbackX(8000)
         blockstun(24)
         Unknown23086(1)
-        StarterRating(3)
+        StarterRating(2)
 
         def upon_61():
             PushbackX(39900)

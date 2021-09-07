@@ -4456,13 +4456,13 @@ def Warp():
         else:
             Unknown47(1, 2, 22, 2, 51, 2, 52)
         SLOT_12 = SLOT_52
-        Unknown1019(120)
+        Unknown1019(110)
         Unknown1015(-150000)
-        if (SLOT_52 < 270000):
-            Unknown1015(270000)
+        if (SLOT_52 < 280000):
+            Unknown1015(280000)
     else:
-        physicsXImpulse(-270000)
-        Unknown1019(-120)
+        physicsXImpulse(-280000)
+        Unknown1019(-110)
     setInvincible(1)
     Collidable(0)
     SFX_3('kkse_19')

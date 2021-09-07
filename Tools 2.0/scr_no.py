@@ -3186,7 +3186,7 @@ def NmlAtkAIR5D():
         PushbackX(10000)
         GroundUntechableTime(5)
         AirUntechableTime(60)
-        HitOverhead(2)
+        HitOverhead(0)
         StarterRating(3)
         clearUponHandler(2)
         HitOrBlockCancel('NmlAtkAIR4D')
@@ -3216,6 +3216,7 @@ def NmlAtkAIR5D():
     SFX_3('nose_07')
     SFX_0('001_airbackdash_0')
     if SLOT_58:
+        HitOverhead(2)
         Unknown1015(4000)
     sprite('no253_02', 4)
     sprite('no253_03', 4)

@@ -3743,7 +3743,7 @@ def NmlAtkGuardCrush():
         GroundUntechableTime(10)
         SlashFX(1)
         Unknown23086(1)
-        StarterRating(2)
+        StarterRating(3)
 
         def upon_61():
             PushbackX(39900)
