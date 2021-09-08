@@ -1,7 +1,7 @@
 ========================
 Noel PBBCF alpha v0.75
 ========================
-J.5D: hits overhead -> mid (normal version)
+J.5D: hits overhead -> mid (normal version) X
       OD version still hits overhead
 
 
@@ -14,6 +14,10 @@ Kokonoe PBBCF alpha v0.75
 
 22C: adjusted the teleport travel distance
 
+5C: lower blockstun (-4 -> -5) X
+
+5B: increase blockstn (-5 -> -4)
+
 ========================
 Jin PBBCF alpha v0.75
 ========================
@@ -22,14 +26,26 @@ Jin PBBCF alpha v0.75
 
 214D: increase travel distance
 
+5C: reverted the recovery on the Move X
+
 ========================
 Ranga PBBCF alpha v0.75
 ========================
 
-214D: hits overhead -> mid
+214D: hits overhead -> mid X
       od version still hits overhead
       damage 1250 -> 1300
       reduce start-up 37f -> 35f
 
 j.214D: still hits overhead
         damage 1000 -> 1050
+
+236C (after Upper): AttackP2 86 -> 89
+
+214D (after Upper): AttackP2 75 -> 70
+
+========================
+Jubei PBBCF alpha v0.75
+========================
+
+2A: increase blockstun (-3 -> -1 on block)
