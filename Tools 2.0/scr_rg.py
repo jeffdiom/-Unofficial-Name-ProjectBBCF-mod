@@ -3620,7 +3620,7 @@ def AntiAir3rdTate():
         AirUntechableTime(55)
         PunchFX(1)
         HPGeneration(50, 50)
-        AttackP2(75)
+        AttackP2(70)
         SameMoveProration(70)
         Unknown12052(2)
         if SLOT_110:
@@ -3746,7 +3746,7 @@ def AntiAir3rdYoko():
         AttackDefaults_AirSpecial()
         AttackLevel_(4)
         Damage(600)
-        AttackP2(86)
+        AttackP2(89)
         AirHitstunAnimation(12)
         GroundedHitstunAnimation(12)
         AirPushbackX(66000)
