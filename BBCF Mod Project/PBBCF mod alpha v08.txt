@@ -50,6 +50,6 @@ j.5C: increase hitstun
 
 j.623: Starterratin 2 -> 3
 
-Bang's Steel Rain (632146B): recovery 49f -> 38f
+Bang's Steel Rain (632146B): recovery 49f -> 39f
     
     
