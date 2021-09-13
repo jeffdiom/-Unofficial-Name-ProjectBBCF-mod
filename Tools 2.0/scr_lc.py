@@ -2460,6 +2460,7 @@ def NmlAtk3C():
         GroundUntechableTimeCTonly(10)
         Unknown11065(1)
         Unknown2004(1, 0)
+
     def upon_ON_HIT_OR_BLOCK():
         HitCancel('NmlAtk6C')
         HitOrBlockCancel('NmlAtk5D')
@@ -2858,7 +2859,7 @@ def NmlAtk4D():
         GroundedHitstunAnimation(9)
         AirPushbackX(30000)
         AirPushbackY(6000)
-        Unknown9202(30)
+        SildeDuration(30)
         AirUntechableTime(40)
         AttackAttributes(1, 0, 0, 0, 0)
         HitOverhead(2)
@@ -3187,7 +3188,7 @@ def Atk5C_NoRod():
     def upon_IMMEDIATE():
         AttackDefaults_StandingNormal()
         AttackLevel_(3)
-        Unknown11033(1)
+        ProjectileDurabilityLvl(1)
         Damage(800)
         hitstun(28)
         SlashFX(1)
@@ -3944,7 +3945,7 @@ def NmlAtkGuardCrush():
         def upon_3():
             if (SLOT_18 == 10):
                 Unknown2037(481)
-                Unknown11030(32)
+                GuardCrushDuration(32)
                 AttackP2(60)
                 if CheckInput(0x5):
                     sendToLabel(0)
@@ -3953,7 +3954,7 @@ def NmlAtkGuardCrush():
             if (SLOT_18 >= 20):
                 clearUponHandler(61)
                 Unknown2037(0)
-                Unknown11030(60)
+                GuardCrushDuration(60)
                 AttackP2(100)
                 StarterRating(3)
                 if CheckInput(0x5):
@@ -5084,7 +5085,7 @@ def RideAttack():
         AirUntechableTime(35)
         Unknown11056(1)
         PushbackX(0)
-        Unknown11087(1, 1)
+        enableGuardCrush(1, 1)
         Unknown23001(0, 0)
         Unknown2015(1)
         Unknown23086(1)

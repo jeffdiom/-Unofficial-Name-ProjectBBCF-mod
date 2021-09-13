@@ -2078,7 +2078,7 @@ def NmlAtk5C():
     def upon_IMMEDIATE():
         AttackDefaults_StandingNormal()
         AttackLevel_(4)
-        Unknown11033(1)
+        ProjectileDurabilityLvl(1)
         AttackP2(92)
         Damage(800)
         hitstun(21)
@@ -2737,7 +2737,7 @@ def NmlAtkAIR5C():
     def upon_IMMEDIATE():
         AttackDefaults_AirNormal()
         AttackLevel_(3)
-        Unknown11033(1)
+        ProjectileDurabilityLvl(1)
         Damage(750)
         AttackP1(80)
         AttackP2(89)
@@ -2999,13 +2999,13 @@ def NmlAtkGuardCrush():
 
     def upon_IMMEDIATE():
         ScriptSameAttackComboNoSpecialCancel()
-        Unknown11033(3)
+        ProjectileDurabilityLvl(3)
         GroundedHitstunAnimation(17)
         AirHitstunAnimation(17)
         AirPushbackX(50000)
         AirPushbackY(30000)
         AirUntechableTime(60)
-        Unknown9202(15)
+        SildeDuration(15)
         Wallbounce(1)
         WallbounceReboundTime(40)
         Wallstick(1)
@@ -3028,7 +3028,7 @@ def NmlAtkGuardCrush():
         def upon_3():
             if (SLOT_18 == 10):
                 Unknown2037(481)
-                Unknown11030(32)
+                GuardCrushDuration(32)
                 AttackP2(80)
                 if CheckInput(0x5):
                     sendToLabel(0)
@@ -3037,7 +3037,7 @@ def NmlAtkGuardCrush():
             if (SLOT_18 >= 20):
                 clearUponHandler(61)
                 Unknown2037(0)
-                Unknown11030(60)
+                GuardCrushDuration(60)
                 AttackP2(100)
                 StarterRating(3)
                 if CheckInput(0x5):
@@ -3157,7 +3157,7 @@ def ThrowExe():
     Hitstop(25)
     StarterRating(3)
     WallbounceReboundTime(5)
-    Unknown9202(20)
+    SildeDuration(20)
     AirHitstunAnimation(12)
     GroundedHitstunAnimation(12)
     SlashFX(1)
@@ -4148,7 +4148,7 @@ def Freeze_Shot():
     def upon_IMMEDIATE():
         AttackDefaults_StandingSpecial()
         AttackLevel_(4)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Unknown11034(0)
         Damage(600)
         Hitstop(2)
@@ -4413,7 +4413,7 @@ def Lightning_Shot_A():
     sprite('kk403_06', 3)
     sprite('kk403_07', 5)
     sprite('kk403_08', 5)
-    sprite('kk403_09', 5) 
+    sprite('kk403_09', 5)
     WhiffCancelEnable(0)
     sprite('kk403_10', 2)
     Recovery()
@@ -4660,7 +4660,7 @@ def UltimateShot_A():
     def upon_IMMEDIATE():
         AttackDefaults_StandingDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         MinimumDamagePct(15)
         AttackP1(95)
@@ -4735,7 +4735,7 @@ def UltimateShot_B():
     def upon_IMMEDIATE():
         AttackDefaults_StandingDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         MinimumDamagePct(15)
         AttackP1(95)
@@ -4809,7 +4809,7 @@ def UltimateShot_C():
     def upon_IMMEDIATE():
         AttackDefaults_StandingDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         MinimumDamagePct(15)
         AttackP1(95)
@@ -4883,7 +4883,7 @@ def UltimateAirShot_A():
     def upon_IMMEDIATE():
         AttackDefaults_AirDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         MinimumDamagePct(15)
         AttackP1(95)
@@ -4946,7 +4946,7 @@ def UltimateAirShot_B():
     def upon_IMMEDIATE():
         AttackDefaults_AirDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         MinimumDamagePct(15)
         AttackP1(95)
@@ -5009,7 +5009,7 @@ def UltimateAirShot_C():
     def upon_IMMEDIATE():
         AttackDefaults_AirDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         MinimumDamagePct(15)
         AttackP1(95)
@@ -5072,7 +5072,7 @@ def UltimateShotOD_A():
     def upon_IMMEDIATE():
         AttackDefaults_StandingDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         AttackP1(98)
         hitstun(100)
@@ -5145,7 +5145,7 @@ def UltimateShotOD_B():
     def upon_IMMEDIATE():
         AttackDefaults_StandingDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         AttackP1(98)
         hitstun(100)
@@ -5219,7 +5219,7 @@ def UltimateShotOD_C():
     def upon_IMMEDIATE():
         AttackDefaults_StandingDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         AttackP1(98)
         hitstun(100)
@@ -5293,7 +5293,7 @@ def UltimateAirShotOD_A():
     def upon_IMMEDIATE():
         AttackDefaults_AirDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         AttackP1(98)
         hitstun(100)
@@ -5356,7 +5356,7 @@ def UltimateAirShotOD_B():
     def upon_IMMEDIATE():
         AttackDefaults_AirDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         AttackP1(98)
         hitstun(100)
@@ -5419,7 +5419,7 @@ def UltimateAirShotOD_C():
     def upon_IMMEDIATE():
         AttackDefaults_AirDD()
         AttackLevel_(5)
-        Unknown11033(2)
+        ProjectileDurabilityLvl(2)
         Damage(1250)
         AttackP1(98)
         hitstun(100)

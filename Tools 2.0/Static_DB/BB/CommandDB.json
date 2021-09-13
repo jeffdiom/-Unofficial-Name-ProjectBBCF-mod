@@ -1855,11 +1855,13 @@
     },
     "11030": {
         "format": "i",
-        "size": 8
+        "size": 8,
+        "name": "GuardCrushDuration"
     },
     "11031": {
         "format": "i",
-        "size": 8
+        "size": 8,
+        "name": "chipDamagePercent"
     },
     "11032": {
         "size": 20
@@ -2077,7 +2079,8 @@
     },
     "11087": {
         "format": "ii",
-        "size": 12
+        "size": 12,
+        "name": "EnableGuardCrush"
     },
     "11088": {
         "format": "i",

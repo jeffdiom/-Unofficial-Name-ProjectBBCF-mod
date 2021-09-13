@@ -473,7 +473,8 @@
     },
     "11030": {
         "format": "i",
-        "size": 8
+        "size": 8,
+        "name": "GuardCrushDuration"
     },
     "11031": {
         "format": "i",
@@ -486,7 +487,8 @@
     },
     "11033": {
         "format": "i",
-        "size": 8
+        "size": 8,
+        "name": "ProjectileDurabilityLvl"
     },
     "11034": {
         "format": "i",
@@ -718,7 +720,8 @@
     },
     "11087": {
         "format": "ii",
-        "size": 12
+        "size": 12,
+        "name": "enableGuardCrush"
     },
     "11088": {
         "format": "i",
@@ -3467,7 +3470,8 @@
     },
     "4011": {
         "format": "i",
-        "size": 8
+        "size": 8,
+        "name": "ProjectileDisapperOnHit"
     },
     "4012": {
         "format": "i",
@@ -4112,7 +4116,8 @@
     },
     "9202": {
         "format": "i",
-        "size": 8
+        "size": 8,
+        "name": "SildeDuration"
     },
     "9203": {
         "format": ""
