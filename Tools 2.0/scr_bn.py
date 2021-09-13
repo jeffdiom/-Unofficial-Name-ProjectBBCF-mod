@@ -2558,7 +2558,7 @@ def NmlAtk5C():
         PushbackX(15000)
         AirPushbackX(24000)
         AirPushbackY(-42000)
-        GroundUntechableTime(1)
+        GroundUntechableTime(5)
         HitOverhead(2)
         HitAirUnblockable(3)
         FatalCounter(1)
@@ -3310,7 +3310,7 @@ def NmlAtk2D():
         callSubroutine('SpecialCancelOnlyHuRinKaZan')
         callSubroutine('SpecialDashOnlyKugi')
         if SLOT_110:
-            AirUntechableTime(40)
+            AirUntechableTime(60)
 
         def upon_42():
             if (not SLOT_2):
