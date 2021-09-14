@@ -1,0 +1,83 @@
+========================
+Noel PBBCF alpha v0.75
+========================
+J.5D: hits overhead -> mid (normal version) X
+      OD version still hits overhead
+
+
+============================
+Kokonoe PBBCF alpha v0.75
+============================
+236A: increase travel distance
+      adjusted the hitbox
+
+22C: adjusted the teleport travel distance
+
+5C: lower blockstun (-4 -> -5)
+
+5B: low crushed from frame (5 ~ 10) 6 frames of inv (feet/legs)
+
+j.2C: increase start-up frame (15f -> 16f)
+
+CrushTrigger: now disrupts projectiles
+
+5D/ and 5D_OD: AttackP2 100 -> 92 (reverted)
+               increase hitstun
+               increase airuntechable time
+
+236B: AttackP2 72 -> 82 (reverted)
+========================
+Jin PBBCF alpha v0.75
+========================
+214B: increase travel distance
+
+214D: increase travel distance
+
+5C: reverted the recovery on the Move X
+
+Sekkajin (22C): no longer need to be close to the opponet to trigger the move
+                reverted the start-up frame (6f -> 8f)
+                increase recovery
+                increase blockstun (-13 -> -11 on block)
+                Counter Hit state on whiff
+                Damage 385 -> 400
+                AttackLevel 3 -> 4
+                last hit AttackP2 74 -> 75
+
+236D: reduce recovery by 2
+      hits 3 -> 4
+
+j.236D:  reduce recovery by 4
+         hits 3 -> 4
+
+5B: reverted the recovery frames (-2 -> -3 on block)
+
+========================
+Ranga PBBCF alpha v0.75
+========================
+214D: hits overhead -> mid X
+      od version still hits overhead
+      damage 1250 -> 1300
+      reduce start-up 37f -> 35f
+
+j.214D: still hits overhead
+        damage 1000 -> 1050
+
+236C (after Upper): AttackP2 86 -> 89
+
+214D (after Upper): AttackP2 75 -> 70
+
+========================
+Jubei PBBCF alpha v0.75
+========================
+2A: increase blockstun (-3 -> -1 on block)
+
+6A: increase catch HBF inv frames by 2f
+    AttackP1 50 -> 75
+    StarterRating 0 -> 1
+    CH -> FCH (fatal counter)
+
+6B: increase catch HBF inv frames by 2f
+    StarterRating 2 -> 3
+
+6C: reverted the start-up frames (24f -> 25f)

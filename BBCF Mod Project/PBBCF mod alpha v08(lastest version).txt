@@ -1,0 +1,82 @@
+========================
+Hakumen PBBCF alpha v0.8
+========================
+Increase walkspeed
+
+now has strike backdash inv (only for the body)
+
+2C: reduce start-up 13f -> 11f
+    increase active frame 3f -> 5f
+    increase knockup on hit
+    increase airuntechable time
+
+2A: increase blockstun ( 0 -> +1 on block)
+    now can cancel into other normals after 16f instead of 18f
+
+5B: cancels into other normals after 16f instead of 21f
+    increase hitstun
+
+5C: now has gating option to 4C and 6C after 17f
+
+2D: increase groundbounce height 7 -> 10
+
+6A: damage 720 -> 750
+
+6B: StarterRating 2 -> 3
+    damage 590 -> 600
+    increase grondbounce height 27 -> 30
+
+6C: no charage damage 1500 -> 1600
+    Partial Charage damage 1700 -> 1800
+                    now has weak guard crush
+    Fully charage now guard crushes 
+                  Damage 2000 -> 2200
+
+j.5C: now wallbounces mid screen
+
+CPEX Renka is back. The new input is 236C cost 3 magatama
+
+236C: 2nd hit -> counter hit refund 1 magatama
+      counter hit causes the opponent to crumble
+      counter hit wallsticks
+      counter hit has BonusProrationpct 120%
+      2nd hit refund 1/4 of the magatama
+
+236B: 2nd hit refund 1/4 of the magatama
+
+================================
+Bang Shishigami PBBCF alpha v0.8
+================================
+increase runspeed and walk.f speed
+
+Nails: count 12 -> 18 stocks
+
+2D: StarterRating 2 -> 3
+    now has guardpoint on the head
+
+6B: now has Bonusprotation 110%
+    increase blockstun (-1 -> 0 on block)
+
+j.5C: increase hitstun
+
+623C: Starterrating 2 -> 3
+      reduce start-up 13f -> 10f
+      increase recovery 37f -> 40f
+
+j.623: Starterratin 2 -> 3
+
+Bang's Steel Rain (632146B): recovery 49f -> 39f
+
+========================
+Terumi PBBCF alpha v0.8
+========================
+5C: adjusted the hitbox and the hurtbox
+
+j.5D: adjusted the hitbox
+
+5D: adjusted the hitbox
+
+236D: adjusted the hitbox
+
+j.2D: increase hitstun
+    
