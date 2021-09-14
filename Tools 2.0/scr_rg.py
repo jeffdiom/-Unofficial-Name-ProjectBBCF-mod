@@ -2835,7 +2835,7 @@ def NmlAtkGuardCrush():
         def upon_3():
             if (SLOT_18 == 10):
                 Unknown2037(481)
-                Unknown11030(32)
+                GuardCrushDuration(32)
                 AttackP2(60)
                 if CheckInput(0x5):
                     sendToLabel(0)
@@ -2844,7 +2844,7 @@ def NmlAtkGuardCrush():
             if (SLOT_18 >= 20):
                 clearUponHandler(61)
                 Unknown2037(0)
-                Unknown11030(60)
+                GuardCrushDuration(60)
                 AttackP2(100)
                 StarterRating(3)
                 if CheckInput(0x5):
@@ -4487,7 +4487,7 @@ def JumpAssault():
         AirPushbackX(30000)
         AirPushbackY(-30000)
         AirUntechableTime(30)
-        Unknown9202(12)
+        SildeDuration(12)
         SlashFX(1)
         Hitstop(16)
         AttackAttributes(1, 0, 0, 0, 0)
@@ -4578,7 +4578,7 @@ def AirJumpAssault():
         AirPushbackX(36000)
         AirPushbackY(-36000)
         AirUntechableTime(60)
-        Unknown9202(15)
+        SildeDuration(15)
         SlashFX(1)
         ChipPercentage(0)
         StarterRating(2)
@@ -5582,7 +5582,7 @@ def OiuchiExe():
         AirUntechableTime(60)
         AirPushbackX(41000)
         AirPushbackY(8000)
-        Unknown9202(20)
+        SildeDuration(20)
         Wallbounce(1)
         Unknown9346(1)
         Wallstick(1)

@@ -3155,7 +3155,7 @@ def NmlAtk6C():
     sprite('jb212_01', 2)
     SFX_1('jb112')
     sprite('jb212_02', 2)
-    sprite('jb212_03', 4)
+    sprite('jb212_03', 3)
     endMomentum(1)
     physicsXImpulse(4000)
     physicsYImpulse(16000)
