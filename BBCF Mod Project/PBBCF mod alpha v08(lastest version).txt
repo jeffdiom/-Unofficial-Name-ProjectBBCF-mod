@@ -10,13 +10,12 @@ now has strike backdash inv (only for the body)
     increase knockup on hit
     increase airuntechable time
 
-2A: increase blockstun ( 0 -> +1 on block)
-    now can cancel into other normals after 16f instead of 18f
+2A: now can cancel into other normals after 16f instead of 18f
 
 5B: cancels into other normals after 16f instead of 21f
     increase hitstun
 
-5C: now has gating option to 4C and 6C after 17f
+5C: now has gating option to 4C and 6C after 17f and 2C on 21f
 
 2D: increase groundbounce height 7 -> 10
 
@@ -33,6 +32,8 @@ now has strike backdash inv (only for the body)
                   Damage 2000 -> 2200
 
 j.5C: now wallbounces mid screen
+
+All of his special moves refunds 1 managtama and on normal hits it gives 1/4 of the managtama
 
 CPEX Renka is back. The new input is 236C cost 3 magatama
 
@@ -79,4 +80,9 @@ j.5D: adjusted the hitbox
 236D: adjusted the hitbox
 
 j.2D: increase hitstun
+
+========================
+Kokonoe PBBCF alpha v0.8
+========================
+Fireball(236A/B/C): it doesn't disapper on block anymore
     
