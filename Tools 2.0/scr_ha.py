@@ -2182,7 +2182,6 @@ def NmlAtk2A():
         PushbackX(12000)
         HitAirUnblockable(0)
         StarterRating(2)
-        blockstun(12)
         HitOrBlockCancel('NmlAtk6A')
         HitOrBlockCancel('NmlAtkThrow')
         HitOrBlockCancel('NmlAtkBackThrow')
@@ -2892,14 +2891,14 @@ def NmlAtkAIR5C():
             defineInvincibility(0, 0, 0, 1, 0)
             SLOT_51 = 1
             GFX_Unload('ha406_col_dmy')
-        
+
         def upon_60():
             AttackLevel_(5)
             Unknown12052(-1)
             GroundUntechableTime(1)
             AirUntechableTime(90)
             AttackP1(90)
-            StarterRating(3) 
+            StarterRating(3)
 
         def upon_3():
             if SLOT_51:
@@ -3110,7 +3109,7 @@ def NmlAtk6C():
     sprite('ha212_02', 1)
     sprite('ha212_03', 1)
     Damage(1800)
-    enableGuardCrush(100,1)
+    enableGuardCrush(100, 1)
     Unknown2037(481)
     GuardCrushDuration(22)
     GroundedHitstunAnimation(19)
@@ -3136,27 +3135,26 @@ def NmlAtk6C():
     Damage(2200)
     AttackP1(100)
     AttackP2(100)
-    BonusProrationPct(110)
+    BonusProrationPct(120)
     GroundedHitstunAnimation(19)
-    AirUntechableTime(90)
+    AirUntechableTime(120)
     AirPushbackX(68000)
     AirPushbackY(20000)
     Wallbounce(1)
-    enableGuardCrush(100,1)
+    enableGuardCrush(100, 1)
     GuardCrushDuration(60)
     Unknown2037(0)
-    GroundUntechableTime(6)
+    GroundUntechableTime(10)
     ForceCounterHit(2)
-    
+
     def upon_61():
         Unknown21001(0)
         if (not (SLOT_136 == 0)):
-            Unknown2067(0, 0)
+            BarrierGeneration(0, 0)
             Unknown36(22)
-            Unknown2067(-6000, 0)
+            BarrierGeneration(-12000, 0)
             Unknown35()
             SFX_1('ha159')
-    
     Unknown23159('Atk6C_TameMax')
     ScreenShake(0, 20000)
     Unknown23119(6579455, 8, 2)
@@ -4063,6 +4061,12 @@ def Assault():
         Unknown23181(30)
         callSubroutine('SpecialMugen')
         callSubroutine('PreAction_Atemi')
+
+        def upon_12():
+            HeatChange(1250)
+
+        def upon_60():
+            HeatChange(3750)
         if SLOT_137:
             DamageMultiplier(80)
     sprite('ha400_00', 2)
@@ -4108,9 +4112,9 @@ def Assault2():
         hitstun(30)
         AirHitstunAnimation(11)
         GroundedHitstunAnimation(2)
-        StunRecoveryLength(39)
+        StunRecoveryLength(40)
         StunLength(60)
-        Unknown9144(59)
+        Unknown9144(60)
         AirUntechableTime(60)
         PushbackX(19800)
         AirPushbackY(18000)
@@ -4128,6 +4132,7 @@ def Assault2():
             PushbackX(0)
         callSubroutine('SpecialMugen')
         callSubroutine('PreAction_Atemi')
+
         def upon_60():
             HeatChange(3750)
         if SLOT_137:
@@ -4174,9 +4179,12 @@ def Assault2():
     HitLow(0)
     AttackAttributes(0, 1, 0, 0, 0)
     Hitstop(12)
-    
+
     def upon_12():
         HeatChange(1250)
+
+    def upon_60():
+        HeatChange(3750)
 
     def upon_ON_HIT_OR_BLOCK():
         HitOrBlockJumpCancel(1)
@@ -4201,18 +4209,19 @@ def AssaultCPEX():
         Damage(1000)
         AttackP1(90)
         GroundedHitstunAnimation(2)
-        Unknown9130(54)
-        Unknown9142(44)
+        StunLength(60)
+        StunRecoveryLength(45)
         Unknown9132(60)
         Unknown9144(50)
         AirUntechableTime(60)
         PushbackX(15300)
         AirPushbackY(15000)
-        Unknown9310(1)
+        GroundUntechableTime(1)
+        GroundUntechableTimeCTonly(1)
         HitLow(2)
         HitAirUnblockable(3)
         AttackAttributes(0, 0, 1, 0, 0)
-        Unknown2058(-3750)
+        HeatChange(-3750)
         Unknown23181(60)
         Unknown2004(1, 0)
         if SLOT_76:
@@ -4221,6 +4230,7 @@ def AssaultCPEX():
             def upon_12():
                 clearUponHandler(12)
                 SLOT_4 = (SLOT_4 + 2)
+
             def upon_60():
                 HeatChange(3750)
     sprite('ha401_00', 1)
@@ -4232,8 +4242,8 @@ def AssaultCPEX():
     GFX_0('ha_power_bluelight', -1)
     GFX_0('ha_power_2', -1)
     sprite('ha401_01', 1)
-    Unknown3029(1)
-    Unknown3069(0)
+    EnableAfterimage(1)
+    AfterimageType(0)
     physicsXImpulse(500)
     sprite('ha401_02', 2)
     sprite('ha401_03', 2)
@@ -4259,11 +4269,11 @@ def AssaultCPEX():
     GFX_0('ha_kick4', -1)
     GFX_0('ha_kick4b', -1)
     GFX_1('haef_kick_drop', 0)
-    physicsXImpulse(0)
+    physicsXImpulse(1000)
     RefreshMultihit()
     Damage(500)
     AttackP2(60)
-    Unknown11090(-1)
+    BonusProrationPct(-1)
     AirHitstunAnimation(12)
     GroundedHitstunAnimation(12)
     AirUntechableTime(40)
@@ -4276,29 +4286,29 @@ def AssaultCPEX():
     GroundUntechableTime(0)
     HitLow(0)
     AttackAttributes(0, 1, 0, 0, 0)
-    
+
     def upon_12():
         HeatChange(1250)
-    
+
     def upon_60():
         GroundUntechableTime(10)
-        BonusProrationPct(120)  
-        AttackLevel_(5) 
+        BonusProrationPct(120)
+        AttackLevel_(5)
         AirUntechableTime(90)
         AttackP1(100)
+        AttackP2(80)
         Wallstick(1)
         WallstickLength(30)
         Unknown9346(0)
         GroundedHitstunAnimation(2)
-        Unknown9130(60)
-        Unknown9144(99)
+        StunLength(65)
+        Unknown9144(100)
         HeatChange(3750)
- 
     sprite('ha401_12', 3)
     Recovery()
     sprite('ha401_13', 3)
     sprite('ha401_14', 3)
-    Unknown3029(0)
+    EnableAfterimage(0)
     Unknown14077(1)
     sprite('ha401_15', 3)
     sprite('ha401_16', 3)
@@ -4330,11 +4340,15 @@ def Assault3():
         HeatChange(-3750)
         Unknown23181(90)
         Unknown2004(1, 0)
-        
+
+        def upon_12():
+            HeatChange(1250)
+
         def upon_60():
             BonusProrationPct(120)
             AirUntechableTime(60)
             GroundUntechableTime(25)
+            HeatChange(3750)
 
         def upon_3():
             if SLOT_51:
@@ -4351,6 +4365,7 @@ def Assault3():
                 HitOverhead(0)
                 HitLow(2)
                 BonusProrationPct(-1)
+                GroundUntechableTime(18)
                 if SLOT_137:
                     DamageMultiplier(80)
             if SLOT_51:
@@ -4492,7 +4507,8 @@ def Assault4_2nd():
         AttackP2(72)
         AirHitstunAnimation(10)
         GroundedHitstunAnimation(10)
-        AirPushbackY(36000)
+        AirPushbackY(39000)
+        AirPushbackX(3000)
         YImpluseBeforeWallbounce(2400)
         AirUntechableTime(60)
         Hitstop(16)
@@ -4502,6 +4518,12 @@ def Assault4_2nd():
         callSubroutine('SpecialMugen')
         setInvincible(1)
         defineInvincibility(1, 1, 0, 0, 0)
+
+        def upon_12():
+            HeatChange(1250)
+
+        def upon_60():
+            HeatChange(3750)
         if SLOT_137:
             DamageMultiplier(80)
     sprite('ha403_04', 2)
@@ -4571,6 +4593,12 @@ def AirAssault():
         endMomentum(1)
         callSubroutine('SpecialMugen')
         callSubroutine('PreAction_Atemi')
+
+        def upon_12():
+            HeatChange(1250)
+
+        def upon_60():
+            HeatChange(3750)
 
         def upon_32():
             setInvincible(1)
@@ -4647,6 +4675,12 @@ def AirAssault2():
         Unknown23181(60)
         setInvincible(1)
         SLOT_65 = 1
+
+        def upon_12():
+            HeatChange(1250)
+
+        def upon_60():
+            HeatChange(3750)
 
         def upon_ON_HIT_OR_BLOCK():
             Unknown22000()

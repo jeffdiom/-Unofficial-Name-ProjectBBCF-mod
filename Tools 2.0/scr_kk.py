@@ -1988,6 +1988,7 @@ def NmlAtk5A():
         AirPushbackY(20000)
         PushbackX(12000)
         AirUntechableTime(16)
+        blockstun(13)
         WhiffCancel('NmlAtk5A')
         HitOrBlockCancel('NmlAtk5A')
         HitOrBlockCancel('NmlAtk6A')
@@ -2015,8 +2016,8 @@ def NmlAtk5A():
     WhiffCancelEnable(1)
     Recovery()
     Unknown2063()
-    sprite('kk200_02', 2)
-    sprite('kk200_01', 2)
+    sprite('kk200_02', 3)
+    sprite('kk200_01', 3)
     sprite('kk200_00', 2)
 
 @State
@@ -2091,6 +2092,8 @@ def NmlAtk5C():
         AirPushbackY(8000)
         Unknown9324(2)
         Unknown9180(1)
+        StunLength(90)
+        StunRecoveryLength(36)
         StarterRating(3)
         CounterHitAirPushbackY(12000)
         HitJumpCancel(1)
@@ -2654,7 +2657,6 @@ def NmlAtkAIR5A():
         AttackP1(90)
         Unknown11092(1)
         StarterRating(3)
-        blockstun(13)
 
         def upon_11():
             SLOT_52 = 1
@@ -2750,6 +2752,8 @@ def NmlAtkAIR5C():
         AirPushbackX(44000)
         AirPushbackY(22000)
         StarterRating(3)
+        StunLength(90)
+        StunRecoveryLength(30)
         YImpluseBeforeWallbounce(1500)
         Unknown9324(2)
         Wallbounce(1)
@@ -3851,7 +3855,7 @@ def Assault_A():
         StarterRating(3)
         GroundedHitstunAnimation(2)
         Unknown9144(60)
-        hitstun(30)
+        hitstun(40)
         AirUntechableTime(60)
         AirPushbackX(0)
         AirPushbackY(-28000)
