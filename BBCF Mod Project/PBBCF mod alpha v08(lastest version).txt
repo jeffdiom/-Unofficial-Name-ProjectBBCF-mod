@@ -85,4 +85,11 @@ j.2D: increase hitstun
 Kokonoe PBBCF alpha v0.8
 ========================
 Fireball(236A/B/C): it doesn't disapper on block anymore
+
+========================
+Ragna PBBCF alpha v0.8
+========================
+2C: BonusProationpct 110% only on counterhit
+
+OverDrive: all of his special moves have BPP 110%
     
