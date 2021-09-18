@@ -1123,7 +1123,7 @@ def efkk_Drive():
         BonusProrationPct(110)
         Unknown11001(10, 10, 15)
         AirHitstunAnimation(18)
-        AirUntechableTime(60)
+        AirUntechableTime(80)
         PushbackX(8000)
         AirPushbackX(1000)
         YImpluseBeforeWallbounce(1600)

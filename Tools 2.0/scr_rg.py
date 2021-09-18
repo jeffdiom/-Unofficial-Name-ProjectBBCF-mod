@@ -2032,6 +2032,7 @@ def NmlAtk5D():
         FatalCounter(1)
         if SLOT_110:
             SLOT_58 = 1
+            BonusProrationPct(110)
             GroundedHitstunAnimation(9)
         if SLOT_94:
             JumpCancel_(0)
@@ -2071,12 +2072,13 @@ def NmlAtk5D():
     AirPushbackY(-100000)
     YImpluseBeforeWallbounce(0)
     PushbackX(39900)
-    GroundUntechableTime(1)
+    GroundUntechableTime(3)
     GroundbounceHeight(35)
     if SLOT_58:
         HPGeneration(150, 150)
         ChipPercentage(0)
         DamageMultiplier(110)
+        BonusProrationPct(110)
         Hitstop(16)
         EnableGroundBounce(1)
         GroundbounceHeight(25)
@@ -2198,6 +2200,10 @@ def NmlAtk2C():
         HitOrBlockCancel('NmlAtk5D')
         HitOrBlockCancel('NmlAtk2D')
         HitOrBlockCancel('NmlAtk6D')
+        
+        def upon_60():
+            BonusProrationPct(110)
+
     sprite('rg232_00', 1)
     sprite('rg232_01', 2)
     sprite('rg232_02', 2)
@@ -2231,7 +2237,7 @@ def NmlAtk3C():
         AirPushbackY(13000)
         AirUntechableTime(60)
         StarterRating(3)
-        GroundUntechableTimeCTonly(3)
+        GroundUntechableTimeCTonly(5)
         AttackP1(90)
         HitOrBlockCancel('NmlAtk2D')
         HitOrBlockJumpCancel(1)
@@ -2282,6 +2288,7 @@ def NmlAtk2D():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             hitstun(25)
             GroundUntechableTime(25)
             Hitstop(16)
@@ -2426,6 +2433,7 @@ def NmlAtkAIR5D():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             AirUntechableTime(60)
             Hitstop(16)
         HitOrBlockJumpCancel(1)
@@ -2637,6 +2645,7 @@ def NmlAtk6D():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             AirUntechableTime(60)
             AirPushbackY(45000)
             AirPushbackX(4000)
@@ -2826,6 +2835,7 @@ def NmlAtkGuardCrush():
         StarterRating(2)
         if SLOT_110:
             HPGeneration(100, 100)
+            BonusProrationPct(110)
             ChipPercentage(0)
             HPGeneration(200, 200)
 
@@ -3381,6 +3391,7 @@ def AntiAirD():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             HPGeneration(75, 75)
             Hitstop(16)
 
@@ -3481,6 +3492,7 @@ def Air_AntiAirD():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             HPGeneration(75, 75)
             Hitstop(16)
         physicsXImpulse(0)
@@ -3631,6 +3643,7 @@ def AntiAir3rdTate():
             AttackP2(82)
             StarterRating(3)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             HPGeneration(75, 75)
             EnableGroundBounce(1)
             GroundbounceHeight(60)
@@ -3911,6 +3924,7 @@ def Assault2nd():
             SLOT_58 = 1
             HPGeneration(150, 150)
             ChipPercentage(0)
+            BonusProrationPct(110)
             DamageMultiplier(110)
             AirUntechableTime(90)
             Wallbounce(1)
@@ -4146,6 +4160,7 @@ def MidAssault2nd():
             SLOT_58 = 1
             HPGeneration(150, 150)
             ChipPercentage(0)
+            BonusProrationPct(110)
             DamageMultiplier(110)
             AirPushbackY(46000)
             AirUntechableTime(90)
@@ -4201,6 +4216,12 @@ def AirAssault():
         clearUponHandler(2)
         sendToLabelUpon(2, 1)
         Unknown11001(0, -1, 2)
+
+        if SLOT_110:
+           BonusProrationPct(110)
+           ChipPercentage(0)
+           DamageMultiplier(110)
+
         if SLOT_137:
             DamageMultiplier(80)
     sprite('rg414_00', 4)
@@ -4321,6 +4342,7 @@ def AirAssault2nd():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             AirUntechableTime(90)
             Wallbounce(1)
             AirPushbackX(48000)
@@ -4371,6 +4393,14 @@ def AirAssault_B():
         YImpluseBeforeWallbounce(0)
         SameMoveProration(70)
         Unknown12052(2)
+        
+        if SLOT_110:
+           BonusProrationPct(110)
+           ChipPercentage(0)
+           DamageMultiplier(110)
+           SameMoveProration(0)
+           Unknown12052(0)
+           GroundUntechableTime(1)
 
         def upon_ON_HIT_OR_BLOCK():
             SLOT_2 = 1
@@ -4497,6 +4527,7 @@ def JumpAssault():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             AirPushbackX(12000)
             AirPushbackY(-60000)
             YImpluseBeforeWallbounce(0)
@@ -4586,6 +4617,7 @@ def AirJumpAssault():
             HPGeneration(150, 150)
             ChipPercentage(0)
             DamageMultiplier(110)
+            BonusProrationPct(110)
             AirPushbackX(12000)
             AirPushbackY(-60000)
             YImpluseBeforeWallbounce(0)
