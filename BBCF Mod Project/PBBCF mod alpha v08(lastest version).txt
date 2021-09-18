@@ -92,4 +92,32 @@ Ragna PBBCF alpha v0.8
 2C: BonusProationpct 110% only on counterhit
 
 OverDrive: all of his special moves have BPP 110%
+
+========================
+Jubei PBBCF alpha v0.8
+========================
+6C: increase hitstun on counter hit
+
+214B: damage 870 -> 940
+
+Fissuring Impact (B after Fissuring Slash (Air OK)): increase airuntechable time
+                                                     jumpcancel on hit
+
+Form FOUR: Black Panther (632146C 646C during Fissuring Slash (Air OK)): uncharged: can now guard break
+                                                                                    (weaker than the universal guardbreak uncharged)
+                                                                         Charged: forces counter hit
+                                                                                  BPP 110%
+5C: 2nd hit less pushback on block
+
+2C: head inv comes out earlier 10f~15f -> 7f~15f
+
+Form THREE: Wild Lion (214C C during Fissuring Slash (Air OK)): 236A C the rekka version: increase knockup
+                                                                                          Damage 600 -> 800
+
+5B: increase forward momentum 15000 -> 17500
+
+236C (fireball): increase hitstun
+                 increase blockstun
+                                                                                          
+                                                                                  
     
