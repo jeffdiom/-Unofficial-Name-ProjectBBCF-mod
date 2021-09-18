@@ -2723,7 +2723,8 @@ def NmlAtkAIR5B():
     sprite('kk251_03', 4)
     sprite('kk251_04', 3)
     sprite('kk251_05', 4)
-    RefreshMultihit()
+    RefreshMultihit()        
+    hitstun(21)
     AirUntechableTime(24)
     SFX_0('008_swing_pole_1')
     sprite('kk251_06', 2)
@@ -3013,7 +3014,7 @@ def NmlAtkGuardCrush():
         Wallbounce(1)
         WallbounceReboundTime(40)
         Wallstick(1)
-        WallstickLength(35)
+        WallstickLength(40)
         AirHitstunAfterWallbounce(60)
         PushbackX(8000)
         blockstun(24)
@@ -3025,6 +3026,11 @@ def NmlAtkGuardCrush():
 
         def upon_12():
             SFX_3('kkse_06')
+
+        def upon_60():
+            GroundUntechableTime(1)
+            WallstickLength(80)
+            SildeDuration(30)
 
         def upon_61():
             PushbackX(39900)

@@ -972,13 +972,13 @@ def Assault_Low_Atk():
 @Subroutine
 def Assault_Mid_Atk():
     AttackLevel_(4)
-    Damage(900)
+    Damage(940)
     AttackP1(80)
     GroundedHitstunAnimation(3)
     AirPushbackX(20000)
     AirPushbackY(-50000)
-    Unknown9202(1)
-    hitstun(25)
+    SildeDuration(1)
+    hitstun(24)
     AirUntechableTime(60)
     GroundUntechableTime(5)
     PushbackX(19800)
@@ -988,6 +988,10 @@ def Assault_Mid_Atk():
     AttackAttributes(1, 0, 0, 0, 0)
     if SLOT_137:
         DamageMultiplier(80)
+    
+    def upon_60():
+        hitstun(30)
+
 
 @Subroutine
 def Assault_Multi_Atk():
@@ -1018,6 +1022,7 @@ def Assault_MultiFinish_Atk():
     AirHitstunAnimation(13)
     AirPushbackX(12000)
     AirPushbackY(20000)
+    StarterRating(3)
     Unknown9095()
     PushbackX(19800)
     GroundUntechableTime(-1)
@@ -1026,6 +1031,25 @@ def Assault_MultiFinish_Atk():
     Unknown11056(1)
     if SLOT_137:
         DamageMultiplier(80)
+
+@Subroutine
+def Assault_MultiFinish_Atk_EX():
+    Damage(800)
+    Hitstop(11)
+    Unknown11001(0, 0, 2)
+    GroundedHitstunAnimation(13)
+    AirHitstunAnimation(13)
+    AirPushbackX(8000)
+    AirPushbackY(36000)
+    AirUntechableTime(60)
+    StarterRating(3)
+    Unknown9095()
+    PushbackX(19800)
+    GroundUntechableTime(-1)
+    Unknown11057(1000)
+    DamageMultiplier(110)
+    AttackAttributes(0, 1, 0, 0, 0)
+    Unknown11056(1)
 
 @Subroutine
 def Assault_Chage_Atk():
@@ -1053,16 +1077,22 @@ def Assault_Chage_Atk():
             if (SLOT_18 >= 17):
                 if (not SLOT_2):
                     if CheckInput(0x17):
+                        enableGuardCrush(100, 1)
+                        GuardCrushDuration(24)
+                        Unknown2037(481)
                         sendToLabel(8)
             if (SLOT_18 == 30):
                 if (not SLOT_2):
                     Damage(1600)
                     AirPushbackY(32000)
                     AttackP1(50)
+                    BonusProrationPct(110)
+                    AttackP2(100)
                     HitOverhead(4)
                     HitLow(4)
                     HitAirUnblockable(4)
-                    StarterRating(0)
+                    StarterRating(3)
+                    ForceCounterHit(2)
                     if SLOT_137:
                         DamageMultiplier(80)
                     Unknown8004(100, 1, 1)
@@ -2528,6 +2558,7 @@ def NmlAtk5C():
         AttackLevel_(4)
         Damage(600)
         AirHitstunAnimation(10)
+        AirUntechableTime(20)
         Unknown9324(10)
         AirPushbackX(15000)
         AirPushbackY(10000)
@@ -2568,10 +2599,10 @@ def NmlAtk5C():
     endMomentum(1)
     Unknown8006(100, 1, 0)
     RefreshMultihit()
-    AirUntechableTime(23)
+    AirUntechableTime(30)
     Unknown9071()
     AirPushbackY(30000)
-    PushbackX(19800)
+    PushbackX(18000)
     GFX_0('jbef202_zanzou_2nd', 100)
     sprite('jb202_08', 4)
     Recovery()
@@ -2715,6 +2746,8 @@ def NmlAtk2C():
     sprite('jb232_00', 3)
     sprite('jb232_01', 3)
     sprite('jb232_02', 3)
+    setInvincible(1)
+    defineInvincibility(1, 0, 0, 0, 0)
     GenericSFX(2)
     SFX_0('010_swing_sword_1')
     sprite('jb232_03', 2)
@@ -2724,8 +2757,6 @@ def NmlAtk2C():
     physicsXImpulse(-6000)
     physicsYImpulse(20000)
     Unknown1043()
-    setInvincible(1)
-    defineInvincibility(1, 0, 0, 0, 0)
     sprite('jb232_03', 4)
     physicsYImpulse(20000)
     sprite('jb232_04', 2)
@@ -2812,6 +2843,7 @@ def NmlAtkAIR5A():
         AttackDefaults_AirNormal()
         AttackLevel_(1)
         Damage(300)
+        hitstun(15)
         AttackP1(80)
         AirUntechableTime(20)
         Hitstop(11)
@@ -2859,6 +2891,7 @@ def NmlAtkAIR5B():
         AttackDefaults_AirNormal()
         AttackLevel_(2)
         Damage(600)
+        hitstun(16)
         AttackP1(80)
         AirPushbackY(20000)
         AirUntechableTime(25)
@@ -2885,6 +2918,7 @@ def NmlAtkAIR5B():
     RefreshMultihit()
     AirHitstunAnimation(10)
     Unknown9336(18)
+    hitstun(21)
     AirUntechableTime(30)
     AirPushbackY(36000)
     CounterHitAirPushbackY(42000)
@@ -3151,6 +3185,13 @@ def NmlAtk6C():
         SlashFX(1)
         sendToLabelUpon(2, 9)
         callSubroutine('AddChainD')
+
+        def upon_60():
+            DamageMultiplier(110)
+            AttackLevel_(5)
+            hitstun(30)
+            AttackP2(100)
+            AirUntechableTime(60)
     sprite('jb212_00', 2)
     sprite('jb212_01', 2)
     SFX_1('jb112')
@@ -3753,7 +3794,7 @@ def NmlAtkGuardCrush():
         def upon_3():
             if (SLOT_18 == 10):
                 Unknown2037(481)
-                Unknown11030(32)
+                GuardCrushDuration(33)
                 AttackP2(60)
                 if CheckInput(0x5):
                     sendToLabel(0)
@@ -3762,7 +3803,7 @@ def NmlAtkGuardCrush():
             if (SLOT_18 >= 20):
                 clearUponHandler(61)
                 Unknown2037(0)
-                Unknown11030(60)
+                GuardCrushDuration(60)
                 AttackP2(100)
                 StarterRating(3)
                 if CheckInput(0x5):
@@ -4003,7 +4044,7 @@ def NmlAtkAirThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('AirThrowExe', 1, 1, 0)
-        ThrowRange(120000)
+        ThrowRange(140000)
     sprite('jb320_00', 3)
     sprite('jb320_01', 3)
     sprite('jb320_02', 3)
@@ -4803,8 +4844,8 @@ def HexaEdge_Blow():
         GroundedHitstunAnimation(17)
         AirHitstunAnimation(17)
         AirPushbackX(40000)
-        AirPushbackY(6000)
-        Unknown9202(10)
+        AirPushbackY(10000)
+        SildeDuration(15)
         Wallbounce(1)
         Unknown9346(1)
         WallbounceReboundTime(0)
@@ -4868,7 +4909,8 @@ def HexaEdge_Upper():
         GroundedHitstunAnimation(10)
         AirHitstunAnimation(10)
         AirPushbackY(32000)
-        AirUntechableTime(28)
+        AirUntechableTime(40)
+        HitJumpCancel(1)
         SlashFX(1)
         if SLOT_36:
             AttackAttributes(1, 0, 0, 0, 0)
@@ -5197,7 +5239,7 @@ def HexaEdge_Multi():
     EnableAfterimage(0)
     GFX_0('jbef405_zanzou', 100)
     RefreshMultihit()
-    callSubroutine('Assault_MultiFinish_Atk')
+    callSubroutine('Assault_MultiFinish_Atk_EX')
     sprite('jb405_11', 4)
     Recovery()
     Unknown2063()
@@ -7469,7 +7511,7 @@ def AstralHeat():
     AirPushbackY(1)
     Unknown9095()
     AirUntechableTime(999)
-    Unknown9202(999)
+    SildeDuration(999)
     RefreshMultihit()
     sprite('jb450_25', 24)
     Unknown21012('Astral_Camera', 34)
