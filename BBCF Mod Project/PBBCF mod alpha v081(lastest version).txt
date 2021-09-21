@@ -1,5 +1,30 @@
 ========================
-Nine PBBCF alpha v0.8
+Kagura PBBCF alpha v0.81
+========================
+Dragon spirit ([4]~6A/B): reduce the charge time input
+
+Dragon's Ascent ([2]~8B/C): reduce the charge time input
+
+5D~A: increase hitstun
+
+5D~B: increase grab range
+
+2D~A: StarterRating 2 -> 3
+      BonusProration 110%
+      Damage 1000 -> 1200
+
+2D~B: 2nd hit pulls the opponent towards him (OD version)
+      hardknockdown now
+
+6D~B: ground bounces on hit
+
+2D~C: 2nd on hit pulls toward the opponent to him
+      hardknockdown
+
+6D~C: guard breaks now
+
+========================
+Nine PBBCF alpha v0.81
 ========================
 Navy Pressire (214C): MaxChain increase 1 -> 3 (only on hit)
                       Now it moves the opponent towards her
