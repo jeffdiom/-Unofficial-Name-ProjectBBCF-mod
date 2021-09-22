@@ -2047,6 +2047,10 @@ def NmlAtk5B():
         HitOrBlockCancel('CrouchDrive')
         HitOrBlockCancel('NmlAtkThrow')
         HitOrBlockCancel('NmlAtkBackThrow')
+
+        def upon_60():
+            hitstun(21)
+            GroundedHitstunAnimation(3)
     sprite('kk201_00', 4)
     sprite('kk201_01', 1)
     setInvincible(1)
@@ -2092,7 +2096,7 @@ def NmlAtk5C():
         Unknown9324(2)
         Unknown9180(1)
         StunLength(90)
-        StunRecoveryLength(36)
+        StunRecoveryLength(30)
         StarterRating(3)
         CounterHitAirPushbackY(12000)
         HitJumpCancel(1)
@@ -2101,6 +2105,10 @@ def NmlAtk5C():
         HitOrBlockCancel('NmlAtk3C')
         HitOrBlockCancel('StandDrive')
         HitOrBlockCancel('CrouchDrive')
+        
+        def upon_60():
+            BonusProrationPct(110)
+      
         callSubroutine('Delete_hole')
         Unknown2004(1, 0)
     sprite('kk202_00', 2)
@@ -2236,12 +2244,18 @@ def NmlAtk2C():
         AirPushbackX(12000)
         AirPushbackY(28000)
         AirUntechableTime(40)
-        hitstun(20)
+        hitstun(21)
         Hitstop(15)
         blockstun(20)
         PushbackX(24800)
         FatalCounter(1)
         StarterRating(3)
+        
+        def upon_60():
+            hitstun(30)
+            AirUntechableTime(60)
+            PushbackX(24000)
+            BonusProrationPct(110)
 
         def upon_ON_HIT_OR_BLOCK():
             clearUponHandler(10)
@@ -2431,6 +2445,7 @@ def NmlAtk6B():
         Damage(500)
         AttackP1(90)
         StarterRating(3)
+        hitstun(25)
         blockstun(18)
         AirUntechableTime(45)
         AirPushbackY(-40000)
@@ -2593,6 +2608,10 @@ def NmlAtk6C():
         HitOrBlockCancel('NmlAtkAIR2C')
         HitOrBlockJumpCancel(1)
 
+        def upon_60():
+            AirUntechableTime(60)
+            BonusProrationPct(110)
+
         def upon_ON_HIT_OR_BLOCK():
             clearUponHandler(10)
             ScreenShake(1000, 4000)
@@ -2602,10 +2621,10 @@ def NmlAtk6C():
         callSubroutine('Delete_hole')
     sprite('kk212_00', 3)
     GFX_0('efkk_212_hole', -1)
-    sprite('kk212_01', 2)
+    sprite('kk212_01', 3)
     setInvincible(1)
     defineInvincibility(0, 0, 1, 0, 1)
-    sprite('kk212_02', 2)
+    sprite('kk212_02', 3)
     physicsXImpulse(2000)
     physicsYImpulse(12000)
     setGravity(1600)
@@ -2655,7 +2674,10 @@ def NmlAtkAIR5A():
         Hitstop(5)
         AttackP1(90)
         Unknown11092(1)
-        StarterRating(3)
+        hitstun(13)
+        StarterRating(2)
+        AirUntechableTime(15)
+        HitOverhead(2)
 
         def upon_11():
             SLOT_52 = 1
@@ -2666,6 +2688,9 @@ def NmlAtkAIR5A():
         HitOrBlockCancel('StandDrive')
         HitOrBlockCancel('CrouchDrive')
         HitOrBlockJumpCancel(1)
+
+        def upon_12():
+            PushbackX(-1000)
 
         def upon_3():
             if SLOT_52:
@@ -2703,13 +2728,13 @@ def NmlAtkAIR5B():
         AttackDefaults_AirNormal()
         AttackLevel_(3)
         Damage(500)
+        hitstun(18)
         AttackP1(80)
-        AirUntechableTime(20)
+        AirUntechableTime(21)
         PushbackX(15000)
         StarterRating(3)
         AirHitstunAnimation(10)
         AirPushbackY(22000)
-        StarterRating(3)
         HitOrBlockCancel('NmlAtkAIR5A')
         HitOrBlockCancel('NmlAtkAIR5C')
         HitOrBlockCancel('NmlAtkAIR2C')
@@ -2724,7 +2749,6 @@ def NmlAtkAIR5B():
     sprite('kk251_04', 3)
     sprite('kk251_05', 4)
     RefreshMultihit()        
-    hitstun(21)
     AirUntechableTime(24)
     SFX_0('008_swing_pole_1')
     sprite('kk251_06', 2)
@@ -2747,6 +2771,7 @@ def NmlAtkAIR5C():
         PushbackX(30400)
         Hitstop(7)
         blockstun(18)
+        hitstun(21)
         AirHitstunAnimation(17)
         AirUntechableTime(45)
         AirPushbackX(44000)
@@ -2757,7 +2782,6 @@ def NmlAtkAIR5C():
         YImpluseBeforeWallbounce(1500)
         Unknown9324(2)
         Wallbounce(1)
-        StarterRating(3)
         WallbounceReboundTime(10)
         CounterHitAirPushbackY(12000)
         HitOverhead(0)
@@ -2817,6 +2841,9 @@ def NmlAtkAIR2C():
         FatalCounter(1)
         StarterRating(3)
         HitOrBlockCancel('AirDrive')
+
+        def upon_60():
+            BonusProrationPct(110)
 
         def upon_ON_HIT_OR_BLOCK():
             clearUponHandler(10)
@@ -4501,7 +4528,7 @@ def Warp():
     sprite('kk404_07ex02', 3)
     setInvincible(0)
     Collidable(1)
-    sprite('kk404_08ex02', 2)
+    sprite('kk404_08ex02', 1)
     sprite('kk404_09ex02', 1)
 
 @State
@@ -4517,7 +4544,7 @@ def SpinAssault():
         Unknown11092(1)
         GroundedHitstunAnimation(10)
         AirHitstunAnimation(10)
-        AirUntechableTime(45)
+        AirUntechableTime(40)
         StarterRating(3)
         Hitstop(5)
         FireFX(1)

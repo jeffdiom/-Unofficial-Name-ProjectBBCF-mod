@@ -1049,7 +1049,7 @@ def ShotObj():
         Unknown2010()
         AttackLevel_(2)
         Damage(700)
-        ProjectileHitWall(1)
+        ProjectileHitWall(0)
         if SLOT_137:
             DamageMultiplier(80)
         AttackP1(80)
@@ -1187,7 +1187,7 @@ def ChargeShotObj():
         Unknown2010()
         AttackLevel_(2)
         Damage(650)
-        ProjectileHitWall(1)
+        ProjectileHitWall(0)
         if SLOT_137:
             DamageMultiplier(80)
         AttackP1(80)
