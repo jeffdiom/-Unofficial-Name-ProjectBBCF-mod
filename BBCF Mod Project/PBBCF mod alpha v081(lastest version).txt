@@ -2,6 +2,7 @@
 Kagura PBBCF alpha v0.81
 ========================
 Dragon spirit ([4]~6A/B): reduce the charge time input
+                          The B version reduce start-up 40f -> 35f
 
 Dragon's Ascent ([2]~8B/C): reduce the charge time input
 
@@ -12,9 +13,9 @@ Dragon's Ascent ([2]~8B/C): reduce the charge time input
 2D~A: StarterRating 2 -> 3
       BonusProration 110%
       Damage 1000 -> 1200
+      F.dash on hitcancel and B.dash on hitcancel 
 
 2D~B: 2nd hit pulls the opponent towards him (OD version)
-      hardknockdown now
 
 6D~B: ground bounces on hit
 
@@ -22,6 +23,14 @@ Dragon's Ascent ([2]~8B/C): reduce the charge time input
       hardknockdown
 
 6D~C: guard breaks now
+
+5B: increase hitstun
+
+6B: increase hitstun
+
+5C: increase hitstun
+
+5DA: wallticks now
 
 ========================
 Nine PBBCF alpha v0.81
@@ -120,16 +129,26 @@ j.5D: adjusted the hitbox
 j.2D: increase hitstun
 
 ========================
-Kokonoe PBBCF alpha v0.8
+Kokonoe PBBCF alpha v0.81
 ========================
 Fireball(236A/B/C): it doesn't disapper on block anymore
+
+spin (236B): Airuntechabletime 45 -> 40 (without gravtion)
+
+2C, 5C, 6C, J.2C: on FCH now has BonusProration 110% (Fatal Counter Hit)
+
+Drive: ODversion AttackP2 92 -> 89
+
+6C: reverted the start-up 20f -> 22f
+
+5B: On CounterHit forces opponent to be in crouching state
 
 ========================
 Ragna PBBCF alpha v0.8
 ========================
 2C: BonusProationpct 110% only on counterhit
 
-OverDrive: all of his special moves have BPP 110%
+OverDrive: all of his special moves have BPR 110%
 
 ========================
 Jubei PBBCF alpha v0.8
