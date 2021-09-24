@@ -2105,7 +2105,7 @@ def NmlAtk5C():
     def upon_IMMEDIATE():
         AttackDefaults_StandingNormal()
         AttackLevel_(3)
-        Unknown11033(1)
+        ProjectileDurabilityLvl(1)
         Damage(800)
         blockstun(17)
         AirUntechableTime(30)
@@ -2113,7 +2113,7 @@ def NmlAtk5C():
         Hitstop(6)
         AirPushbackX(25000)
         AirPushbackY(1000)
-        Unknown9202(30)
+        SildeDuration(30)
         PushbackX(8000)
         FireFX(1)
         FatalCounter(1)
@@ -3394,6 +3394,7 @@ def NmlAtkAIR5A():
     def upon_IMMEDIATE():
         AttackDefaults_AirNormal()
         AttackLevel_(1)
+        hitstun(15)
         AttackP1(80)
         AirUntechableTime(19)
         StarterRating(2)
@@ -3420,6 +3421,7 @@ def NmlAtkAIR5B():
     def upon_IMMEDIATE():
         AttackDefaults_AirNormal()
         AttackLevel_(2)
+        hitstun(17)
         Damage(540)
         AttackP1(80)
         AirUntechableTime(21)
@@ -3452,6 +3454,7 @@ def NmlAtkAIR5C():
         AttackLevel_(3)
         Damage(810)
         AttackP1(80)
+        hitstun(18)
         AirPushbackX(10000)
         AirPushbackY(20000)
         AirUntechableTime(30)
@@ -3482,6 +3485,7 @@ def NmlAtkAIR2C():
         AttackLevel_(4)
         Damage(900)
         AttackP1(80)
+        hitstun(21)
         AirPushbackX(12000)
         AirPushbackY(-30000)
         AirUntechableTime(38)
@@ -3926,7 +3930,7 @@ def NmlAtkGuardCrush():
 
     def upon_IMMEDIATE():
         ScriptSameAttackComboNoSpecialCancel()
-        Unknown11033(1)
+        ProjectileDurabilityLvl(1)
         GroundedHitstunAnimation(2)
         StunLength(60)
         StunRecoveryLength(50)
@@ -3934,7 +3938,7 @@ def NmlAtkGuardCrush():
         AirPushbackX(45000)
         AirPushbackY(18000)
         AirUntechableTime(60)
-        Unknown9202(15)
+        SildeDuration(15)
         Wallbounce(1)
         WallbounceReboundTime(30)
         Wallstick(1)
@@ -3952,7 +3956,7 @@ def NmlAtkGuardCrush():
         def upon_3():
             if (SLOT_18 == 10):
                 Unknown2037(481)
-                Unknown11030(32)
+                GuardCrushDuration(32)
                 AttackP2(60)
                 if CheckInput(0x5):
                     sendToLabel(0)
@@ -3961,7 +3965,7 @@ def NmlAtkGuardCrush():
             if (SLOT_18 >= 20):
                 clearUponHandler(61)
                 Unknown2037(0)
-                Unknown11030(60)
+                GuardCrushDuration(60)
                 AttackP2(100)
                 if CheckInput(0x5):
                     sendToLabel(0)

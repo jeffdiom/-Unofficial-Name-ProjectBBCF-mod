@@ -2359,6 +2359,7 @@ def NmlAtkAIR5B():
         AttackLevel_(2)
         Damage(600)
         AttackP1(80)
+        hitstun(21)
         AirUntechableTime(24)
         HitOrBlockCancel('NmlAtkAIR5C')
         HitOrBlockCancel('NmlAtkAIR5D')
