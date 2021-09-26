@@ -152,14 +152,19 @@ Drive: ODversion AttackP2 92 -> 89
                       +5 on Block
                       it gatling into other normals only on hit not on block
                       Moves that can gatling into 4B are 5A, 2A, 6A, and 5B
-                      
-
 ========================
 Ragna PBBCF alpha v0.8
 ========================
 2C: BonusProationpct 110% only on counterhit
+    increase hitstun
 
 OverDrive: all of his special moves have BPR 110%
+
+5D: Damage 600 -> 500
+
+623D: AttackP1 reverted and the air version too
+
+214A: AttackP2 92 -> 80
 
 ========================
 Jubei PBBCF alpha v0.8
