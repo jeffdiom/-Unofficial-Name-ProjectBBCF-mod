@@ -131,14 +131,14 @@ j.5D: adjusted the hitbox
 
 j.2D: increase hitstun
 
-========================
+==========================
 Kokonoe PBBCF alpha v0.82
-========================
+==========================
 Fireball(236A/B/C): it doesn't disapper on block anymore
 
 spin (236B): Airuntechabletime 45 -> 40 (without gravtion)
 
-2C, 5C, 6C, J.2C: on FCH now has BonusProration 110% (Fatal Counter Hit)
+5C: on FCH now has BonusProration 110% (Fatal Counter Hit)
 
 Drive: ODversion AttackP2 92 -> 89
 
@@ -148,7 +148,7 @@ Drive: ODversion AttackP2 92 -> 89
 
 4B (New normal move): it's a mid attack (level 4)
                       blockstun(21)
-                      22f start-up, active for 5f, 12f of recovery
+                      24f start-up, active for 5f, 12f of recovery
                       +5 on Block
                       it gatling into other normals only on hit not on block
                       Moves that can gatling into 4B are 5A, 2A, 6A, and 5B
@@ -181,11 +181,22 @@ Form FOUR: Black Panther (632146C 646C during Fissuring Slash (Air OK)): uncharg
 
 Form THREE: Wild Lion (214C C during Fissuring Slash (Air OK)): 236A C the rekka version: increase knockup
                                                                                           Damage 600 -> 800
-
 5B: increase forward momentum 15000 -> 17500
 
 236C (fireball): increase hitstun
                  increase blockstun
-                                                                                          
+
+==========================
+Jin PBBCF alpha v0.82
+==========================
+J.214D: increase block stun ( 0 -> +2) (When TK it)  
+
+22C: AttackP2 100 -> 94 (first hit)      
+
+Touga Hyojin (632146C): Normal version now has a follow up on hit into Musou Tosshougeki by pressing (Or holding) C
+                        StarterRating 3 -> 2
+                        AttackP2 82 -> 72
+
+                                                                      
                                                                                   
     
