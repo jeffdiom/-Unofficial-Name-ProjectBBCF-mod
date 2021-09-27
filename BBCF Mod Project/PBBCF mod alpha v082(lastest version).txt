@@ -157,6 +157,8 @@ Ragna PBBCF alpha v0.8
 ========================
 2C: BonusProationpct 110% only on counterhit
     increase hitstun
+    on block +1 -> +2
+    reverted the pushback changes
 
 OverDrive: all of his special moves have BPR 110%
 
@@ -165,6 +167,14 @@ OverDrive: all of his special moves have BPR 110%
 623D: AttackP1 reverted and the air version too
 
 214A: AttackP2 92 -> 80
+
+AX kick (j.214D): Damage 1500 -> 1400 reverted
+         OD version Damage 1540 -> 1800
+         AttackP2 70 -> 80
+
+S.Punch (j.214C): AttackP2 89 -> 90
+
+214D: revetred hits overhead  -> mid
 
 ========================
 Jubei PBBCF alpha v0.8
@@ -196,7 +206,8 @@ Jin PBBCF alpha v0.82
 ==========================
 J.214D: increase block stun ( 0 -> +2) (When TK it)  
 
-22C: AttackP2 100 -> 94 (first hit)      
+22C: AttackP2 100 -> 94 (first hit)
+     Reverted the radius     
 
 Touga Hyojin (632146C): Normal version now has a follow up on hit into Musou Tosshougeki by pressing (Or holding) C
                         StarterRating 3 -> 2
