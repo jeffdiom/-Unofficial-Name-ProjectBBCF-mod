@@ -1206,7 +1206,7 @@ def efkk_Drive():
     label(13)
     sprite('vrkkef203weapon05', 10)
     label(12)
-    sprite('vrkkef203weapon06', 2)
+    sprite('vrkkef203weapon06', 5)
     clearUponHandler(26)
     clearUponHandler(44)
     clearUponHandler(47)
@@ -1363,7 +1363,7 @@ def efkk_Drive_OD():
     label(13)
     sprite('vrkkef203weapon05', 10)
     label(12)
-    sprite('vrkkef203weapon06', 2)
+    sprite('vrkkef203weapon06', 5)
     clearUponHandler(26)
     clearUponHandler(44)
     clearUponHandler(47)
@@ -1667,16 +1667,13 @@ def efkk_403A_Atk():
         Unknown11001(7, 7, 27)
         AirPushbackX(0)
         AttackP1(80)
-        AirUntechableTime(45)
+        AirUntechableTime(50)
         GroundedHitstunAnimation(14)
         AirHitstunAnimation(14)
         StarterRating(3)
         Unknown12052(1)
         Unknown1064(5000)
-        Unknown4011(3)
-        
-        def upon_60():
-            AirUntechableTime(90)        
+        Unknown4011(3)     
     sprite('kk403_Atkcol', 10)
 
 @State
