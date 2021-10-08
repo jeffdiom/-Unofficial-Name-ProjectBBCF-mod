@@ -218,6 +218,10 @@ Touga Hyojin (632146C): Normal version now has a follow up on hit into Musou Tos
                         StarterRating 3 -> 2
                         AttackP2 82 -> 72
 
+6C: reverted the start-up 18f -> 19f
+    gatlting into 6B
+    reduce recovery 31f -> 30f (Frame Adv -13 -> -12)
+
                                                                       
                                                                                   
     
