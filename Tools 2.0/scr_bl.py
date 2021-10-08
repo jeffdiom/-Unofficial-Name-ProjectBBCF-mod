@@ -5335,7 +5335,7 @@ def CommandThrow():
     def upon_IMMEDIATE():
         AttackDefaults_Throw('CommandThrowExe', 2, 0, 0)
         AttackP1(80)
-        ThrowRange(140000)
+        ThrowRange(100000)
         zIndexInterval(0, 50)
     sprite('bl431_00', 3)
     sprite('bl431_01', 3)
