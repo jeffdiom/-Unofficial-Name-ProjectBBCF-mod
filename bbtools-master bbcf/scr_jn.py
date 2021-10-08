@@ -732,8 +732,8 @@ def Func_BurstDD_Easy():
 def CheckOverDriveNormal():
     callSubroutine('OverDrivePowerUpSkill')
     if SLOT_110:
-        FreezeCount(3)
-        FreezeDuration(30)
+        FreezeCount(4)
+        FreezeDuration(36)
 
     def upon_12():
         if SLOT_110:
@@ -1914,7 +1914,7 @@ def NmlAtk5D():
         AirPushbackY(10000)
         AirPushbackX(18000)
         FreezeCount(2)
-        FreezeDuration(32)
+        FreezeDuration(33)
         PushbackX(30400)
         HitAirUnblockable(0)
         ProjectileDurabilityLvl(1)
@@ -1924,7 +1924,7 @@ def NmlAtk5D():
         callSubroutine('CheckOverDriveFreeze')
         if SLOT_110:
             FreezeCount(6)
-            FreezeDuration(46)
+            FreezeDuration(50)
         HitOrBlockCancel('ShortDash')
     sprite('jn203_00', 2)
     Unknown1019(25)
@@ -2305,7 +2305,7 @@ def NmlAtkAIR5D():
         Damage(980)
         AttackP1(80)
         AttackP2(82)
-        AirUntechableTime(22)
+        AirUntechableTime(24)
         Unknown9016(1)
         HitOverhead(0)
         AirPushbackY(12000)
@@ -3196,7 +3196,7 @@ def RushAssault():
     Unknown8000(100, 1, 1)
     sprite('jn410_15ex01', 2)
     SFX_0('009_swing_rapier_0')
-    RefreshMultihit() 
+    RefreshMultihit()
     Recovery()
     sprite('jn410_16', 2)
     sprite('jn410_17', 2)
@@ -3238,7 +3238,7 @@ def RushAssaultFinish():
         AirPushbackX(-5000)
         AirUntechableTime(60)
         PushbackX(-19800)
-        FreezeCount(12)
+        FreezeCount(16)
         FreezeDuration(90)
         Hitstop(0)
         Unknown9016(1)
@@ -3508,7 +3508,7 @@ def Assault_D():
         Unknown11058('0000000000000000010000000000000000000000')
         Unknown9016(1)
         StarterRating(3)
-        FreezeCount(10)
+        FreezeCount(12)
         FreezeDuration(50)
         HitOrBlockCancel('Assault_D_2nd')
         WhiffCancel('Assault_D_2nd')
@@ -3673,7 +3673,7 @@ def Assault_D_3rd():
         HitCancel('Assault_D_4th')
         GFX_0('jnef_25percent', -1)
         sendToLabelUpon(10, 0)
-            
+
         def upon_STATE_END():
             GFX_0('IceBoard_koware', -1)
         if SLOT_137:
@@ -3752,11 +3752,10 @@ def Assault_D_4th():
         Unknown23024(0)
         AirUntechableTime(600)
         Unknown12052(2)
-        GroundUntechableTime(30)
+        GroundUntechableTime(36)
         Unknown11108('03000000')
         Unknown11058('0100000000000000000000000000000000000000')
         Unknown9016(1)
-
         if SLOT_58:
             AirPushbackY(20000)
             Unknown9178(1)
@@ -3775,7 +3774,7 @@ def Assault_D_4th():
     sprite('jn409_01', 2)
     physicsYImpulse(15000)
     setGravity(1500)
-    sprite('jn409_02', 2) 
+    sprite('jn409_02', 2)
     SFX_1('jn408')
     sprite('jn409_03', 3)
     sprite('jn409_04', 2)
@@ -3878,7 +3877,7 @@ def AirAssault_D():
         AirPushbackY(10000)
         AirPushbackX(-3000)
         Unknown11058('0100000000000000000000000000000000000000')
-        FreezeCount(10)
+        FreezeCount(12)
         FreezeDuration(90)
         Hitstop(6)
         Unknown11046(1)
@@ -3939,6 +3938,13 @@ def AirAssault_D():
     StarterRating(3)
     HitCancel('UltimateAirShot')
     HitCancel('UltimateAirShot_OD')
+
+    def upon_32():
+        GroundUntechableTime(25)
+
+    def upon_33():
+        GroundUntechableTime(25)
+
     if SLOT_58:
         AirPushbackX(5000)
         AirPushbackY(-80000)
@@ -3949,7 +3955,6 @@ def AirAssault_D():
     Unknown22004(6, 1)
     if SLOT_137:
         Unknown10000(80)
-
     sprite('jn413_08', 3)
     Unknown1019(80)
     Recovery()
@@ -4095,7 +4100,7 @@ def AntiAir_D():
         AirPushbackX(10000)
         AirUntechableTime(60)
         Hitstop(1)
-        FreezeCount(10)
+        FreezeCount(12)
         FreezeDuration(60)
         HitAirUnblockable(3)
         Unknown9016(1)
@@ -4363,7 +4368,7 @@ def UltimateShotAddAttack():
     if SLOT_2:
         GFX_0('OverDriveSlashShotFinish', -1)
         ScreenShake(40000, 40000)
-        Unknown21012('556c74696d61746553686f744f7665724472697665000000000000000000000029000000')
+        Unknown21012('UltimateShotOverDrive', 41)
     sprite('jn330_23', 4)
     sprite('jn330_24', 55)
     sprite('jn330_25', 8)
@@ -5231,7 +5236,7 @@ def BurstDDAdd():
     sprite('jn330_04ex01', 4)
     sprite('jn330_05ex01', 4)
     sprite('jn330_06ex01', 2)
-    Unknown21012('427572737444445f43616d65726100000000000000000000000000000000000020000000')
+    Unknown21012('BurstDD_Camera', 32)
     sprite('jn330_06ex01', 2)
     sprite('jn330_06ex01', 2)
     sprite('jn330_06ex01', 2)
@@ -5257,7 +5262,7 @@ def BurstDDAdd():
     physicsYImpulse(36000)
     Unknown8001(0, 0)
     sprite('jn440_03', 2)
-    Unknown21012('427572737444445f43616d65726100000000000000000000000000000000000021000000')
+    Unknown21012('BurstDD_Camera', 33)
     sprite('jn440_02', 2)
     sprite('jn440_03', 2)
     sprite('jn440_02', 2)
@@ -5349,13 +5354,13 @@ def BurstDDAdd():
     AirPushbackY(-100000)
     Hitstop(30)
     Unknown11064(0)
-    Unknown21012('427572737444445f4963654e657700000000000000000000000000000000000020000000')
+    Unknown21012('BurstDD_IceNew', 32)
     if SLOT_51:
         GFX_0('BurstDD_SlashEX', -1)
     else:
         GFX_0('BurstDD_Slash', -1)
     sprite('jn408_17ex01', 4)
-    Unknown21012('427572737444445f43616d65726100000000000000000000000000000000000022000000')
+    Unknown21012('BurstDD_Camera', 34)
     sprite('jn408_18ex01', 4)
     sprite('jn408_19ex01', 4)
     sprite('jn020_06', 3)
@@ -8811,7 +8816,7 @@ def EventSummonPtPhantom():
 @State
 def EventSummonPtPhantomEnd():
     sprite('keep', 2)
-    Unknown21012('70745068616e746f6d000000000000000000000000000000000000000000000020000000')
+    Unknown21012('ptPhantom', 32)
     enterState('CmnActStand')
 
 @State
@@ -9533,7 +9538,7 @@ def Act3Event_tmvsjn_00():
 @State
 def Act3Event_tmvsjn_01():
     sprite('jn300_05', 7)
-    Unknown21012('416374334576656e745f70745068616e746f6d5f52656e65770000000000000020000000')
+    Unknown21012('Act3Event_ptPhantom_Renew', 32)
     sprite('jn300_06', 7)
     sprite('jn300_07', 7)
     sprite('jn300_08', 7)
@@ -9603,7 +9608,7 @@ def Act3Event_tmvsjn_04():
 @State
 def Act3Event_tmvsjn_05():
     sprite('jn620_08', 6)
-    Unknown21012('416374334576656e745f70745068616e746f6d5f52656e65770000000000000020000000')
+    Unknown21012('Act3Event_ptPhantom_Renew', 32)
     sprite('jn620_07', 6)
     sprite('jn620_06', 6)
     sprite('jn620_05', 6)

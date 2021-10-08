@@ -6,7 +6,7 @@ def EMB_JN():
         Unknown1007(240000)
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('65665f656d625f4a4e2e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_emb_JN.DIG', '')
         Unknown23015(5)
     sprite('null', 10)
     Unknown3026(-16777216)
@@ -27,7 +27,7 @@ def EMB_JN_OD():
         Unknown1007(240000)
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('65665f656d625f4a4e2e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_emb_JN.DIG', '')
         Unknown23015(5)
     sprite('null', 10)
     Unknown3026(-16777216)
@@ -47,7 +47,7 @@ def EMB_JN_AH():
         Unknown2007()
         Unknown1007(240000)
         Unknown2054(1)
-        Unknown4003('65665f656d625f4a4e2e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_emb_JN.DIG', '')
         Unknown23015(5)
     sprite('null', 10)
     Unknown3026(-16777216)
@@ -81,7 +81,7 @@ def ModelMagicCircle1():
 
     def upon_IMMEDIATE():
         Unknown3038(1)
-        Unknown4003('6a6e65665f6d635f7374612e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('jnef_mc_sta.DIG', '')
         Unknown4015()
         Unknown23015(2)
         Unknown4061(1)
@@ -93,7 +93,7 @@ def ModelMagicCircle2():
 
     def upon_IMMEDIATE():
         Unknown3038(1)
-        Unknown4003('6a6e65665f6d635f7369742e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('jnef_mc_sit.DIG', '')
         Unknown4015()
         Unknown23015(2)
         Unknown4061(1)
@@ -105,7 +105,7 @@ def ModelMagicCircle3():
 
     def upon_IMMEDIATE():
         Unknown3038(1)
-        Unknown4003('6a6e65665f6d635f6a756d2e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('jnef_mc_jum.DIG', '')
         Unknown4015()
         Unknown23015(2)
         Unknown4061(1)
@@ -117,7 +117,7 @@ def ModelMagicCircle4():
 
     def upon_IMMEDIATE():
         Unknown3038(1)
-        Unknown4003('6a6e65665f6d635f6673692e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('jnef_mc_fsi.DIG', '')
         Unknown4015()
         Unknown23015(2)
         Unknown4061(1)
@@ -1039,7 +1039,7 @@ def IceBoard():
 
         def upon_45():
             if (not SLOT_51):
-                Unknown48('170000000200000053000000030000000200000053000000')
+                Unknown48(23, 2, 83, 3, 2, 83)
 
         def upon_32():
             SLOT_51 = 1
@@ -1112,7 +1112,7 @@ def ice_shot():
         Unknown12052(1)
 
         def upon_32():
-            FreezeCount(6)
+            FreezeCount(12)
             FreezeDuration(30)
         SLOT_4 = 1
 
@@ -1200,7 +1200,7 @@ def air_ice_shot():
         Unknown12052(1)
 
         def upon_32():
-            FreezeCount(6)
+            FreezeCount(12)
             FreezeDuration(30)
         SLOT_4 = 1
 
@@ -1287,7 +1287,7 @@ def ice_shot_ex2():
         AttackP1(90)
         AirPushbackX(0)
         AirPushbackY(16000)
-        FreezeCount(10)
+        FreezeCount(12)
         FreezeDuration(45)
         PushbackX(6000)
         StarterRating(2)
@@ -1359,8 +1359,8 @@ def ice_shot_ex2():
     GFX_0('IceBreakPtcS', 3)
     GFX_0('IceBreakPtcS', 4)
     SFX_0('018_ice_break_1')
-    Unknown21012('6a6e65665f3430305f656e76000000000000000000000000000000000000000020000000')
-    Unknown21012('6a6e65665f3430306963655f707400000000000000000000000000000000000020000000')
+    Unknown21012('jnef_400_env', 32)
+    Unknown21012('jnef_400ice_pt', 32)
 
 @State
 def air_ice_shot_ex2():
@@ -1374,7 +1374,7 @@ def air_ice_shot_ex2():
         AttackP1(90)
         AirPushbackX(0)
         AirPushbackY(16000)
-        FreezeCount(10)
+        FreezeCount(12)
         FreezeDuration(45)
         PushbackX(6000)
         StarterRating(2)
@@ -1446,8 +1446,8 @@ def air_ice_shot_ex2():
     GFX_0('IceBreakPtcS', 3)
     GFX_0('IceBreakPtcS', 4)
     SFX_0('018_ice_break_1')
-    Unknown21012('6a6e65665f3430305f656e76000000000000000000000000000000000000000020000000')
-    Unknown21012('6a6e65665f3430306963655f707400000000000000000000000000000000000020000000')
+    Unknown21012('jnef_400_env', 32)
+    Unknown21012('jnef_400ice_pt', 32)
 
 @State
 def jnef_400_env():
@@ -1522,7 +1522,7 @@ def UltimateSlashShotObj():
         HitstunP2(40)
         Unknown9142(30)
         Unknown9324(9)
-        AirUntechableTime(30)
+        AirUntechableTime(600)
         AirPushbackX(30000)
         AirPushbackY(1000)
         Unknown9202(20)
@@ -1602,7 +1602,7 @@ def OverDriveSlashShotObj():
         Unknown9142(40)
         Unknown9324(9)
         GroundUntechableTime(10)
-        AirUntechableTime(60)
+        AirUntechableTime(600)
         AirPushbackX(30000)
         AirPushbackY(1000)
         Unknown9202(20)
@@ -2627,7 +2627,7 @@ def ef_jnah_A():
         Unknown2007()
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('65665f6a6e61685f412e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_jnah_A.DIG', '')
         Unknown3001(160)
         Unknown1056(800)
         Unknown1064(1100)
@@ -2647,7 +2647,7 @@ def ef_jnah_B():
         Unknown2007()
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('65665f6a6e61685f422e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_jnah_B.DIG', '')
         teleportRelativeY(-30000)
         Unknown3001(128)
         Unknown1096(1000)
@@ -2970,7 +2970,7 @@ def UltimateShotOverDrive():
         AirPushbackY(20000)
         Hitstop(6)
         Unknown9016(1)
-        FreezeCount(100)
+        FreezeCount(120)
         FreezeDuration(120)
         GroundUntechableTime(10)
         Unknown11058('0000000000000000000000000100000000000000')
@@ -3122,7 +3122,7 @@ def BurstDD_IceNew():
         Unknown1096(3200)
         Unknown4061(1)
         Unknown21004(95)
-        Unknown4003('6a6e65665f3433305f69636500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('jnef_430_ice', '')
         GFX_2('jnef_440_root')
         Unknown3033()
         Unknown23151(22, 104)
@@ -3159,7 +3159,7 @@ def BurstDD_SlashEX():
         Unknown3033()
         Unknown4061(1)
         Unknown21004(95)
-        Unknown4003('6a6e65665f3433305f736c6173680000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('jnef_430_slash', '')
         Unknown23151(22, 104)
     sprite('null', 2)
     ScreenShake(5000, 5000)
@@ -3520,7 +3520,7 @@ def Act3Event_IceBoard():
 
         def upon_45():
             if (not SLOT_51):
-                Unknown48('170000000200000053000000030000000200000053000000')
+                Unknown48(23, 2, 83, 3, 2, 83)
 
         def upon_32():
             SLOT_51 = 1

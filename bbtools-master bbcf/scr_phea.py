@@ -49,7 +49,7 @@ def EMB_PH():
         Unknown2054(1)
         Unknown3038(1)
         Unknown23015(5)
-        Unknown4003('65665f656d625f70682e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_emb_ph.DIG', '')
         Unknown1007(315000)
         Unknown1096(1300)
     sprite('null', 10)
@@ -71,7 +71,7 @@ def EMB_PH_OD():
         Unknown2054(1)
         Unknown3038(1)
         Unknown23015(5)
-        Unknown4003('65665f656d625f70682e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_emb_ph.DIG', '')
         Unknown1007(315000)
         Unknown1096(1300)
     sprite('null', 8)
@@ -92,7 +92,7 @@ def EMB_PH_AH():
         Unknown2007()
         Unknown2054(1)
         Unknown23015(5)
-        Unknown4003('65665f656d625f70682e444947000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ef_emb_ph.DIG', '')
         Unknown1007(315000)
         Unknown1096(1300)
     sprite('null', 10)
@@ -270,7 +270,7 @@ def phef_600_FireWall():
         Unknown4007(2)
         Unknown4010(2)
         Unknown4009(2)
-        Unknown4003('70686566663630305f6669726577616c6c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff600_firewall', '')
         Unknown4015()
         teleportRelativeX(100000)
         Unknown3033()
@@ -391,7 +391,7 @@ def phef_602_FireWall():
         Unknown4007(2)
         Unknown4010(2)
         Unknown4009(2)
-        Unknown4003('70686566663630305f6669726577616c6c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff600_firewall', '')
         Unknown4015()
         teleportRelativeX(-20000)
         Unknown3033()
@@ -456,7 +456,7 @@ def ph001Eff():
         Unknown3032()
         Unknown4010(2)
         Unknown4007(2)
-        Unknown4003('70686566663030315f66697265303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff001_fire00', '')
         Unknown1096(450)
         Unknown3001(180)
         Unknown1007(275000)
@@ -796,14 +796,14 @@ def phStocEff_red():
                 Unknown2071('03000000b03cffff000000005a00000001000000')
     sprite('null', 1)
     sprite('null', 5)
-    Unknown4003('70686566665f73746f63303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_stoc00', '')
     sprite('null', 32767)
-    Unknown4003('70686566665f73746f63303100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_stoc01', '')
     label(1)
     sprite('null', 6)
     sprite('null', 4)
     Unknown4025(0)
-    Unknown4003('70686566665f73746f63303200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_stoc02', '')
     Unknown3004(-51)
 
 @State
@@ -842,14 +842,14 @@ def phStocEff_blue():
                 Unknown2071('03000000b03cffff000000005a00000001000000')
     sprite('null', 1)
     sprite('null', 5)
-    Unknown4003('70686566665f4273746f633030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_Bstoc00', '')
     sprite('null', 32767)
-    Unknown4003('70686566665f4273746f633031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_Bstoc01', '')
     label(1)
     sprite('null', 6)
     sprite('null', 4)
     Unknown4025(0)
-    Unknown4003('70686566665f4273746f633032000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_Bstoc02', '')
     Unknown3004(-51)
 
 @State
@@ -888,14 +888,14 @@ def phStocEff_green():
                 Unknown2071('03000000b03cffff000000005a00000001000000')
     sprite('null', 1)
     sprite('null', 5)
-    Unknown4003('70686566665f4773746f633030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_Gstoc00', '')
     sprite('null', 32767)
-    Unknown4003('70686566665f4773746f633031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_Gstoc01', '')
     label(1)
     sprite('null', 6)
     sprite('null', 4)
     Unknown4025(0)
-    Unknown4003('70686566665f4773746f633032000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_Gstoc02', '')
     Unknown3004(-51)
 
 @State
@@ -903,7 +903,7 @@ def ModelMagicCircle1():
 
     def upon_IMMEDIATE():
         Unknown3038(1)
-        Unknown4003('726765665f6d632e444947000000000000000000000000000000000000000000726765665f6d635f6d6f74696f6e5f3030302e6d6d6f74000000000000000000')
+        Unknown4003('rgef_mc.DIG', 'rgef_mc_motion_000.mmot')
         Unknown4015()
         Unknown21004(224)
         Unknown2054(1)
@@ -915,7 +915,7 @@ def phCmnFireEff():
     def upon_IMMEDIATE():
         Unknown21010(1)
         Unknown2054(1)
-        Unknown4003('7068436d6e6566665f66697265303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('phCmneff_fire00', '')
         Unknown3032()
     sprite('null', 7)
     sprite('null', 5)
@@ -943,7 +943,7 @@ def phCmnWaterEff2():
         Unknown2054(1)
         Unknown3032()
         Unknown1096(550)
-        Unknown4003('7068436d6e6566665f77617465723031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('phCmneff_water01', '')
     sprite('null', 10)
     GFX_1('phefcmn_fallwater', -1)
     sprite('null', 6)
@@ -955,7 +955,7 @@ def ph200_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('70683230306566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph200eff_00.DIG', '')
         Unknown1007(300000)
         teleportRelativeX(100000)
         Unknown1056(1400)
@@ -988,7 +988,7 @@ def ph201_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('70683230316566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph201eff_00.DIG', '')
         Unknown1007(270000)
         teleportRelativeX(100000)
         Unknown3032()
@@ -1029,7 +1029,7 @@ def ph202_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70683230326566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph202eff_00.DIG', '')
         Unknown1007(210000)
         teleportRelativeX(205000)
         Unknown1056(700)
@@ -1078,7 +1078,7 @@ def ph210_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('70683231306566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph210eff_00.DIG', '')
         Unknown1007(324000)
         teleportRelativeX(-40000)
         Unknown1096(900)
@@ -1144,7 +1144,7 @@ def ph212_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70683230326566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph202eff_00.DIG', '')
         Unknown1007(330000)
         teleportRelativeX(175000)
         Unknown1056(900)
@@ -1274,7 +1274,7 @@ def ph230_eff():
 
     def upon_IMMEDIATE():
         Unknown3038(1)
-        Unknown4003('70683233306566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph230eff_00.DIG', '')
         teleportRelativeX(20000)
         Unknown1007(50000)
         Unknown3032()
@@ -1299,7 +1299,7 @@ def ph231_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('70683230316566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph201eff_00.DIG', '')
         teleportRelativeX(120000)
         Unknown1007(150000)
         Unknown1072(10000)
@@ -1390,7 +1390,7 @@ def ph250_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('70683235306566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph250eff_00.DIG', '')
         Unknown1007(217000)
         teleportRelativeX(75000)
         Unknown1096(850)
@@ -1477,7 +1477,7 @@ def ph252_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70683230326566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph202eff_00.DIG', '')
         Unknown1007(270000)
         teleportRelativeX(175000)
         Unknown1056(600)
@@ -1529,7 +1529,7 @@ def ph253_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3038(1)
-        Unknown4003('70683235336566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph253eff_00.DIG', '')
         Unknown1007(270000)
         teleportRelativeX(-90000)
         Unknown3032()
@@ -1586,7 +1586,7 @@ def ph255_eff():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70683230326566665f30302e44494700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph202eff_00.DIG', '')
         Unknown1007(210000)
         teleportRelativeX(125000)
         Unknown1056(700)
@@ -1659,7 +1659,7 @@ def DriveAtk_NNN():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 0):
                 Unknown23078(1)
             Unknown21007(3, 32)
@@ -1712,7 +1712,7 @@ def Eff_NNNsub():
 def Eff_NNNsub2():
 
     def upon_IMMEDIATE():
-        Unknown4003('706865665f6e6e6e3030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('phef_nnn00', '')
         Unknown3032()
         Unknown23015(1)
         Unknown3001(200)
@@ -1754,7 +1754,7 @@ def DriveAtk_RNN():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 256):
                 Unknown23078(1)
 
@@ -1772,7 +1772,7 @@ def Eff_RNN():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f726e6e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rnn00', '')
         Unknown1096(1200)
         Unknown1007(50000)
         ProjectileHitsWall(1)
@@ -1794,7 +1794,7 @@ def Eff_RNNsub2():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4007(2)
-        Unknown4003('70686566665f726e6e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rnn01', '')
         Unknown1096(1200)
     sprite('null', 16)
     Unknown3004(-10)
@@ -1849,7 +1849,7 @@ def DriveAtk_GNN():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 16):
                 Unknown23078(1)
     sprite('vr_ph_magictest', 1)
@@ -1915,7 +1915,7 @@ def DriveAtk_GNN_PU():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 16):
                 Unknown23078(1)
     sprite('vr_ph_magictest', 1)
@@ -1947,7 +1947,7 @@ def Eff_GNN():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f676e6e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_gnn00', '')
         teleportRelativeX(-500000)
         Unknown1007(40000)
         Unknown1096(700)
@@ -1990,7 +1990,7 @@ def Eff_GNNsub():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f676e6e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_gnn01', '')
     sprite('null', 8)
     Unknown1099(15)
     sprite('null', 10)
@@ -2019,7 +2019,7 @@ def DriveAtk_BNN():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 1):
                 Unknown23078(1)
 
@@ -2037,7 +2037,7 @@ def Eff_BNN():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f626e6e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bnn00', '')
         Unknown1096(1000)
         teleportRelativeX(-100000)
         Unknown1007(35000)
@@ -2058,7 +2058,7 @@ def Eff_BNNsub():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f626e6e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bnn01', '')
         Unknown1096(750)
         GFX_1('phef_bnn_mc', -1)
     sprite('null', 5)
@@ -2100,7 +2100,7 @@ def DriveAtk_RRN():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 512):
                 Unknown23078(1)
 
@@ -2118,7 +2118,7 @@ def Eff_RRN():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f726e6e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rnn00', '')
         Unknown1096(1350)
         Unknown1007(50000)
         ProjectileHitsWall(1)
@@ -2141,7 +2141,7 @@ def Eff_RRNsub():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4007(2)
-        Unknown4003('70686566665f726e6e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rnn01', '')
         Unknown1096(1350)
     sprite('null', 16)
     Unknown3004(-10)
@@ -2179,7 +2179,7 @@ def Eff_RRNsub2():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f72726e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rrn00', '')
         Unknown1096(1450)
         Unknown3001(255)
     sprite('null', 15)
@@ -2205,7 +2205,7 @@ def DriveAtk_GGN():
         AirPushbackY(5000)
         Unknown9202(40)
         AirUntechableTime(25)
-        Unknown9310(5)
+        GroundUntechableTime(5)
         Hitstop(4)
         Unknown11001(0, 0, 0)
         Unknown11057(500)
@@ -2229,7 +2229,7 @@ def DriveAtk_GGN():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 32):
                 Unknown23078(1)
     sprite('vr_ph_magictest', 1)
@@ -2282,7 +2282,7 @@ def DriveAtk_GGN_PU():
         AirPushbackY(5000)
         Unknown9202(45)
         AirUntechableTime(25)
-        Unknown9310(5)
+        GroundUntechableTime(5)
         AttackP2(97)
         YImpluseBeforeWallbounce(1800)
         PushbackX(37500)
@@ -2305,7 +2305,7 @@ def DriveAtk_GGN_PU():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 32):
                 Unknown23078(1)
     sprite('vr_ph_magictest', 1)
@@ -2341,7 +2341,7 @@ def Eff_GGN():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f67676e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggn00', '')
         teleportRelativeX(-500000)
         Unknown1007(40000)
         Unknown1096(700)
@@ -2385,7 +2385,7 @@ def Eff_GGNsub():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f676e6e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_gnn01', '')
     sprite('null', 8)
     Unknown1099(30)
     sprite('null', 10)
@@ -2422,7 +2422,7 @@ def DriveAtk_BBN():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 2):
                 Unknown23078(1)
 
@@ -2440,7 +2440,7 @@ def Eff_BBN():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f62626e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bbn00', '')
         Unknown1096(1000)
         Unknown1057(100)
         teleportRelativeX(-125000)
@@ -2493,13 +2493,13 @@ def DriveAtk_BGN():
         sendToLabelUpon(54, 2)
 
         def upon_CLEAR_OR_EXIT():
-            if (not Unknown48('170000000200000000000000030000000200000017000000')):
+            if (not Unknown48(23, 2, 0, 3, 2, 23)):
                 if Unknown68('0100000000000000000000000000000000000000'):
                     Unknown2071('03000000c0d40100000000001400000001000000')
                 else:
                     Unknown2071('03000000c0d40100803801001400000001000000')
             else:
-                Unknown48('17000000020000000000000003000000020000000d000000')
+                Unknown48(23, 2, 0, 3, 2, 13)
                 if (not (0 >= SLOT_0)):
                     Unknown2071('03000000c0d4010080c7feff1400000001000000')
                 else:
@@ -2592,10 +2592,10 @@ def DriveDef_BGN():
         Unknown1064(14000)
 
         def upon_CLEAR_OR_EXIT():
-            if (not Unknown48('170000000200000000000000030000000200000017000000')):
+            if (not Unknown48(23, 2, 0, 3, 2, 23)):
                 Unknown2071('0300000000000000702ffcff6400000001000000')
             else:
-                Unknown48('17000000020000000000000003000000020000000d000000')
+                Unknown48(23, 2, 0, 3, 2, 13)
                 if (not (0 >= SLOT_0)):
                     Unknown2071('0300000000000000e040fdff6400000001000000')
                 else:
@@ -2778,7 +2778,7 @@ def Eff_BRN():
     def upon_IMMEDIATE():
         Unknown4007(2)
         Unknown3032()
-        Unknown4003('70686566665f62726e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_brn00', '')
         GFX_2('phef_brn_00')
         Unknown1007(75000)
     sprite('null', 2)
@@ -2808,7 +2808,7 @@ def Eff_BRNsub():
 
     def upon_IMMEDIATE():
         Unknown3033()
-        Unknown4003('70686566665f62726e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_brn01', '')
         Unknown1096(750)
         Unknown1102(-50, 250)
         Unknown1077(-360000, 360000)
@@ -2945,7 +2945,7 @@ def DriveDef_GRN():
 
         def upon_42():
             Unknown21007(3, 40)
-            Unknown48('170000000200000000000000160000000200000026000000')
+            Unknown48(23, 2, 0, 22, 2, 38)
             if op(15, 2, 0, 2, 38):
                 if (SLOT_2 == 0):
                     sendToLabel(2)
@@ -2986,7 +2986,7 @@ def DriveDef_GRN():
     clearUponHandler(32)
     clearUponHandler(40)
     clearUponHandler(41)
-    Unknown21012('4472697665526541746b5f47524e00000000000000000000000000000000000020000000')
+    Unknown21012('DriveReAtk_GRN', 32)
     Unknown21007(4, 32)
     ExitState()
     label(2)
@@ -3029,14 +3029,14 @@ def DriveDef_GRN_ATK():
         GroundedHitstunAnimation(2)
         StarterRating(2)
         Unknown3032()
-        Unknown4003('70686566665f67726e30320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_grn02', '')
         Unknown4061(2)
         Unknown21004(1)
         Unknown3038(1)
     sprite('null', 10)
     Unknown3001(0)
     Unknown3004(51)
-    Unknown21012('4566665f47524e6d63000000000000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_GRNmc', 32)
     GFX_0('Eff_GRNmc', -1)
     sprite('vr_ph_magictest', 30)
     physicsXImpulse(120000)
@@ -3047,7 +3047,7 @@ def Eff_GRN():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f67726e30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_grn00', '')
         Unknown4007(2)
         Unknown4010(2)
         Unknown1096(500)
@@ -3095,7 +3095,7 @@ def Eff_GRNsub():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f67726e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_grn01', '')
         Unknown4007(2)
         Unknown4010(2)
         Unknown4025(2)
@@ -3109,7 +3109,7 @@ def Eff_GRNatk():
         Unknown3033()
         Unknown4061(2)
         Unknown21004(1)
-        Unknown4003('70686566665f67726e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_grn01', '')
         Unknown1096(650)
         Unknown1007(200000)
     sprite('null', 5)
@@ -3174,7 +3174,7 @@ def DriveAtk_RRR():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 768):
                 Unknown23078(1)
 
@@ -3192,7 +3192,7 @@ def Eff_RRR():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f72727230310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rrr01', '')
         Unknown1064(1750)
         Unknown1056(1500)
         Unknown1007(50000)
@@ -3217,7 +3217,7 @@ def Eff_RRRsub():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4007(2)
-        Unknown4003('70686566665f726e6e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rnn01', '')
         Unknown1096(1350)
     sprite('null', 16)
     Unknown3004(-10)
@@ -3257,7 +3257,7 @@ def Eff_RRRsub2():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4007(2)
-        Unknown4003('70686566665f72727230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rrr00', '')
         Unknown1096(1450)
         Unknown3001(255)
     sprite('null', 14)
@@ -3288,6 +3288,7 @@ def DriveAtk_GGG():
         AttackLevel_(5)
         Damage(500)
         AttackP2(75)
+        StarterRating(3)
         Unknown11092(1)
         GroundedHitstunAnimation(9)
         AirPushbackX(30000)
@@ -3315,15 +3316,15 @@ def DriveAtk_GGG():
         def upon_33():
             AirPushbackX(60000)
             AirPushbackY(8000)
-            AirHitstunAfterWallbounce(45)
+            AirHitstunAfterWallbounce(48)
             Unknown9178(1)
-            WallbounceReboundTime(20)
+            WallbounceReboundTime(23)
             Unknown9203()
         Unknown4010(3)
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 48):
                 Unknown23078(1)
     sprite('vr_ph_magictest', 1)
@@ -3373,6 +3374,7 @@ def DriveAtk_GGG_PU():
         Unknown1007(210000)
         AttackLevel_(5)
         Damage(210)
+        StarterRating(3)
         GroundedHitstunAnimation(9)
         AirPushbackX(30000)
         AirPushbackY(5000)
@@ -3399,15 +3401,15 @@ def DriveAtk_GGG_PU():
         def upon_33():
             AirPushbackX(45000)
             AirPushbackY(8000)
-            AirHitstunAfterWallbounce(45)
+            AirHitstunAfterWallbounce(48)
             Unknown9178(1)
-            WallbounceReboundTime(20)
+            WallbounceReboundTime(23)
             Unknown9203()
         Unknown4010(3)
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 48):
                 Unknown23078(1)
     sprite('vr_ph_magictest', 1)
@@ -3444,7 +3446,7 @@ def Eff_GGG():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f67676730300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggg00', '')
         teleportRelativeX(-500000)
         Unknown1007(40000)
         Unknown1096(750)
@@ -3497,7 +3499,7 @@ def Eff_GGGsub():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f676e6e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_gnn01', '')
     sprite('null', 8)
     Unknown1099(45)
     sprite('null', 10)
@@ -3526,7 +3528,7 @@ def DriveAtk_BBB():
 
         def upon_11():
             Unknown23078(0)
-            Unknown48('170000000200000000000000030000000200000035000000')
+            Unknown48(23, 2, 0, 3, 2, 53)
             if (SLOT_0 == 3):
                 Unknown23078(1)
 
@@ -3544,7 +3546,7 @@ def Eff_BBB():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f62626230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bbb00', '')
         Unknown1096(675)
         teleportRelativeX(-100000)
         Unknown1007(70000)
@@ -3577,7 +3579,7 @@ def DriveAtk_RRB():
         Unknown1064(10000)
         Unknown1007(375000)
         ProjectileHitsWall(1)
-        Unknown48('170000000200000033000000030000000200000017000000')
+        Unknown48(23, 2, 51, 3, 2, 23)
         if SLOT_51:
             if (SLOT_19 > 300000):
                 if (SLOT_19 < 650000):
@@ -3840,18 +3842,18 @@ def phEff_RRG():
         Unknown2005()
         GFX_2('phef_rrb_kusa')
     sprite('null', 7)
-    Unknown4003('70686566665f7272675f737461727400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_rrg_start', '')
     ScreenShake(4000, 4000)
     GFX_1('phef_rrb_kusa', -1)
     GFX_0('phEff_RRG_moya', -1)
     sprite('null', 10)
-    Unknown4003('70686566665f7272675f6a697a6f6b75000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_rrg_jizoku', '')
     sprite('null', 5)
     Unknown4007(0)
     sprite('null', 40)
     Unknown3001(0)
     GFX_0('phEff_RRGend', -1)
-    Unknown21012('70684566665f5252475f6d6f796100000000000000000000000000000000000020000000')
+    Unknown21012('phEff_RRG_moya', 32)
 
 @State
 def phEff_RRG_moya():
@@ -3900,7 +3902,7 @@ def phEff_RRGend():
         Unknown1096(1200)
     sprite('null', 15)
     GFX_1('phef_rrb_kusa', -1)
-    Unknown4003('70686566665f7272675f656e64000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_rrg_end', '')
 
 @State
 def phEff_RRGmoguri():
@@ -3927,7 +3929,7 @@ def DriveAtk_GGR():
         Unknown2003(1)
         Unknown3038(1)
         Unknown3032()
-        Unknown4003('70686566665f67677230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggr00', '')
         Unknown4015()
         Unknown4061(2)
         Unknown4047(1, 1, 1)
@@ -3973,7 +3975,7 @@ def DriveAtk_GGR():
     clearUponHandler(3)
 
     def upon_CLEAR_OR_EXIT():
-        Unknown48('170000000200000034000000160000000200000016000000')
+        Unknown48(23, 2, 52, 22, 2, 22)
         Unknown47('01000000020000001600000002000000340000000200000034000000')
         if SLOT_38:
             Unknown47('030000000200000034000000000000003c000000020000000c000000')
@@ -3996,7 +3998,7 @@ def DriveAtk_GGR():
     sprite('null', 5)
     physicsXImpulse(0)
     sprite('null', 3)
-    Unknown21012('70684566665f474752596f74796f754d4300000000000000000000000000000020000000')
+    Unknown21012('phEff_GGRYotyouMC', 32)
     GFX_0('DriveAtk_GGR_C', -1)
     sprite('null', 3)
     GFX_0('DriveAtk_GGR_R', -1)
@@ -4037,13 +4039,13 @@ def DriveAtk_GGR():
     sprite('null', 3)
     GFX_0('DriveAtk_GGR_LL', -1)
     sprite('null', 60)
-    Unknown21012('70684566665f47475261746b000000000000000000000000000000000000000020000000')
-    Unknown21012('70684566665f474752596f74796f754d4300000000000000000000000000000021000000')
+    Unknown21012('phEff_GGRatk', 32)
+    Unknown21012('phEff_GGRYotyouMC', 33)
     Unknown3004(-25)
     ExitState()
     label(0)
     sprite('null', 15)
-    Unknown21012('70684566665f47475261746b000000000000000000000000000000000000000020000000')
+    Unknown21012('phEff_GGRatk', 32)
     Unknown3004(-15)
     ExitState()
 
@@ -4076,7 +4078,7 @@ def phEff_GGRatk():
         Unknown1096(200)
         Unknown4010(2)
         Unknown4007(2)
-        Unknown4003('70686566665f67677230310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggr01', '')
         Unknown4015()
 
         def upon_32():
@@ -4133,7 +4135,7 @@ def Eff_GGRfire():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4006(2)
-        Unknown4003('70686566665f67677241746b30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggrAtk00', '')
         Unknown1064(500)
         Unknown1056(600)
         Unknown1102(-100, 100)
@@ -4147,7 +4149,7 @@ def Eff_GGRfire2():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4006(2)
-        Unknown4003('70686566665f67677241746b30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggrAtk00', '')
         Unknown1064(500)
         Unknown1056(-600)
         Unknown1062(0, 200)
@@ -4404,7 +4406,7 @@ def phEff_GGRYotyouMC():
         Unknown3032()
         Unknown4010(2)
         Unknown23015(5)
-        Unknown4003('70686566665f67677230305f796f74796f7500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggr00_yotyou', '')
         Unknown1086(2)
         teleportRelativeY(0)
         Unknown1056(900)
@@ -4412,7 +4414,7 @@ def phEff_GGRYotyouMC():
         Unknown3001(160)
         sendToLabelUpon(32, 0)
         sendToLabelUpon(33, 1)
-        Unknown48('170000000200000033000000020000000200000017000000')
+        Unknown48(23, 2, 51, 2, 2, 23)
         Unknown47('03000000020000003300000000000000200300000200000068000000')
         if (SLOT_104 > 2000):
             SLOT_104 = 2000
@@ -4425,10 +4427,10 @@ def phEff_GGRYotyouMC():
     GFX_0('phEff_GGRYotyouMCcore', -1)
     label(0)
     sprite('null', 32767)
-    Unknown21012('70684566665f474752596f74796f754d43636f6c6f720000000000000000000020000000')
+    Unknown21012('phEff_GGRYotyouMCcolor', 32)
     label(1)
     sprite('null', 5)
-    Unknown21012('70684566665f474752596f74796f754d43636f7265000000000000000000000020000000')
+    Unknown21012('phEff_GGRYotyouMCcore', 32)
     sprite('null', 5)
     Unknown3004(-51)
 
@@ -4581,7 +4583,7 @@ def DriveAtk_GGB():
     sprite('vr_ph_magictest', 5)
     Unknown1084(1)
     Unknown21007(4, 34)
-    Unknown21012('44726976654465665f474742000000000000000000000000000000000000000020000000')
+    Unknown21012('DriveDef_GGB', 32)
     sprite('vr_ph_magictest', 10)
     clearUponHandler(32)
     clearUponHandler(33)
@@ -4597,7 +4599,7 @@ def DriveAtk_GGB():
     Unknown1084(1)
     sprite('vr_ph_magictest', 20)
     Unknown21007(4, 34)
-    Unknown21012('44726976654465665f474742000000000000000000000000000000000000000020000000')
+    Unknown21012('DriveDef_GGB', 32)
     sprite('vr_ph_magictest', 10)
     clearUponHandler(32)
     clearUponHandler(33)
@@ -4612,7 +4614,7 @@ def DriveAtk_GGB():
     sprite('null', 11)
     physicsXImpulse(0)
     physicsYImpulse(0)
-    Unknown21012('44726976654465665f474742000000000000000000000000000000000000000020000000')
+    Unknown21012('DriveDef_GGB', 32)
     Unknown21007(4, 33)
     Unknown3004(-25)
     ExitState()
@@ -4729,7 +4731,7 @@ def Eff_GGB():
         Unknown3032()
         Unknown4007(2)
         Unknown4010(2)
-        Unknown4003('70686566665f67676230310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggb01', '')
         Unknown4015()
         Unknown1096(1100)
         Unknown1007(50000)
@@ -4758,7 +4760,7 @@ def Eff_GGB():
     Unknown3004(-23)
     Unknown1096(1000)
     Unknown1099(-90)
-    Unknown21012('4566665f4747424d6f796100000000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_GGBMoya', 32)
     sprite('null', 5)
     GFX_0('Eff_GGBPre', -1)
     sprite('null', 10)
@@ -4775,7 +4777,7 @@ def Eff_GGB():
     Unknown1096(1000)
     Unknown1099(200)
     GFX_1('phef_ggb_start', -1)
-    Unknown21012('4566665f4747424d6f796100000000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_GGBMoya', 32)
     loopRest()
     label(2)
     clearUponHandler(32)
@@ -4783,7 +4785,7 @@ def Eff_GGB():
     sprite('null', 10)
     Unknown3001(255)
     Unknown3004(-23)
-    Unknown21012('4566665f4747424d6f796100000000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_GGBMoya', 32)
     loopRest()
 
 @State
@@ -4829,7 +4831,7 @@ def Eff_GGBatk():
         Unknown3032()
         Unknown4007(2)
         Unknown4010(2)
-        Unknown4003('70686566665f67676230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_ggb00', '')
         Unknown4015()
         Unknown1007(50000)
         sendToLabelUpon(32, 1)
@@ -4877,7 +4879,7 @@ def DriveAtk_BBR():
     physicsXImpulse(2000)
     GFX_0('Eff_BBRSub', -1)
     GFX_0('ParticleMaster_BBR', -1)
-    Unknown4003('70686566665f62627230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr00', '')
     Unknown3001(0)
     Unknown3004(51)
     SFX_3('phse_04')
@@ -4911,7 +4913,7 @@ def DriveAtk_BBR():
     sprite('null', 2)
     Unknown1019(0)
     YAccel(0)
-    Unknown4003('70686566665f62627230310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr01', '')
     sprite('null', 3)
     GFX_0('DriveAtk_BBR_ATK', -1)
     Unknown21007(1, 32)
@@ -4929,7 +4931,7 @@ def DriveAtk_BBR():
     sprite('null', 6)
     physicsXImpulse(5000)
     physicsYImpulse(-1500)
-    Unknown4003('70686566665f62627230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr00', '')
     sprite('null', 4)
     Unknown1019(2500)
     YAccel(2500)
@@ -4961,7 +4963,7 @@ def DriveAtk_BBR():
     Unknown1019(0)
     YAccel(0)
     Unknown1072(15000)
-    Unknown4003('70686566665f62627230310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr01', '')
     sprite('null', 3)
     GFX_0('DriveAtk_BBR_ATK', -1)
     Unknown21007(1, 33)
@@ -4974,7 +4976,7 @@ def DriveAtk_BBR():
     Unknown1019(0)
     sprite('null', 6)
     physicsXImpulse(6000)
-    Unknown4003('70686566665f62627230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr00', '')
     sprite('null', 4)
     Unknown1072(0)
     Unknown1019(2500)
@@ -5009,7 +5011,7 @@ def DriveAtk_BBR():
     YAccel(0)
     Unknown2006()
     sprite('null', 3)
-    Unknown4003('70686566665f62627230310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr01', '')
     Unknown1072(35000)
     GFX_0('DriveAtk_BBR_ATK', -1)
     Unknown21007(1, 34)
@@ -5021,7 +5023,7 @@ def DriveAtk_BBR():
     sprite('null', 10)
     YAccel(0)
     sprite('null', 5)
-    Unknown4003('70686566665f62627230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr00', '')
     physicsXImpulse(-20000)
     physicsYImpulse(2000)
     sprite('null', 5)
@@ -5048,7 +5050,7 @@ def DriveAtk_BBR():
     ExitState()
     label(1)
     sprite('null', 10)
-    Unknown4003('70686566665f62627230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff_bbr00', '')
     Unknown1019(0)
     YAccel(0)
     Unknown3004(-28)
@@ -5186,7 +5188,7 @@ def Eff_BBRBlack():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4006(2)
-        Unknown4003('70686566665f62627241746b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bbrAtk', '')
     sprite('null', 5)
     sprite('null', 10)
     Unknown3004(-26)
@@ -5239,14 +5241,14 @@ def DriveAtk_BBG():
                 Unknown2037(0)
                 DisableAttackRestOfMove()
             if SLOT_2:
-                Unknown48('170000000200000033000000160000000200000017000000')
+                Unknown48(23, 2, 51, 22, 2, 23)
                 if (SLOT_51 == 0):
                     DisableAttackRestOfMove()
                 elif (SLOT_51 > 80000):
                     if (SLOT_135 == 0):
                         RefreshMultihit()
             else:
-                Unknown48('170000000200000033000000160000000200000017000000')
+                Unknown48(23, 2, 51, 22, 2, 23)
                 if (SLOT_51 == 0):
                     if (SLOT_135 == 0):
                         Unknown2037(1)
@@ -5316,7 +5318,7 @@ def Eff_BBG():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f62626730300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bbg00', '')
         Unknown4010(2)
         Unknown1056(180)
         Unknown1064(700)
@@ -5346,7 +5348,7 @@ def Eff_BBGct():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f62626730310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bbg01', '')
         Unknown4010(2)
         Unknown1056(650)
         Unknown1064(750)
@@ -5419,7 +5421,7 @@ def Eff_BBGcoresub():
 
     def upon_IMMEDIATE():
         Unknown3033()
-        Unknown4003('70686566665f62726e30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_brn01', '')
         Unknown1096(750)
         Unknown1102(-50, 250)
         Unknown1077(-360000, 360000)
@@ -5696,7 +5698,7 @@ def Eff_BGRstart():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f6267725f737461727400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bgr_start', '')
         Unknown21010(1)
         Unknown2054(1)
         Unknown1011(-10000, 10000)
@@ -5775,7 +5777,7 @@ def Eff_BGRatk():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f6267725f776174657230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bgr_water00', '')
         Unknown21010(1)
         Unknown2054(1)
         Unknown1056(300)
@@ -5793,7 +5795,7 @@ def Eff_BGRatkEnd():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f6267725f776174657230310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bgr_water01', '')
         Unknown21010(1)
         Unknown2054(1)
         Unknown1056(300)
@@ -5808,7 +5810,7 @@ def Eff_BGRbg():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f6267725f626700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_bgr_bg', '')
         Unknown21010(1)
         Unknown2054(1)
         Unknown4010(2)
@@ -5868,14 +5870,14 @@ def ph320BombEff():
     def upon_IMMEDIATE():
         Unknown3032()
     sprite('null', 4)
-    Unknown4003('70686566663433315f626f6d62303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_bomb00', '')
     GFX_1('phef_400_bom', -1)
     Unknown1096(750)
     ScreenShake(10000, 10000)
     sprite('null', 3)
     Unknown3001(0)
     Unknown1096(1800)
-    Unknown4003('7068656666636d6e5f626f6d62303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheffcmn_bomb00', '')
     GFX_0('ph320BombEff2', -1)
     sprite('null', 7)
     Unknown3001(255)
@@ -5903,7 +5905,7 @@ def ph320BombEff_Circle():
     def upon_IMMEDIATE():
         Unknown3033()
         Unknown2054(1)
-        Unknown4003('70686566663435305f416464436972636c6500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_AddCircle', '')
         Unknown1096(650)
     sprite('null', 5)
     Unknown1099(300)
@@ -5942,7 +5944,7 @@ def pheff_400():
     gotoLabel(0)
     label(1)
     sprite('vr_ph400_00', 2)
-    Unknown21012('70686566665f343030466972650000000000000000000000000000000000000020000000')
+    Unknown21012('pheff_400Fire', 32)
     sprite('vr_ph400_01', 2)
     sprite('vr_ph400_02', 4)
     sprite('vr_ph400_03', 4)
@@ -5978,7 +5980,7 @@ def pheff_400Fire():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70683430306566665f6a697a6f6b7530300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph400eff_jizoku00', '')
         Unknown4010(2)
         Unknown4007(2)
         Unknown4006(2)
@@ -6001,7 +6003,7 @@ def pheff_400sub():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70683234306566665f30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph240eff_00', '')
         Unknown1064(450)
         Unknown1056(600)
         Unknown2054(1)
@@ -6068,7 +6070,7 @@ def pheff_400Air():
     gotoLabel(0)
     label(1)
     sprite('vr_ph400_00', 2)
-    Unknown21012('70686566665f343030466972650000000000000000000000000000000000000020000000')
+    Unknown21012('pheff_400Fire', 32)
     sprite('vr_ph400_01', 2)
     sprite('vr_ph400_02', 4)
     sprite('vr_ph400_03', 4)
@@ -6104,7 +6106,7 @@ def pheff_400sub2():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70683234306566665f30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph240eff_01', '')
         Unknown1096(300)
         teleportRelativeX(25000)
         Unknown3001(200)
@@ -6116,7 +6118,7 @@ def pheff_400sub3():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70683234306566665f30320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph240eff_02', '')
         Unknown1007(-100000)
         Unknown1096(500)
         Unknown2054(1)
@@ -6182,7 +6184,6 @@ def MidAssault_Atk():
             AirPushbackX(-9000)
             AirPushbackY(-90000)
             StarterRating(3)
-            
     sprite('null', 10)
     label(0)
     sprite('null', 4)
@@ -6503,7 +6504,7 @@ def pheff_BufWaterMato():
     gotoLabel(0)
     label(1)
     sprite('null', 10)
-    Unknown21012('70686566665f427566576174657200000000000000000000000000000000000020000000')
+    Unknown21012('pheff_BufWater', 32)
 
 @State
 def pheff_BufWater():
@@ -6563,7 +6564,7 @@ def pheff_BufFireMato():
     gotoLabel(0)
     label(1)
     sprite('null', 10)
-    Unknown21012('70686566665f427566466972650000000000000000000000000000000000000020000000')
+    Unknown21012('pheff_BufFire', 32)
 
 @State
 def pheff_BufFire():
@@ -6624,7 +6625,7 @@ def pheff_BufWindMato():
     gotoLabel(0)
     label(1)
     sprite('null', 10)
-    Unknown21012('70686566665f42756657696e640000000000000000000000000000000000000020000000')
+    Unknown21012('pheff_BufWind', 32)
 
 @State
 def pheff_BufWind():
@@ -6686,7 +6687,7 @@ def Eff_BuffAtkRSub():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4007(3)
-        Unknown4003('70686566665f6275666661746b303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_buffatk00', '')
         GFX_2('pheff_buffatkR')
         Unknown1096(500)
     sprite('null', 9)
@@ -6715,7 +6716,7 @@ def Eff_BuffAtkBSub():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4007(3)
-        Unknown4003('70686566665f6275666661746b303100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_buffatk01', '')
         GFX_2('pheff_buffatkB')
         Unknown1096(500)
     sprite('null', 9)
@@ -6744,7 +6745,7 @@ def Eff_BuffAtkGSub():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown4007(3)
-        Unknown4003('70686566665f6275666661746b303200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_buffatk02', '')
         GFX_2('pheff_buffatkG')
         Unknown1096(500)
     sprite('null', 9)
@@ -6800,7 +6801,7 @@ def UltimateShotAtk1st():
     sprite('vr_ph_magictest', 8)
     RefreshMultihit()
     sprite('null', 1)
-    Unknown21012('4566665f3433305f4265616d303000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_430_Beam00', 32)
 
 @State
 def Eff_430_cap():
@@ -6842,7 +6843,7 @@ def Eff_430_Beam00():
         Unknown4010(2)
         Unknown4009(2)
         Unknown3032()
-        Unknown4003('70683433306566665f30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph430eff_00', '')
         teleportRelativeX(-800000)
         Unknown1007(45000)
         GFX_2('phef430_mc')
@@ -6867,7 +6868,7 @@ def Eff_430_Beam01():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70683433306566665f30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('ph430eff_01', '')
         Unknown2054(1)
         Unknown21010(1)
     sprite('null', 3)
@@ -6884,7 +6885,7 @@ def Eff_430_hinoNemoto():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433306f645f3030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff430od_00', '')
         GFX_2('phef430_hngate')
         Unknown2054(1)
         Unknown4010(2)
@@ -6902,7 +6903,7 @@ def Eff_430_hinoEnter():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433306f645f3031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff430od_01', '')
         Unknown2054(1)
         Unknown4010(2)
         Unknown4007(2)
@@ -6920,7 +6921,7 @@ def Eff_430_hinoEnterEnd():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433306f645f3032000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff430od_02', '')
         Unknown2054(1)
         Unknown21010(1)
         Unknown1096(1000)
@@ -6934,7 +6935,7 @@ def Eff_430_TameEff():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433306f646265616d5f30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff430odbeam_00', '')
         GFX_2('phef430_beamtame')
         Unknown4010(2)
         Unknown4007(2)
@@ -6970,7 +6971,7 @@ def Eff_430_HinoBeamEff():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown3038(1)
-        Unknown4003('70686566663433306f646265616d5f30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff430odbeam_01', '')
         Unknown4010(2)
         Unknown4007(2)
         Unknown2054(1)
@@ -7017,11 +7018,11 @@ def Eff_430_HinoBeamEffEnd():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433306f646265616d5f30320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff430odbeam_02', '')
         Unknown21010(1)
         Unknown2054(1)
     sprite('null', 10)
-    Unknown4003('70686566663433306f646265616d5f30320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff430odbeam_02', '')
     sprite('vr_ph430odbeam_expos', 1)
     Unknown3038(1)
     GFX_1('phef430_beamend', 0)
@@ -7084,7 +7085,7 @@ def UltimateShotAtk2nd():
     sprite('vr_ph_magictest', 7)
     RefreshMultihit()
     sprite('null', 1)
-    Unknown21012('4566665f3433305f4265616d303000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_430_Beam00', 32)
 
 @State
 def UltimateShotAtk1stOD():
@@ -7132,7 +7133,7 @@ def UltimateShotAtk1stOD():
     RefreshMultihit()
     sprite('vr_ph_magictest', 8)
     RefreshMultihit()
-    Unknown21012('4566665f3433305f4265616d303000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_430_Beam00', 32)
 
 @State
 def UltimateShotAtk2ndOD():
@@ -7190,7 +7191,7 @@ def UltimateShotAtk2ndOD():
 
     def upon_12():
         Unknown21007(3, 32)
-    Unknown21012('4566665f3433305f4265616d303000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_430_Beam00', 32)
 
 @State
 def UltimateShotAtk3rdOD():
@@ -7248,8 +7249,8 @@ def UltimateShotAtk3rdOD():
     sprite('vr_ph_magictest', 5)
     RefreshMultihit()
     sprite('null', 10)
-    Unknown21012('4566665f3433305f48696e6f4265616d4566660000000000000000000000000020000000')
-    Unknown21012('556c74696d61746553686f7448696e6f6b61677574737563686900000000000020000000')
+    Unknown21012('Eff_430_HinoBeamEff', 32)
+    Unknown21012('UltimateShotHinokagutsuchi', 32)
 
 @State
 def UltimateShotODCamera():
@@ -7262,8 +7263,8 @@ def UltimateShotODCamera():
             Unknown1086(3)
             SLOT_51 = SLOT_19
             SLOT_51 = (SLOT_51 / 2)
-            Unknown48('170000000200000034000000030000000200000016000000')
-            Unknown48('170000000200000035000000160000000200000016000000')
+            Unknown48(23, 2, 52, 3, 2, 22)
+            Unknown48(23, 2, 53, 22, 2, 22)
             if (SLOT_52 < SLOT_53):
                 SLOT_22 = (SLOT_22 + SLOT_51)
             elif (SLOT_52 > SLOT_53):
@@ -7318,14 +7319,14 @@ def UltimateShotHinokagutsuchi():
     sprite('ph430cutin_03', 3)
     Unknown3026(-10197916)
     GFX_0('UltimateShotAtk3rdOD', -1)
-    Unknown21012('4566665f3433305f54616d65456666000000000000000000000000000000000020000000')
+    Unknown21012('Eff_430_TameEff', 32)
     Unknown1045(-20000)
     sprite('ph430cutin_03', 300)
     label(1)
     sprite('ph430cutin_02', 3)
     Unknown3004(-31)
     sprite('ph430cutin_01', 3)
-    Unknown21012('4566665f3433305f68696e6f4e656d6f746f000000000000000000000000000020000000')
+    Unknown21012('Eff_430_hinoNemoto', 32)
     sprite('ph430cutin_00', 3)
     GFX_1('phef402_end', 1)
     GFX_1('phef402_end', 2)
@@ -7416,7 +7417,7 @@ def Eff_432_yariLv1():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari00', '')
         Unknown2054(1)
         Unknown1096(1750)
     sprite('null', 20)
@@ -7424,7 +7425,7 @@ def Eff_432_yariLv1():
     sprite('null', 50)
     sprite('null', 10)
     Unknown3004(-26)
-    Unknown21012('4566665f3433325f426f7961000000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_432_Boya', 32)
 
 @State
 def Eff_432_Boya():
@@ -7495,7 +7496,7 @@ def Eff_432_yariLv2():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari00', '')
         Unknown2054(1)
         Unknown1096(1750)
     sprite('null', 5)
@@ -7503,14 +7504,14 @@ def Eff_432_yariLv2():
     GFX_0('Eff_432_yariLv2sub', -1)
     sprite('null', 10)
     Unknown3004(-26)
-    Unknown21012('4566665f3433325f796172694c7632737562000000000000000000000000000020000000')
+    Unknown21012('Eff_432_yariLv2sub', 32)
 
 @State
 def Eff_432_yariLv2sub():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari04', '')
         Unknown2054(1)
         Unknown1056(1200)
         Unknown1064(1400)
@@ -7590,7 +7591,7 @@ def Eff_432_yari():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari00', '')
         Unknown2054(1)
         Unknown1096(1750)
     sprite('null', 4)
@@ -7619,10 +7620,10 @@ def Eff_432_yari():
     Unknown1097(-900)
     Unknown35()
     sprite('null', 50)
-    Unknown21012('4566665f3433325f796172695f7375623200000000000000000000000000000020000000')
-    Unknown21012('4566665f3433325f796172695f7375623100000000000000000000000000000020000000')
+    Unknown21012('Eff_432_yari_sub2', 32)
+    Unknown21012('Eff_432_yari_sub1', 32)
     sprite('null', 10)
-    Unknown21012('4566665f3433325f426f7961000000000000000000000000000000000000000020000000')
+    Unknown21012('Eff_432_Boya', 32)
     Unknown3004(-26)
 
 @State
@@ -7630,7 +7631,7 @@ def Eff_432_yari_sub1():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari01', '')
         Unknown2054(1)
         Unknown1096(4000)
         teleportRelativeX(50000)
@@ -7646,7 +7647,7 @@ def Eff_432_yari_sub2():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari02', '')
         Unknown2054(1)
         Unknown1056(500)
         Unknown1064(2000)
@@ -7671,7 +7672,7 @@ def Eff_432_yari_sub3():
 
     def upon_IMMEDIATE():
         Unknown3033()
-        Unknown4003('70686566663433325f79617269303300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari03', '')
         Unknown2054(1)
         Unknown1096(2000)
     sprite('null', 15)
@@ -7848,7 +7849,7 @@ def Eff_432_mgSlash_SS():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         GFX_2('phef432_aura')
         Unknown2054(1)
         Unknown1096(1000)
@@ -7867,7 +7868,7 @@ def Eff_432_mgSlash2_SS():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         GFX_2('phef432_aura')
         Unknown2054(1)
         Unknown1096(1000)
@@ -7888,7 +7889,7 @@ def Eff_432_mgSlash3_SS():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         Unknown2054(1)
         Unknown1096(1000)
         teleportRelativeX(-900000)
@@ -7952,7 +7953,7 @@ def Eff_432_mgSlash_S():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         Unknown2054(1)
         Unknown1096(2000)
         teleportRelativeX(-1100000)
@@ -7968,7 +7969,7 @@ def Eff_432_mgSlash2_S():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         Unknown2054(1)
         Unknown1096(1700)
         teleportRelativeX(-900000)
@@ -7985,7 +7986,7 @@ def Eff_432_mgSlash3_S():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         Unknown2054(1)
         Unknown1096(1700)
         teleportRelativeX(-900000)
@@ -8141,7 +8142,7 @@ def Eff_432_mgSlash():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         Unknown2054(1)
         Unknown1096(2200)
         teleportRelativeX(-1100000)
@@ -8157,7 +8158,7 @@ def Eff_432_mgSlash2():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         Unknown2054(1)
         Unknown1096(1700)
         teleportRelativeX(-900000)
@@ -8176,7 +8177,7 @@ def Eff_432_mgSlash3():
     def upon_IMMEDIATE():
         Unknown3032()
         GFX_2('phef432_aura')
-        Unknown4003('70686566663433325f736c6173683030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_slash00', '')
         Unknown2054(1)
         Unknown1096(1700)
         teleportRelativeX(-900000)
@@ -8299,7 +8300,7 @@ def UltimateChargeODATK():
 
         def upon_12():
             clearUponHandler(12)
-            Unknown21012('556c74696d6174654368617267654f440000000000000000000000000000000020000000')
+            Unknown21012('UltimateChargeOD', 32)
     sprite('vr_ph_magictest', 10)
     RefreshMultihit()
 
@@ -8389,7 +8390,7 @@ def Eff_431_obi():
 
     def upon_IMMEDIATE():
         Unknown3033()
-        Unknown4003('70686566663433315f6f626930300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_obi00', '')
         Unknown4010(2)
         Unknown4007(2)
         Unknown2054(1)
@@ -8397,35 +8398,35 @@ def Eff_431_obi():
         Unknown1007(-10000)
         teleportRelativeX(-38000)
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi00', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi01', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi02', '')
     sprite('null', 8)
-    Unknown4003('70686566663433315f6f626930330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi03', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930340000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi04', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi05', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi06', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930370000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi07', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930380000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi08', '')
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626930390000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi09', '')
     Unknown3004(-18)
     sprite('null', 6)
-    Unknown4003('70686566663433315f6f626931300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+    Unknown4003('pheff431_obi10', '')
 
 @State
 def Eff_431_mc():
 
     def upon_IMMEDIATE():
         Unknown3033()
-        Unknown4003('70686566663433315f6d633030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_mc00', '')
         Unknown3001(160)
         Unknown4010(2)
         Unknown4007(2)
@@ -8446,7 +8447,7 @@ def Eff_431_mc_sub1():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433315f6d633031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_mc01', '')
         Unknown4010(2)
         Unknown4007(2)
         Unknown2054(1)
@@ -8471,7 +8472,7 @@ def Eff_431_BomBall():
     def upon_IMMEDIATE():
         Unknown3033()
         Unknown2054(1)
-        Unknown4003('70686566663433315f74616d6562616c6c3030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_tameball00', '')
         GFX_2('pheff431_tameball')
         Unknown4010(2)
         Unknown1007(280000)
@@ -8519,7 +8520,7 @@ def Eff_431_bomb():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433315f626f6d62303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_bomb00', '')
         GFX_2('phef431_blm')
         Unknown4010(2)
         Unknown1007(200000)
@@ -8566,7 +8567,7 @@ def Eff_431_bombEnd():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433315f626f6d62303100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_bomb01', '')
         Unknown2054(1)
         Unknown1096(250)
         Unknown1007(-260000)
@@ -8687,7 +8688,7 @@ def Eff_450_circle():
     def upon_IMMEDIATE():
         Unknown3033()
         Unknown2054(1)
-        Unknown4003('70686566663435305f416464436972636c6500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_AddCircle', '')
         Unknown1007(300000)
     sprite('null', 5)
     Unknown1099(300)
@@ -8700,7 +8701,7 @@ def Eff_450_circle2():
     def upon_IMMEDIATE():
         Unknown3033()
         Unknown2054(1)
-        Unknown4003('70686566663435305f416464436972636c6500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_AddCircle', '')
     sprite('null', 5)
     Unknown1099(300)
     Unknown3004(-51)
@@ -8711,42 +8712,42 @@ def AstralHeat_Hibi():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown1096(1350)
-	sprite('vr_ph450_20', 4)
-	Unknown23015(2)
-	sprite('vr_ph450_21', 4)
-	Unknown23015(0)
-	sprite('vr_ph450_22', 4)
-	ScreenShake(10000, 10000)
-	sprite('vr_ph450_22', 4)
-	ScreenShake(10000, 10000)
-	GFX_1('phef450_groundray', 0)
-	GFX_1('phef450_groundsmoke_R', 5)
-	GFX_1('phef450_groundsmoke_L', 6)
-	sprite('vr_ph450_22', 4)
-	ScreenShake(10000, 10000)
-	GFX_1('phef450_groundray', 1)
-	GFX_1('phef450_groundray', 2)
-	GFX_1('phef450_groundsmoke_R', 5)
-	GFX_1('phef450_groundsmoke_L', 6)
-	sprite('vr_ph450_22', 10)
-	ScreenShake(10000, 10000)
-	GFX_1('phef450_groundray', 3)
-	GFX_1('phef450_groundray', 4)
-	GFX_1('phef450_groundsmoke_R', 5)
-	GFX_1('phef450_groundsmoke_L', 6)
-	sprite('vr_ph450_22', 4)
-	ScreenShake(10000, 10000)
-	GFX_1('phef450_groundray', 0)
-	GFX_1('phef450_groundsmoke_R', 5)
-	GFX_1('phef450_groundsmoke_L', 6)
-	sprite('vr_ph450_22', 4)
-	ScreenShake(10000, 10000)
-	GFX_1('phef450_groundray', 1)
-	GFX_1('phef450_groundray', 2)
-	GFX_1('phef450_groundsmoke_R', 5)
-	GFX_1('phef450_groundsmoke_L', 6)
-	sprite('null', 8)
-	GFX_1('phef_450_groundstone', -1)
+        sprite('vr_ph450_20', 4)
+        Unknown23015(2)
+        sprite('vr_ph450_21', 4)
+        Unknown23015(0)
+        sprite('vr_ph450_22', 4)
+        ScreenShake(10000, 10000)
+        sprite('vr_ph450_22', 4)
+        ScreenShake(10000, 10000)
+        GFX_1('phef450_groundray', 0)
+        GFX_1('phef450_groundsmoke_R', 5)
+        GFX_1('phef450_groundsmoke_L', 6)
+        sprite('vr_ph450_22', 4)
+        ScreenShake(10000, 10000)
+        GFX_1('phef450_groundray', 1)
+        GFX_1('phef450_groundray', 2)
+        GFX_1('phef450_groundsmoke_R', 5)
+        GFX_1('phef450_groundsmoke_L', 6)
+        sprite('vr_ph450_22', 10)
+        ScreenShake(10000, 10000)
+        GFX_1('phef450_groundray', 3)
+        GFX_1('phef450_groundray', 4)
+        GFX_1('phef450_groundsmoke_R', 5)
+        GFX_1('phef450_groundsmoke_L', 6)
+        sprite('vr_ph450_22', 4)
+        ScreenShake(10000, 10000)
+        GFX_1('phef450_groundray', 0)
+        GFX_1('phef450_groundsmoke_R', 5)
+        GFX_1('phef450_groundsmoke_L', 6)
+        sprite('vr_ph450_22', 4)
+        ScreenShake(10000, 10000)
+        GFX_1('phef450_groundray', 1)
+        GFX_1('phef450_groundray', 2)
+        GFX_1('phef450_groundsmoke_R', 5)
+        GFX_1('phef450_groundsmoke_L', 6)
+        sprite('null', 8)
+        GFX_1('phef_450_groundstone', -1)
 
 @State
 def AstralHeat_Hinokagutsuchi():
@@ -8877,7 +8878,7 @@ def AstralHeatEff_Rougoku():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70686566663435305f6f726930300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_ori00', '')
         Unknown1096(825)
         Unknown1007(-3000)
     sprite('null', 10)
@@ -8970,7 +8971,7 @@ def AstralHeatEff_Rougoku2():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70686566663435305f6f726930300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_ori00', '')
         GFX_2('phef450_rou_jizoku')
         Unknown1096(600)
         Unknown1007(300000)
@@ -9047,7 +9048,7 @@ def AstralHeatEff_MeteoLast():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70686566663435305f6d6574656f3031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_meteo01', '')
         Unknown1073(-45000)
         Unknown1056(3500)
         Unknown1064(3500)
@@ -9075,7 +9076,7 @@ def Eff_450_Lastbomb():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663435305f6c617374626f6d623030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_lastbomb00', '')
         Unknown1096(1200)
         teleportRelativeY(0)
         Unknown1000(0)
@@ -9097,7 +9098,7 @@ def Eff_450_LastbombEnd():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663435305f6c617374626f6d623031000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_lastbomb01', '')
         Unknown2054(1)
         Unknown1096(500)
         Unknown1007(-300000)
@@ -9113,7 +9114,7 @@ def Eff_450_Burning():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663435305f77696e62670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_winbg', '')
         Unknown2054(1)
         teleportRelativeX(600000)
         Unknown1096(800)
@@ -9132,7 +9133,7 @@ def AstralHeatEff_Meteo():
     def upon_IMMEDIATE():
         Unknown2054(1)
         Unknown3032()
-        Unknown4003('70686566663435305f6d6574656f3030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_meteo00', '')
         physicsYImpulse(-48000)
         physicsXImpulse(48000)
         Unknown1073(-45000)
@@ -9180,7 +9181,7 @@ def Eff_450_bomb():
     def upon_IMMEDIATE():
         Unknown4010(2)
         Unknown3032()
-        Unknown4003('70686566663433315f626f6d62303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_bomb00', '')
         GFX_2('phef431_blm')
         Unknown1007(200000)
         teleportRelativeX(100000)
@@ -9204,7 +9205,7 @@ def Eff_450_bombEnd():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433315f626f6d62303100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff431_bomb01', '')
         Unknown2054(1)
         Unknown1096(250)
         Unknown1007(-250000)
@@ -9303,7 +9304,7 @@ def phAst_ShaSha00():
     def upon_IMMEDIATE():
         Unknown3032()
         Unknown2054(1)
-        Unknown4003('70686566663435305f73686173686130300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff450_shasha00', '')
         Unknown4007(2)
         Unknown23015(1)
         Unknown1007(-400000)
@@ -9400,7 +9401,7 @@ def Entry_FireEnd():
     def upon_IMMEDIATE():
         Unknown4061(2)
         Unknown3033()
-        Unknown4003('70686566663630315f66697265303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff601_fire00', '')
         Unknown1096(800)
     sprite('null', 2)
     ScreenShake(5000, 5000)
@@ -9447,7 +9448,7 @@ def Entry_FireEndsub_a():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari01', '')
         Unknown2054(1)
         Unknown1096(3800)
         Unknown1007(10000)
@@ -9462,7 +9463,7 @@ def Entry_FireEndsub_b():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566663433325f79617269303100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari01', '')
         Unknown2054(1)
         Unknown1096(3800)
         Unknown1007(10000)
@@ -9476,7 +9477,7 @@ def Entry_FireEndsub_b2():
 
     def upon_IMMEDIATE():
         Unknown3032()
-        Unknown4003('70686566665f72727230300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff_rrr00', '')
         Unknown1096(2500)
         Unknown3001(255)
         Unknown1072(20000)
@@ -9490,7 +9491,7 @@ def Entry_FireEndsub2():
 
     def upon_IMMEDIATE():
         Unknown3033()
-        Unknown4003('70686566663433325f79617269303300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff432_yari03', '')
         Unknown2054(1)
         Unknown1056(1500)
         Unknown1064(1700)
@@ -9687,8 +9688,8 @@ def BurstDDCamera():
             Unknown1086(3)
             SLOT_51 = SLOT_19
             SLOT_51 = (SLOT_51 / 4)
-            Unknown48('170000000200000034000000030000000200000016000000')
-            Unknown48('170000000200000035000000160000000200000016000000')
+            Unknown48(23, 2, 52, 3, 2, 22)
+            Unknown48(23, 2, 53, 22, 2, 22)
             if (SLOT_52 < SLOT_53):
                 SLOT_22 = (SLOT_22 + SLOT_51)
             elif (SLOT_52 > SLOT_53):
@@ -9719,7 +9720,7 @@ def ph900Eff():
         Unknown2034(0)
         Unknown4010(2)
         Unknown1096(260)
-        Unknown4003('70686566663030315f66697265303000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff001_fire00', '')
         GFX_2('phef001_hinoko')
     sprite('null', 15)
     Unknown3001(0)
@@ -9905,7 +9906,7 @@ def Event_phef_600_FireWall():
         Unknown4007(2)
         Unknown4010(2)
         Unknown4009(2)
-        Unknown4003('70686566663630305f6669726577616c6c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
+        Unknown4003('pheff600_firewall', '')
         Unknown4015()
         Unknown3033()
         GFX_2('phef_600ground')
