@@ -747,6 +747,7 @@ def CheckOverDriveFreeze():
         Unknown9287()
         Unknown11001(6, 0, 5)
         FreezeCount(6)
+        FreezeDuration(60)
 
         def upon_12():
             ScreenShake(20000, 20000)
@@ -2910,7 +2911,7 @@ def AirThrowExe():
         AirHitstunAnimation(9)
         GroundedHitstunAnimation(9)
         FreezeCount(3)
-        FreezeDuration(70)
+        FreezeDuration(75)
         AirPushbackX(5000)
         AirPushbackY(30000)
         Unknown11099(1)
@@ -3367,7 +3368,7 @@ def Assault():
         if SLOT_110:
             StarterRating(3)
             FreezeCount(6)
-            FreezeDuration(50)
+            FreezeDuration(60)
             AttackP2(89)
         HitOrBlockCancel('Assault_2nd')
         WhiffCancel('Assault_2nd')
@@ -3451,7 +3452,7 @@ def Assault_2nd():
         Unknown9016(1)
         if SLOT_110:
             FreezeCount(6)
-            FreezeDuration(45)
+            FreezeDuration(60)
         Unknown23087(120000)
         sendToLabelUpon(2, 3)
     sprite('jn408_11', 1)
@@ -3509,7 +3510,7 @@ def Assault_D():
         Unknown9016(1)
         StarterRating(3)
         FreezeCount(12)
-        FreezeDuration(50)
+        FreezeDuration(60)
         HitOrBlockCancel('Assault_D_2nd')
         WhiffCancel('Assault_D_2nd')
         ConsumeSuperMeter(-2500)

@@ -65,6 +65,7 @@ def CheckOverDriveShotFreeze():
     if SLOT_110:
         Unknown9287()
         FreezeCount(6)
+        FreezeDuration(60)
         Unknown11001(6, 0, 5)
 
         def upon_12():
