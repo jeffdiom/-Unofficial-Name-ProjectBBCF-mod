@@ -2159,8 +2159,6 @@ def NmlAtk4B():
             AirPushbackX(63000)
             AirPushbackY(25000)
             AirUntechableTime(60)
-            Wallstick(1)
-            WallstickLength(24)
             Wallbounce(1)
             WallbounceReboundTime(35)
             AirHitstunAfterWallbounce(40)
@@ -3283,7 +3281,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        ThrowRange(80000)
+        ThrowRange(90000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -3374,7 +3372,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        ThrowRange(80000)
+        ThrowRange(90000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
