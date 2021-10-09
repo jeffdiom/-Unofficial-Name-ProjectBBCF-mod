@@ -1,0 +1,37 @@
+========================
+Azrael PBBCF alpha v0.86
+========================
+increase initial dash
+increase walkspeed
+
+5BB: increase hitstun
+     hitcancel into 5C, 2C
+     ground bonuces without CH
+
+2B: gatling into 3C
+
+5C: increase hitstun
+
+2C: increase hitstun
+
+6B: jump cancelable now on hit
+
+6A: increase hitstun on counter hit
+
+Valiant Crash (236D): now has bonus proration 110%
+                      can guard break
+                      when fullt charge
+
+Hornet Bunker (214D): now has bonus proration 110%
+                      can guard break
+                      when fully charge
+                      AttackLvl 4 -> 5
+
+Tiger magnum (236C and the follow-ups (6C's)): increase hitstun
+
+gustav buster(236A): +1 -> +2 on block 
+                     increase hitstun
+
+Black Hawk Stinger(236236D): increase hitstun when both weakponits applied
+                             Same with the OD version
+                             OD damage 3700 -> 3800

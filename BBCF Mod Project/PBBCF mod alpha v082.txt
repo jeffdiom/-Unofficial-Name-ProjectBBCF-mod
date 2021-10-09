@@ -1,0 +1,227 @@
+========================
+Kagura PBBCF alpha v0.81
+========================
+Dragon spirit ([4]~6A/B): reduce the charge time input
+                          The B version reduce start-up 40f -> 35f
+
+Dragon's Ascent ([2]~8B/C): reduce the charge time input
+
+5D~A: increase hitstun
+
+5D~B: increase grab range
+
+2D~A: StarterRating 2 -> 3
+      BonusProration 110%
+      Damage 1000 -> 1200
+      F.dash on hitcancel and B.dash on hitcancel 
+
+2D~B: 2nd hit pulls the opponent towards him (OD version)
+
+6D~B: ground bounces on hit
+
+2D~C: 2nd on hit pulls toward the opponent to him
+      hardknockdown
+
+6D~C: guard breaks now
+
+5B: increase hitstun
+
+6B: increase hitstun
+
+5C: increase hitstun
+
+5DA: wallticks now
+
+========================
+Nine PBBCF alpha v0.81
+========================
+Navy Pressire (214C): MaxChain increase 1 -> 3 (only on hit)
+                      Now it moves the opponent towards her
+
+MauVette Roar(214B): JumpCancel on hit now
+
+All Air Normals: increase airuntechable time
+                 increase hitstun
+
+increase F.Walk speed and B.Walk speed
+
+level 3 wind: wall sticks (in the air only)
+              increase slide timer
+
+========================
+Hakumen PBBCF alpha v0.8
+========================
+Increase walkspeed
+
+now has strike backdash inv (only for the body)
+
+2C: reduce start-up 13f -> 11f
+    increase active frame 3f -> 5f
+    increase knockup on hit
+    increase airuntechable time
+
+2A: now can cancel into other normals after 16f instead of 18f
+
+5B: cancels into other normals after 16f instead of 21f
+    increase hitstun
+
+5C: now has gating option to 4C and 6C after 17f and 2C on 21f
+
+2D: increase groundbounce height 7 -> 10
+
+6A: damage 720 -> 750
+
+6B: StarterRating 2 -> 3
+    damage 590 -> 600
+    increase grondbounce height 27 -> 30
+
+6C: no charage damage 1500 -> 1600
+    Partial Charage damage 1700 -> 1800
+                    now has weak guard crush
+    Fully charage now guard crushes 
+                  Damage 2000 -> 2200
+
+j.5C: now wallbounces mid screen
+
+All of his special moves refunds 1 managtama and on normal hits it gives 1/4 of the managtama
+
+CPEX Renka is back. The new input is 236C cost 3 magatama
+
+236C: 2nd hit -> counter hit refund 1 magatama
+      counter hit causes the opponent to crumble
+      counter hit wallsticks
+      counter hit has BonusProrationpct 120%
+      2nd hit refund 1/4 of the magatama
+
+236B: 2nd hit refund 1/4 of the magatama
+
+================================
+Bang Shishigami PBBCF alpha v0.8
+================================
+increase runspeed and walk.f speed
+
+Nails: count 12 -> 18 stocks
+
+2D: StarterRating 2 -> 3
+    now has guardpoint on the head
+
+6B: now has Bonusprotation 110%
+    increase blockstun (-1 -> 0 on block)
+
+j.5C: increase hitstun
+
+623C: Starterrating 2 -> 3
+      reduce start-up 13f -> 10f
+      increase recovery 37f -> 40f
+
+j.623: Starterratin 2 -> 3
+
+Bang's Steel Rain (632146B): recovery 49f -> 39f
+
+========================
+Terumi PBBCF alpha v0.8
+========================
+5C: adjusted the hitbox and the hurtbox
+
+j.5D: adjusted the hitbox
+
+5D: adjusted the hitbox
+
+236D: adjusted the hitbox
+
+j.2D: increase hitstun
+
+==========================
+Kokonoe PBBCF alpha v0.82
+==========================
+Fireball(236A/B/C): it doesn't disapper on block anymore
+
+spin (236B): Airuntechabletime 45 -> 40 (without gravtion)
+
+5C: on FCH now has BonusProration 110% (Fatal Counter Hit)
+
+Drive: ODverison: Remove the miniuimDamage 100%
+                  AttackP2 92 -> 100
+                  Bonusprotation 120%
+
+6C: reverted the start-up 20f -> 22f
+
+5B: On CounterHit forces opponent to be in crouching state
+
+4B (New normal move): it's a mid attack (level 4)
+                      blockstun(21)
+                      24f start-up, active for 5f, 12f of recovery
+                      +5 on Block
+                      it gatling into other normals only on hit not on block
+                      Moves that can gatling into 4B are 5A, 2A, 6A, and 5B
+
+j.2C:reverted the frame data start-up 16f -> 17f
+
+========================
+Ragna PBBCF alpha v0.8
+========================
+2C: BonusProationpct 110% only on counterhit
+    increase hitstun
+    on block +1 -> +2
+    reverted the pushback changes
+
+OverDrive: all of his special moves have BPR 110%
+
+5D: Damage 600 -> 500
+
+623D: AttackP1 reverted and the air version too
+
+214A: AttackP2 92 -> 80
+
+AX kick (j.214D): Damage 1500 -> 1400 reverted
+         OD version Damage 1540 -> 1800
+         AttackP2 70 -> 80
+
+S.Punch (j.214C): AttackP2 89 -> 90
+
+214D: revetred hits overhead  -> mid
+
+========================
+Jubei PBBCF alpha v0.8
+========================
+6C: increase hitstun on counter hit
+
+214B: damage 870 -> 940
+
+Fissuring Impact (B after Fissuring Slash (Air OK)): increase airuntechable time
+                                                     jumpcancel on hit
+
+Form FOUR: Black Panther (632146C 646C during Fissuring Slash (Air OK)): uncharged: can now guard break
+                                                                                    (weaker than the universal guardbreak uncharged)
+                                                                         Charged: forces counter hit
+                                                                                  BPP 110%
+5C: 2nd hit less pushback on block
+
+2C: head inv comes out earlier 10f~15f -> 7f~15f
+
+Form THREE: Wild Lion (214C C during Fissuring Slash (Air OK)): 236A C the rekka version: increase knockup
+                                                                                          Damage 600 -> 800
+5B: increase forward momentum 15000 -> 17500
+
+236C (fireball): increase hitstun
+                 increase blockstun
+
+==========================
+Jin PBBCF alpha v0.82
+==========================
+J.214D: increase block stun ( 0 -> +2) (When TK it)  
+
+22C: AttackP2 100 -> 94 (first hit)
+     Reverted the radius     
+
+Touga Hyojin (632146C): Normal version now has a follow up on hit into Musou Tosshougeki by pressing (Or holding) C
+                        StarterRating 3 -> 2
+                        AttackP2 82 -> 72
+
+6C: reverted the start-up 18f -> 19f
+    gatlting into 6B
+    reduce recovery 31f -> 30f (Frame Adv -13 -> -12)
+
+                                                                      
+                                                                                  
+    
