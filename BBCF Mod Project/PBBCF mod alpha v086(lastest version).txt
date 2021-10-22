@@ -1,16 +1,17 @@
-========================
+==========================
 Azrael PBBCF alpha v0.86
-========================
+==========================
 increase initial dash
 increase walkspeed
 
 5BB: increase hitstun
-     hitcancel into 5C, 2C
+     hitcancel into 2C
      ground bonuces without CH
 
 2B: gatling into 3C
 
 5C: increase hitstun
+    gatling to 5D, 3C, 2C
 
 2C: increase hitstun
 
@@ -28,6 +29,7 @@ Hornet Bunker (214D): now has bonus proration 110%
                       AttackLvl 4 -> 5
 
 Tiger magnum (236C and the follow-ups (6C's)): increase hitstun
+                                               increase active frames
 
 gustav buster(236A): +1 -> +2 on block 
                      increase hitstun
@@ -35,3 +37,33 @@ gustav buster(236A): +1 -> +2 on block
 Black Hawk Stinger(236236D): increase hitstun when both weakponits applied
                              Same with the OD version
                              OD damage 3700 -> 3800
+
+
+==========================
+Ragna PBBCF alpha v0.86
+==========================
+Ax Kick (214D after Upper): AttackP2 82 -> 70
+
+==========================
+Nine PBBCF alpha v0.86
+==========================
+214B: remove the jump cancel on hit
+
+214C: Max Chain 3 -> 2 on hit
+
+==========================
+Hazama PBBCF alpha v0.86
+==========================
+6A: start-up reduce 22f -> 21f
+    starter rating 2 -> 3
+    
+6B: start-up reduce 25f -> 24f
+
+Serpent's Haste - Kamae Chuudan (214B/D~D): reduce recovery 18f -> 16f
+
+==========================
+Kokonoe PBBCF alpha v0.86
+==========================
+Fireball (214A/B/C): increase hitstun
+
+Broken Bunker Bomb (236[A]): CounterHit -> FatalCounterHit
