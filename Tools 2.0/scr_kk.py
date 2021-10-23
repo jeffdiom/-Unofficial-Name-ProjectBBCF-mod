@@ -2128,7 +2128,6 @@ def NmlAtk4B():
         Damage(500)
         blockstun(21)
         BonusProrationPct(110)
-        hitstun(19)
         StarterRating(3)
         AirHitstunAnimation(10)
         PushbackX(15000)
@@ -2136,7 +2135,7 @@ def NmlAtk4B():
         AirPushbackY(30000)
         AirUntechableTime(36)
         PunchFX(1)
-        Hitstop(16)
+        Hitstop(13)
         HitJumpCancel(1)
         HitCancel('NmlAtk6A')
         HitCancel('NmlAtk5B')
@@ -2153,7 +2152,6 @@ def NmlAtk4B():
             AttackP1(100)
             AttackP2(100)
             hitstun(21)
-            Hitstop(13)
             GroundedHitstunAnimation(19)
             AirHitstunAnimation(19)
             AirPushbackX(63000)
@@ -2166,7 +2164,7 @@ def NmlAtk4B():
             StarterRating(3)
         
         def upon_12():
-            PushbackX(15000)
+            PushbackX(14000)
 
     sprite('kk450_17', 4)
     physicsXImpulse(-5000)
@@ -2444,7 +2442,7 @@ def NmlAtk3C():
     sprite('kk235_07', 2)
     sprite('kk235_08', 2)
     GenericSFX(2)
-    sprite('kk235_09', 5)
+    sprite('kk235_09', 3)
     RefreshMultihit()
     GroundedHitstunAnimation(11)
     AirHitstunAnimation(11)
@@ -2794,9 +2792,6 @@ def NmlAtkAIR5A():
         HitOrBlockCancel('CrouchDrive')
         HitOrBlockJumpCancel(1)
 
-        def upon_12():
-            PushbackX(-1000)
-
         def upon_3():
             if SLOT_52:
                 HitOverhead(0)
@@ -2945,6 +2940,9 @@ def NmlAtkAIR2C():
         StarterRating(3)
         blockstun(19)
         HitOrBlockCancel('AirDrive')
+
+        def upon_60():
+            AirHitstunAfterWallbounce(60)
 
         def upon_ON_HIT_OR_BLOCK():
             clearUponHandler(10)
@@ -3277,7 +3275,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        ThrowRange(90000)
+        ThrowRange(80000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -3368,7 +3366,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        ThrowRange(90000)
+        ThrowRange(80000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -7233,7 +7231,7 @@ def AstralHeat():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('AstralHeat_2nd', 5, 0, 0)
-        ThrowRange(300000)
+        ThrowRange(200000)
 
         def upon_3():
             if (SLOT_2 > 3):

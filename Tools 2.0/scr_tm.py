@@ -4377,10 +4377,8 @@ def MidAssault():
 
         def upon_60():
             AttackLevel_(5)
-            BonusProrationPct(110)
             hitstun(30)
-            AttackP2(100)
-            AttackP1(100)
+            AttackP1(94)
 
         def upon_11():
             ScreenShake(3000, 10000)

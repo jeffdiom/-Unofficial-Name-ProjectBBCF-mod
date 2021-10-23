@@ -1860,6 +1860,7 @@ def efkk_fireball_Hontai():
         ChipPercentage(8)
         AttackP1(80)
         AttackP2(75)
+        hitstun(19)
         Unknown11092(1)
         AirUntechableTime(30)
         Hitstop(4)
@@ -2615,6 +2616,7 @@ def efkk400_Hand002nd():
         AirHitstunAnimation(10)
         GroundedHitstunAnimation(10)
         GroundUntechableTime(-1)
+        FatalCounter(1)
         AirPushbackX(2000)
         AirPushbackY(12000)
         PushbackX(12000)
@@ -2623,6 +2625,9 @@ def efkk400_Hand002nd():
         Unknown4008(3)
         FireFX(1)
         sendToLabelUpon(34, 2)
+
+        def upon_60():
+            AttackLevel_(5)
 
         def upon_45():
             Unknown2071(22, 0, -50000, 100, 1)
