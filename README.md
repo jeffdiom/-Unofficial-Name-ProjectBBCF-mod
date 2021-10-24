@@ -1,5 +1,6 @@
 # -Unofficial-Name-ProjectBBCF-mod
 * The goal of this mod is to buff the low to high (depends) tier characters. Another goal of this mod is bringing returning movesets, framedatas and/or properties from BBCPEX (maybe other BB games) in BBCF.
+* This is a BlazBlue Centralfiction mod
 
 * Name Suggestions: Blazblue ChronoFiction or BBCF Plus.  
 
