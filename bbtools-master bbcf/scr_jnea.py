@@ -64,7 +64,8 @@ def EMB_JN_AH():
 def CheckOverDriveShotFreeze():
     if SLOT_110:
         Unknown9287()
-        FreezeCount(6)
+        FreezeCount(4)
+        Unknown9019(1)
         FreezeDuration(60)
         Unknown11001(6, 0, 5)
 
@@ -76,6 +77,7 @@ def CheckOverDriveSpecial():
     if SLOT_110:
         Unknown11043(100)
         Unknown23181(0)
+        Unknown9019(1)
 
 @State
 def ModelMagicCircle1():
@@ -486,7 +488,7 @@ def IcicleAttack():
         Unknown3001(255)
         callSubroutine('CheckOverDriveShotFreeze')
         if SLOT_110:
-            FreezeCount(6)
+            FreezeCount(4)
             FreezeDuration(60)
         FireBallMultiHit(1, 0, 0, 0, 0, 1, 1, 1)
 
@@ -641,7 +643,7 @@ def EffAtk6D():
             DisableAttackRestOfMove()
         callSubroutine('CheckOverDriveShotFreeze')
         if SLOT_110:
-            FreezeCount(6)
+            FreezeCount(4)
             FreezeDuration(60)
     sprite('vrjnef213_00', 3)
     GFX_0('EffAtk6D_Env', -1)

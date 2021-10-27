@@ -734,6 +734,7 @@ def CheckOverDriveNormal():
     if SLOT_110:
         FreezeCount(4)
         FreezeDuration(36)
+        Unknown9019(1)
 
     def upon_12():
         if SLOT_110:
@@ -747,6 +748,7 @@ def CheckOverDriveFreeze():
         Unknown9287()
         Unknown11001(6, 0, 5)
         FreezeCount(6)
+        Unknown9019(1)
         FreezeDuration(60)
 
         def upon_12():
@@ -1718,17 +1720,31 @@ def CmnActAirBurstEnd():
 
 @State
 def CmnActOverDriveBegin():
+    sprite('jn611_00', 3)
+    sprite('jn611_01', 3)
+    sprite('jn611_02', 3)
+    Unknown23119(16639, 20, 1)
+    sprite('jn611_03', 3)
+    GFX_0('EMB_JN_OD', -1)
+    sprite('jn611_04', 3)
+    sprite('jn611_05', 3)
+    sprite('jn611_06', 3)
+    sprite('jn611_07', 3)
+    sprite('jn611_08', 3)
+    sprite('jn611_09', 3)
+    sprite('jn611_10', 3)
+    sprite('jn611_11', 3)
+    sprite('jn611_12', 3)
+    sprite('jn611_13', 3)
     sprite('jn333_00', 3)
     sprite('jn333_01', 3)
     sprite('jn333_02', 3)
-    Unknown23119(16639, 20, 1)
     sprite('jn333_03', 32767)
-    GFX_0('EMB_JN_OD', -1)
     loopRest()
 
 @State
 def CmnActOverDriveLoop():
-    sprite('jn333_04', 3)
+    sprite('jn333_04', 5)
     Unknown23118(16639)
     Unknown23119(0, 20, 1)
     label(0)
@@ -1924,8 +1940,8 @@ def NmlAtk5D():
         callSubroutine('CheckDriveFlash')
         callSubroutine('CheckOverDriveFreeze')
         if SLOT_110:
-            FreezeCount(6)
-            FreezeDuration(40)
+            FreezeCount(4)
+            FreezeDuration(45)
         HitOrBlockCancel('ShortDash')
     sprite('jn203_00', 2)
     Unknown1019(25)
@@ -2094,6 +2110,7 @@ def NmlAtk3C():
         Unknown2004(1, 0)
         callSubroutine('OverDrivePowerUpSkill')
         if SLOT_110:
+            Unknown9019(1)
             FreezeCount(4)
             FreezeDuration(45)
     sprite('jn235_00', 2)
@@ -2161,7 +2178,7 @@ def NmlAtkAIR5A():
         AttackDefaults_AirNormal()
         AttackLevel_(1)
         Damage(300)
-        hitstun(15)
+        hitstun(14)
         PushbackX(12000)
         AttackP1(80)
         StarterRating(2)
@@ -2191,7 +2208,6 @@ def NmlAtkAIR5B():
     def upon_IMMEDIATE():
         AttackDefaults_AirNormal()
         AttackLevel_(3)
-        hitstun(16)
         Damage(600)
         AttackP1(80)
         AirPushbackX(3000)
@@ -2228,7 +2244,7 @@ def NmlAtkAIR2C():
         AttackDefaults_AirNormal()
         AttackLevel_(3)
         Damage(850)
-        hitstun(18)
+        hitstun(19)
         AttackP1(80)
         AirPushbackX(8000)
         AirPushbackY(23000)
@@ -2267,7 +2283,7 @@ def NmlAtkAIR5C():
         AttackDefaults_AirNormal()
         AttackLevel_(3)
         Damage(850)
-        hitstun(18)
+        hitstun(19)
         AttackP1(80)
         AirPushbackX(8000)
         AirPushbackY(23000)
@@ -2320,7 +2336,7 @@ def NmlAtkAIR5D():
         callSubroutine('CheckDriveFlash')
         callSubroutine('CheckOverDriveFreeze')
         if SLOT_110:
-            FreezeCount(6)
+            FreezeCount(4)
             FreezeDuration(90)
     sprite('jn253_00', 3)
     sprite('jn253_01', 3)
@@ -2466,6 +2482,7 @@ def NmlAtk6C():
         Unknown9016(1)
         callSubroutine('OverDrivePowerUpSkill')
         if SLOT_110:
+            Unknown9019(1)
             FreezeCount(4)
             FreezeDuration(50)
         HitOrBlockCancel('NmlAtk6B')
@@ -3380,6 +3397,7 @@ def Assault():
         Unknown9016(1)
         StarterRating(2)
         if SLOT_110:
+            Unknown9019(1)
             StarterRating(3)
             FreezeCount(6)
             FreezeDuration(50)
@@ -3465,6 +3483,7 @@ def Assault_2nd():
         Unknown11058('0100000000000000000000000000000000000000')
         Unknown9016(1)
         if SLOT_110:
+            Unknown9019(1)
             FreezeCount(6)
             FreezeDuration(50)
         Unknown23087(120000)
@@ -3839,6 +3858,7 @@ def AirAssault():
         Unknown9016(1)
         StarterRating(2)
         if SLOT_110:
+            Unknown9019(1)
             FreezeCount(6)
             FreezeDuration(60)
         callSubroutine('CheckDriveFlash')
@@ -4004,6 +4024,7 @@ def AntiAir_Fast():
         Unknown9016(1)
         StarterRating(2)
         if SLOT_110:
+            Unknown9019(1)
             FreezeCount(6)
             FreezeDuration(60)
         callSubroutine('CheckDriveFlash')
@@ -4064,6 +4085,7 @@ def AntiAir_Slow():
         Unknown9016(1)
         Unknown2004(1, 0)
         if SLOT_110:
+            Unknown9019(1)
             FreezeCount(6)
             FreezeDuration(90)
         setInvincible(1)
@@ -4159,6 +4181,7 @@ def AntiAir_D():
     HitLow(4)
     HitAirUnblockable(4)
     FatalCounter(1)
+    Unknown9019(1)
     AttackP1(100)
     AttackP2(100)
     BonusProrationPct(110)
@@ -4183,7 +4206,6 @@ def AntiAir_D():
         Unknown10000(80)
     AttackLevel_(4)
     Hitstop(20)
-    AttackP1(80)
     AirHitstunAnimation(12)
     GroundedHitstunAnimation(12)
     AirPushbackX(48000)
