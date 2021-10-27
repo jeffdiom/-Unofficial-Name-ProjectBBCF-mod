@@ -1217,7 +1217,7 @@ def efkk_Drive():
     SFX_3('kkse_10')
     Unknown2003(0)
     PhysicsPull(6, -50000, -30000)
-    SLOT_31 = (SLOT_31 + (-1))
+    SLOT_31 = (SLOT_31 + (-150))
     Unknown2037(1)
     sprite('vrkkef203weapon07', 4)
     sprite('vrkkef203weapon08', 20)
@@ -1374,7 +1374,7 @@ def efkk_Drive_OD():
     SFX_3('kkse_10')
     Unknown2003(0)
     PhysicsPull(6, -50000, -30000)
-    SLOT_31 = (SLOT_31 + (-1))
+    SLOT_31 = (SLOT_31 + (-150))
     Unknown2037(1)
     sprite('vrkkef203weapon07', 4)
     sprite('vrkkef203weapon08', 20)
@@ -1860,7 +1860,7 @@ def efkk_fireball_Hontai():
         ChipPercentage(8)
         AttackP1(80)
         AttackP2(75)
-        hitstun(19)
+        hitstun(17)
         Unknown11092(1)
         AirUntechableTime(30)
         Hitstop(4)
@@ -2620,7 +2620,7 @@ def efkk400_Hand002nd():
         AirPushbackX(2000)
         AirPushbackY(12000)
         PushbackX(12000)
-        AirUntechableTime(120)
+        AirUntechableTime(60)
         Unknown12052(1)
         Unknown4008(3)
         FireFX(1)
@@ -2628,6 +2628,8 @@ def efkk400_Hand002nd():
 
         def upon_60():
             AttackLevel_(5)
+            hitstun(21)
+            AirUntechableTime(120)
 
         def upon_45():
             Unknown2071(22, 0, -50000, 100, 1)
