@@ -1133,12 +1133,16 @@ def efkk_Drive():
         Unknown12052(1)
         StarterRating(3)
         callSubroutine('Drive_SetPosition')
+        SLOT_31 = (SLOT_31 + (-150))
         SLOT_5 = 1
         PhysicsPull(999, 5000, 3000)
 
         def upon_3():
             if (not SLOT_21):
                 sendToLabel(0)
+            if (SLOT_5 == 1):
+                if (not SLOT_31):
+                    sendToLabel(0)
             if (SLOT_5 == 2):
                 Unknown7015()
                 PhysicsPull(0, 0, 0)
@@ -1287,6 +1291,7 @@ def efkk_Drive_OD():
         Unknown11063(1)
         Unknown12052(1)
         callSubroutine('Drive_SetPosition')
+        SLOT_31 = (SLOT_31 + (-100))
         SLOT_5 = 1
         PhysicsPull(999, 10000, 6000)
 
@@ -1294,6 +1299,9 @@ def efkk_Drive_OD():
             Unknown21012('SpinAssault', 32)
             if (not SLOT_21):
                 sendToLabel(0)
+            if (SLOT_5 == 1):
+                if (not SLOT_31):
+                    sendToLabel(0)
             if (SLOT_5 == 2):
                 Unknown7015()
                 PhysicsPull(0, 0, 0)
@@ -1374,7 +1382,7 @@ def efkk_Drive_OD():
     SFX_3('kkse_10')
     Unknown2003(0)
     PhysicsPull(6, -50000, -30000)
-    SLOT_31 = (SLOT_31 + (-150))
+    SLOT_31 = (SLOT_31 + (-100))
     Unknown2037(1)
     sprite('vrkkef203weapon07', 4)
     sprite('vrkkef203weapon08', 20)

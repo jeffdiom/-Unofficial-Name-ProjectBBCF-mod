@@ -4499,7 +4499,7 @@ def AirAssault_B():
     sprite('rg411_08', 1)
     RefreshMultihit()
     AirHitstunAnimation(17)
-    AirPushbackX(9000)
+    AirPushbackX(6000)
     GroundUntechableTime(1)
     Unknown9083()
     YImpluseBeforeWallbounce(2000)

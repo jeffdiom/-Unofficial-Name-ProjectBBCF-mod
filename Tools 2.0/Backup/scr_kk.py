@@ -34,7 +34,7 @@ def MatchInit():
     Unknown12024(2)
     Unknown13039(0)
     Unknown2049(1)
-    Unknown23003(0, 1, 48, 1, 1500, 1500, 4278255615, 4278255615)
+    Unknown23003(0, 1, 48, 1, 1650, 1650, 4278255615, 4278255615)
     Unknown23005(0, 0)
     Unknown23041(0, 1)
     Unknown23003(1, 1, 46, 1, 1, 1, 4294901760, 4294901760)
@@ -43,6 +43,8 @@ def MatchInit():
     Unknown23003(2, 1, 47, 1, 1, 1, 4294901760, 4294901760)
     Unknown23041(2, 1)
     Unknown23044(2, 1)
+    Unknown23003(3, 0, 48, 1, 240, 0, 4294967295, 4294967295)
+    Unknown23041(0, 1)
     Unknown15018(500)
     Move_Register('NmlAtkExcite', 0x602)
     Move_EndRegister()
@@ -771,11 +773,7 @@ def FuncAtkDrive():
     SLOT_4 = 0
     SLOT_47 = 0
     if (not (SLOT_5 == 2)):
-        if SLOT_110:
-            if (SLOT_31 >= 100):
-                callSubroutine('FuncAtkDrive_Set')
-        elif (SLOT_31 >= 150):
-            callSubroutine('FuncAtkDrive_Set')
+        callSubroutine('FuncAtkDrive_Set')
 
 @Subroutine
 def FuncAtkDrive_Set():
@@ -830,6 +828,9 @@ def DriveSet():
     else:
         GFX_0('efkk_Drive', -1)
     Unknown38(5, 1)
+    SLOT_31 = (SLOT_31 + (-150))
+    if (not SLOT_110):
+        SLOT_34 = 0
     if (SLOT_59 == 1):
         Unknown21007(5, 33)
     if (SLOT_59 == 2):
@@ -853,11 +854,7 @@ def DriveSet():
 def CheckAtkDrive_2ndAvailable():
     SLOT_47 = 0
     if (SLOT_5 == 1):
-        if SLOT_110:
-            if (SLOT_31 >= 100):
-                SLOT_47 = 1
-        elif (SLOT_31 >= 150):
-            SLOT_47 = 1
+        SLOT_47 = 1
 
 @Subroutine
 def CheckDrive_StopAvailable():
@@ -900,32 +897,34 @@ def OnFrameStep():
     else:
         Unknown23006(2, 50)
     if (not SLOT_81):
-        SLOT_31 = (SLOT_31 + SLOT_61)
         if (not SLOT_5):
             if (not SLOT_7):
                 SLOT_63 = (SLOT_63 + 1)
-                if (SLOT_63 > 30):
-                    Unknown23007(0, 4278255424)
-                    if SLOT_110:
-                        SLOT_61 = 10
-                    else:
-                        SLOT_61 = 3
-            if (SLOT_7 == 2):
-                SLOT_61 = 0
-        else:
-            if (SLOT_5 == 1):
                 Unknown23007(0, 4278255424)
-                if SLOT_110:
-                    SLOT_61 = 4
-                else:
-                    SLOT_61 = (-2)
-            if (SLOT_5 == 2):
-                Unknown23007(0, 4294967040)
-                SLOT_61 = 0
-            if (SLOT_5 == 3):
-                SLOT_61 = 0
-            if (SLOT_7 == 2):
-                SLOT_61 = 0
+                if (SLOT_63 > 30):
+                    if (SLOT_34 < 120):
+                        if (SLOT_31 < 1650):
+                            if SLOT_110:
+                                SLOT_34 = (SLOT_34 + 5)
+                            else:
+                                SLOT_34 = (SLOT_34 + 3)
+                    else:
+                        SLOT_31 = (SLOT_31 + 50)
+                        SLOT_34 = 0
+        else:
+            if SLOT_110:
+                if (not SLOT_7):
+                    if (SLOT_31 < 1650):
+                        if (SLOT_34 < 120):
+                            if SLOT_110:
+                                SLOT_34 = (SLOT_34 + 5)
+                        else:
+                            SLOT_31 = (SLOT_31 + 50)
+                            SLOT_34 = 0
+            if (SLOT_5 == 1):
+                pass
+            if (SLOT_5 >= 2):
+                pass
     if SLOT_21:
         if SLOT_116:
             HeatChange(3)
@@ -939,7 +938,7 @@ def OnFrameStep():
         if SLOT_67:
             if (not SLOT_5):
                 if SLOT_90:
-                    SLOT_31 = 1500
+                    SLOT_31 = 1200
 
 @Subroutine
 def OnLanding():
@@ -2197,7 +2196,7 @@ def NmlAtk5C():
         ProjectileDurabilityLvl(1)
         Damage(800)
         hitstun(21)
-        blockstun(15)
+        blockstun(16)
         Hitstop(7)
         AirHitstunAnimation(17)
         AirUntechableTime(40)
@@ -3749,7 +3748,7 @@ def Drive_Stop():
     GFX_0('efkk_denpa2', 0)
     Unknown21012('efkk_Drive', 37)
     Unknown21012('efkk_Drive_OD', 37)
-    SLOT_61 = (SLOT_61 + 155)
+    SLOT_34 = (SLOT_34 + 60)
     sprite('kk203_05', 3)
     Unknown20(2, 2, 110)
     Recovery()
@@ -3784,7 +3783,7 @@ def Drive_StopAir():
     GFX_0('efkk_denpa', 0)
     Unknown21012('efkk_Drive', 37)
     Unknown21012('efkk_Drive_OD', 37)
-    SLOT_61 = (SLOT_61 + 155)
+    SLOT_34 = (SLOT_34 + 60)
     sprite('kk254_05', 3)
     Unknown20(2, 2, 110)
     Recovery()
