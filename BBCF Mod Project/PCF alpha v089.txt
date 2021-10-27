@@ -1,0 +1,110 @@
+==========================
+PCF alpha v0.89
+==========================
+*** Universal Changes ***
+
+Adjusted the aerial attack air untechabletimes and hitstun to the current modded characters (All characters won't get listed but I hope you know what I mean by that).
+
+Also with 3C with an untechabletime to 60f
+
+*** Universal Mechanics ***
+
+Adjusted the throw grab range depending on the character throw animation
+
+Throws F/B/Air: StaterRating 2 -> 3
+
+==========================
+Ragna alpha v0.89
+==========================
+Increase the Lifesteal valve from the base game.
+Drive: Soul Eater: 1st - 5th Soul Eater hit = 110% - 150% lifesteal
+                   6th - 10th Soul Eater hit = 160% - 200% lifesteal
+                   11th - 16th Soul Eater hit = 220%, 240%, 260%, 280%, 300%, 400% lifesteal
+
+Overdrive: Blood Kain IDEA: 110% BBP (except for supers)
+
+5B: Airuntechabletime 22 -> 19f
+
+5C: Airuntechabletime 26 -> 21f
+
+5D: Airuntechabletime 30 -> 26f
+
+22C: wallstick duration 30 -> 21
+     New: OD version wallstick duration 21 -> 30
+
+Ax kick (214D after 236C): OD damage 1800 -> 1500
+                           Now has SMP
+                           Normal version: AttackP2 82 -> 70
+                           
+Staright Punch (236C after 236C): AttackP2 82 -> 92
+                                  Now has 110% BBP
+
+Devoured by Darkness (214214D): Lifesteal 500 -> 750
+                                OD Lifesteal 1000 -> 1500
+
+==========================
+Jin alpha v0.89
+==========================
+Overdrive: Frost End: 5C, 2C, 3C, 6C, j.C, j.2C freeze count 3 -> 4
+                      5D, 2D, 6D, j.D freeze count 3 -> 4
+		      Special moves freeze count 5 -> 6.
+                      Freeze Particles on the opponent
+                      New animation
+
+Drive: Frostbite: EX specials freeze count 10 -> 12
+                  5D, 2D, 6D, j.D freeze count 1 -> 2
+
+6C: gatling to 6B
+
+6A: CH: AttackP1 80 -> 94
+        increase hitstun
+    
+2B: active frames 2f -> 3f
+
+5C: Airuntechabletime 28 -> 27f
+
+j.5C: Airuntechabletime 28 -> 27f
+
+j.2C: Airuntechabletime 28 -> 27f
+
+==========================
+Kokonoe alpha v0.89
+==========================
+Drive: Graviton: Reworked into a gauge meeter instead of 9 stock count
+                 Rechrages fasters (4 seconds -> 2 seconds)
+                 214D: Faster Recharge (2.5 seconds -> 1 seconds)
+                 (WIP STILL)
+
+Fireball: increase hitstun (14f -> 17f)
+
+3C: Decrease the active frames on the second hit 5f -> 3f
+
+J.5A: increase hitstun 13f -> 14f
+
+==========================
+Nine alpha v0.89
+==========================
+j.5a, 2a: increase airuntechabletime and hitstun
+
+j.5b, 2b: increase airuntechabletime and hitstun
+
+j.5c, 2c: increase airuntechabletime and hitstun
+
+Navy Pressure (214C): MaxChainCount 3 -> 2
+
+==========================
+Hazama alpha v0.89
+==========================
+6A: CH AttackP1 80 -> 94
+       increase hitstun
+
+==========================
+Terumi alpha v0.89
+==========================
+Cleaving Fang - Garengeki (22C): decrease wallstick duration 30f - 27f
+
+Agonizing Fang - Tsuishouga (214C): CH: AttackP1 80 -> 94
+                                        increase hitstun
+6C: Now Has SMP
+
+
