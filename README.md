@@ -15,7 +15,7 @@ This project was heavily insipred by Guilty Gear Xrd Rev0 and Project M/+.
 
 # Project CF Universal Mechanics Changes
 * Universial changes for All of the Characters Throw range (No Longer have pitful throw range)
-* Soon every character will have their 3C's to have airuntechabletime to be 60f
+* Soon every character will have their 3C's to have an airuntechabletime to be 60f
 * Forward/Back/Air throws for every character will have StarterRating 2 -> 3 (Longer combo off of it)
 * Returning Moves are coming back from previous Blazblue titles
 * And More Coming Soon
