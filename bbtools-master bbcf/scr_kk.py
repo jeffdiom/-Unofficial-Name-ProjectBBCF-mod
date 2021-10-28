@@ -34,7 +34,7 @@ def MatchInit():
     Unknown12024(2)
     Unknown13039(0)
     Unknown2049(1)
-    Unknown23003(0, 1, 48, 1, 1650, 1650, -16711681, -16711681)
+    Unknown23003(0, 1, 48, 1, 1500, 1500, -16711681, -16711681)
     Unknown23005(0, 0)
     Unknown23041(0, 1)
     Unknown23003(1, 1, 46, 1, 1, 1, -65536, -65536)
@@ -43,8 +43,6 @@ def MatchInit():
     Unknown23003(2, 1, 47, 1, 1, 1, -65536, -65536)
     Unknown23041(2, 1)
     Unknown23044(2, 1)
-    Unknown23003(3, 0, 48, 1, 240, 0, -1, -1)
-    Unknown23041(0, 1)
     Unknown15018(500)
     Move_Register('NmlAtkExcite', 0x602)
     Move_EndRegister()
@@ -773,7 +771,11 @@ def FuncAtkDrive():
     SLOT_4 = 0
     SLOT_47 = 0
     if (not (SLOT_5 == 2)):
-        callSubroutine('FuncAtkDrive_Set')
+        if SLOT_110:
+            if (SLOT_31 >= 100):
+                callSubroutine('FuncAtkDrive_Set')
+        elif (SLOT_31 >= 200):
+            callSubroutine('FuncAtkDrive_Set')
 
 @Subroutine
 def FuncAtkDrive_Set():
@@ -828,9 +830,6 @@ def DriveSet():
     else:
         GFX_0('efkk_Drive', -1)
     Unknown38(5, 1)
-    SLOT_31 = (SLOT_31 + (-150))
-    if (not SLOT_110):
-        SLOT_34 = 0
     if (SLOT_59 == 1):
         Unknown21007(5, 33)
     if (SLOT_59 == 2):
@@ -854,7 +853,11 @@ def DriveSet():
 def CheckAtkDrive_2ndAvailable():
     SLOT_47 = 0
     if (SLOT_5 == 1):
-        SLOT_47 = 1
+        if SLOT_110:
+            if (SLOT_31 >= 100):
+                SLOT_47 = 1
+        elif (SLOT_31 >= 200):
+            SLOT_47 = 1
 
 @Subroutine
 def CheckDrive_StopAvailable():
@@ -897,34 +900,32 @@ def OnFrameStep():
     else:
         Unknown23006(2, 50)
     if (not SLOT_81):
+        SLOT_31 = (SLOT_31 + SLOT_34)
         if (not SLOT_5):
             if (not SLOT_7):
                 SLOT_63 = (SLOT_63 + 1)
                 Unknown23007(0, -16711872)
                 if (SLOT_63 > 30):
-                    if (SLOT_34 < 120):
-                        if (SLOT_31 < 1650):
-                            if SLOT_110:
-                                SLOT_34 = (SLOT_34 + 5)
-                            else:
-                                SLOT_34 = (SLOT_34 + 3)
+                    if SLOT_110:
+                        SLOT_34 = 10
                     else:
-                        SLOT_31 = (SLOT_31 + 50)
-                        SLOT_34 = 0
+                        SLOT_34 = 6
+            if (SLOT_7 == 2):
+                SLOT_34 = 0
         else:
-            if SLOT_110:
-                if (not SLOT_7):
-                    if (SLOT_31 < 1650):
-                        if (SLOT_34 < 120):
-                            if SLOT_110:
-                                SLOT_34 = (SLOT_34 + 5)
-                        else:
-                            SLOT_31 = (SLOT_31 + 50)
-                            SLOT_34 = 0
             if (SLOT_5 == 1):
-                pass
-            if (SLOT_5 >= 2):
-                pass
+                if SLOT_110:
+                   Unknown23007(0, -16711681)
+                   SLOT_34 = (-1)
+                else:
+                    SLOT_34 = (-2)
+            if (SLOT_5 == 2):
+                Unknown23007(0, -256)
+                SLOT_34 = 0
+            if (SLOT_5 == 3):
+                SLOT_34 = 0
+            if (SLOT_7 == 2):
+                SLOT_34 = 0
     if SLOT_21:
         if SLOT_116:
             ConsumeSuperMeter(3)
@@ -938,7 +939,7 @@ def OnFrameStep():
         if SLOT_67:
             if (not SLOT_5):
                 if SLOT_90:
-                    SLOT_31 = 1200
+                    SLOT_31 = 1500
 
 @Subroutine
 def OnLanding():
