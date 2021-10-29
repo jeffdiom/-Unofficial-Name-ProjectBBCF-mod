@@ -11,7 +11,7 @@ This project was heavily insipred by Guilty Gear Xrd Rev0 and Project M/+.
 
 *Project +: https://projectplusgame.com/download (The guide is in this website)
 
-*Other: BBCF Unlimited MOD (Created by TAMURA_1213 https://www.nexusmods.com/blazbluecentralfiction/mods/5)
+*Other: BBCF Unlimited MOD (Created by (B)aroque https://www.nexusmods.com/blazbluecentralfiction/mods/5)
 
 # Project CF Universal Mechanics Changes
 * Universial changes for all of the characters Throw range (No Longer have pitful throw range)
