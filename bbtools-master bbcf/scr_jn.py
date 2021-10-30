@@ -2064,6 +2064,10 @@ def NmlAtk2C():
         HitOrBlockCancel('NmlAtk6D')
         HitOrBlockCancel('NmlAtk2D')
         HitOrBlockJumpCancel(1)
+
+        def upon_60():
+            AirUntechableTime(24)
+
     sprite('jn232_00', 4)
     sprite('jn232_01', 4)
     sprite('jn232_02', 5)
@@ -2254,6 +2258,10 @@ def NmlAtkAIR2C():
         HitOrBlockCancel('NmlAtkAIR5C')
         HitOrBlockCancel('NmlAtkAIR5D')
         HitOrBlockJumpCancel(1)
+
+        def upon_60():
+            AirUntechableTime(19)
+
     sprite('jn252_00', 2)
     sprite('jn252_01', 2)
     sprite('jn252_01', 2)
@@ -2293,6 +2301,10 @@ def NmlAtkAIR5C():
         HitOrBlockCancel('NmlAtkAIR5D')
         HitOrBlockCancel('NmlAtkAIR2C')
         HitJumpCancel(1)
+
+        def upon_60():
+            AirUntechableTime(19)
+
     sprite('jn412_00', 5)
     sprite('jn412_01', 2)
     Unknown22004(5, 1)
