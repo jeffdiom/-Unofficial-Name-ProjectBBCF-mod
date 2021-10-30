@@ -774,7 +774,7 @@ def FuncAtkDrive():
         if SLOT_110:
             if (SLOT_31 >= 100):
                 callSubroutine('FuncAtkDrive_Set')
-        elif (SLOT_31 >= 150):
+        elif (SLOT_31 >= 200):
             callSubroutine('FuncAtkDrive_Set')
 
 @Subroutine
@@ -856,7 +856,7 @@ def CheckAtkDrive_2ndAvailable():
         if SLOT_110:
             if (SLOT_31 >= 100):
                 SLOT_47 = 1
-        elif (SLOT_31 >= 150):
+        elif (SLOT_31 >= 200):
             SLOT_47 = 1
 
 @Subroutine
@@ -869,6 +869,7 @@ def CheckDrive_StopAvailable():
 @Subroutine
 def Drive_2ndCall():
     SLOT_5 = 3
+    Unknown23007(0, 4294967040)
 
 @Subroutine
 def Delete_hole():
@@ -909,14 +910,14 @@ def OnFrameStep():
                     if SLOT_110:
                         SLOT_61 = 10
                     else:
-                        SLOT_61 = 3
+                        SLOT_61 = 4
             if (SLOT_7 == 2):
                 SLOT_61 = 0
         else:
             if (SLOT_5 == 1):
                 Unknown23007(0, 4278255424)
                 if SLOT_110:
-                    SLOT_61 = 4
+                    SLOT_61 = 2
                 else:
                     SLOT_61 = (-2)
             if (SLOT_5 == 2):
@@ -2553,7 +2554,7 @@ def NmlAtk6B():
         Damage(500)
         AttackP1(90)
         hitstun(24)
-        StarterRating(3)
+        StarterRating(2)
         AirUntechableTime(40)
         AirPushbackY(-40000)
         PushbackX(12000)
@@ -3749,7 +3750,7 @@ def Drive_Stop():
     GFX_0('efkk_denpa2', 0)
     Unknown21012('efkk_Drive', 37)
     Unknown21012('efkk_Drive_OD', 37)
-    SLOT_61 = (SLOT_61 + 155)
+    SLOT_61 = (SLOT_61 + 205)
     sprite('kk203_05', 3)
     Unknown20(2, 2, 110)
     Recovery()
@@ -3784,7 +3785,7 @@ def Drive_StopAir():
     GFX_0('efkk_denpa', 0)
     Unknown21012('efkk_Drive', 37)
     Unknown21012('efkk_Drive_OD', 37)
-    SLOT_61 = (SLOT_61 + 155)
+    SLOT_61 = (SLOT_61 + 205)
     sprite('kk254_05', 3)
     Unknown20(2, 2, 110)
     Recovery()
@@ -4872,7 +4873,7 @@ def UltimateShot_A():
     sprite('kk430_05', 6)
     sprite('kk430_06', 4)
     sprite('kk430_07', 4)
-    physicsXImpulse(3000)
+    physicsXImpulse(3300)
     Unknown8007(100, 1, 1)
     sprite('kk430_08', 3)
     Unknown1019(500)

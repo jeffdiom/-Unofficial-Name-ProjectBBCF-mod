@@ -1133,7 +1133,7 @@ def efkk_Drive():
         Unknown12052(1)
         StarterRating(3)
         callSubroutine('Drive_SetPosition')
-        SLOT_31 = (SLOT_31 + (-150))
+        SLOT_31 = (SLOT_31 + (-200))
         SLOT_5 = 1
         PhysicsPull(999, 5000, 3000)
 
@@ -1221,7 +1221,7 @@ def efkk_Drive():
     SFX_3('kkse_10')
     Unknown2003(0)
     PhysicsPull(6, -50000, -30000)
-    SLOT_31 = (SLOT_31 + (-150))
+    SLOT_31 = (SLOT_31 + (-200))
     Unknown2037(1)
     sprite('vrkkef203weapon07', 4)
     sprite('vrkkef203weapon08', 20)
@@ -1874,7 +1874,7 @@ def efkk_fireball_Hontai():
         Hitstop(4)
         FireFX(1)
         Unknown11056(0)
-        StarterRating(3)
+        StarterRating(2)
         Unknown12052(1)
         FireFX(1)
         GFX_0('efkk_fireballStart', -1)
@@ -2637,6 +2637,7 @@ def efkk400_Hand002nd():
         def upon_60():
             AttackLevel_(5)
             hitstun(21)
+            AirPushbackY(20000)
             AirUntechableTime(120)
 
         def upon_45():
@@ -2880,6 +2881,7 @@ def efkk_UltraSokidan_Hontai():
     Damage(1500)
     Unknown9287()
     Unknown11092(0)
+    StarterRating(3)
     GroundedHitstunAnimation(17)
     AirHitstunAnimation(17)
     AirUntechableTime(120)
@@ -3012,6 +3014,7 @@ def efkk_UltraSokidan_Hontai_OD():
     RefreshMultihit()
     AttackLevel_(5)
     Damage(2500)
+    StarterRating(3)
     Unknown9287()
     Unknown11092(0)
     GroundedHitstunAnimation(17)

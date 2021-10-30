@@ -6184,7 +6184,7 @@ def GETBDrop_OD():
         Hitstop(20)
         MagnetismLength(1200)
         Unknown9001(4)
-        Damage(7220)
+        Damage(6300)
         if SLOT_137:
             DamageMultiplier(80)
         Unknown11068(1)
