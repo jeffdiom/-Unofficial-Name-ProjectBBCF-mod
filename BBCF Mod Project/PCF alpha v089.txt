@@ -74,14 +74,18 @@ Drive: Graviton: Reworked into a gauge bar instead of 9 stock count
                  Gauge bar meter is 1500 (Full/Start With)
                  Meter drains when her drive is on the field
                  when the bar reaches 0 the drive will leave the field
-                 5D: cost 150 meter
+                 5D: cost 200 meter
                      OD version cost 100 meter
-                 236D: cost 150 meter
+                 236D: cost 200 meter
                        OD version cost 100 meter
                  214D: refunds half of the meter 
                  
 
 Fireball: increase hitstun (14f -> 17f)
+          StarterRating 3 -> 2
+
+6B: StarterRating 3 -> 2
+    6[B] still has StartRating 3
 
 3C: Decrease the active frames on the second hit 5f -> 3f
 
@@ -107,12 +111,21 @@ Hazama alpha v0.89
 ==========================
 Terumi alpha v0.89
 ==========================
-Cleaving Fang - Garengeki (22C): increase wallstick duration 27f - 29f
+Cleaving Fang - Garengeki (22C): increase wallstick duration 27f - 30f
 
 Agonizing Fang - Tsuishouga (214C): CH: AttackP1 80 -> 94
                                         increase hitstun
 6C: Now Has SMP on the last hit
     last hit AttackP2 94 -> 89
     increase the groundbounceheight 25 -> 33
+
+Venomous Bite - Ouja Zanrouga (236236A): Normal: can guard point low now 
+                                         it cos 25 meter and landing the counter cost another 25 meter
+                                         same with the OD version
+
+==========================
+Tager alpha v0.89
+==========================
+GETB (720 C): OD damage 7220 -> 6300
 
 
