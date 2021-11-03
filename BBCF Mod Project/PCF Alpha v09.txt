@@ -1,0 +1,72 @@
+==========================
+Jubei alpha v0.9
+==========================
+6C: AttackP1 70 -> 80
+    On CH AttackP1 70 -> 92
+
+Immovable Object: Lotus (360A): Now is Air OK (Install can be active in the air)
+
+==========================
+Kokonoe alpha v0.9
+==========================
+Drive: Graviton: lower the chraging rate 4 -> 3
+
+Teleport: increase recovery 29f -> 30f
+
+Armament No.4β "Pyro: Flaming Belobog v2.73 (214214ABC, air OK): StartRating 0 -> 2
+(aka. super fireball)
+
+22A/B: Startingrating 2 -> 3
+
+j.2C: starterrating 2 -> 3
+
+5C: increase hitstun
+
+2C: CH increase hitstun
+
+5B: CH force crouching state
+
+==========================
+Ragna alpha v0.9
+==========================
+*Now that the Ax Kick can groundbounce (without OD) for a bigger/longer combo, the proration will get lower to compensate for it.
+
+AX kick (214D): AttackP2 70 -> 60
+                (82(original valve) -> 60)
+
+Gauntlet Hades (214B (air OK)): groundbounces only on the grounded vs airborne opponent
+
+Spin Kick (214D after Gauntlet Hades): Airuntechabletime 38 -> 42
+
+==========================
+Jin alpha v0.9
+==========================
+236B: AttackP2 89 -> 75 Now it can OTG with 2A because icecar got increase knockup height.
+      icecar Follow up AttackP2 89 -> 75
+
+5B: increase hitstun and airuntechabletime
+
+2A: increase airuntechabletime
+
+2B: increase airuntechabletime
+
+623[D]: second hit has BBP 120%
+
+==========================
+Noel alpha v0.9
+==========================
+
+8D: OD version forces groundbounce
+    Damage 700 -> 600
+    Normal version
+    Damage 350 -> 300
+
+214A: now has BBP 110% X
+      startrating 3 -> 2
+==========================
+Hakumen alpha v0.9
+==========================
+5C: remove gatling 4C
+
+4C: 4[C] is back Damage 1500 and Attacklevel 5
+
