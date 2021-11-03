@@ -3072,7 +3072,7 @@ def NmlAtk8D():
         setInvincible(1)
         defineInvincibility(0, 0, 1, 0, 0)
         JumpCancel_(1)
-        GroundUntechableTime(-1)
+        GroundUntechableTime(1)
         StarterRating(3)
 
         def upon_ON_HIT_OR_BLOCK():
@@ -3597,7 +3597,7 @@ def NmlAtkThrow():
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
         zIndexInterval(0, 50)
-        ThrowRange(85000)
+        ThrowRange(82500)
     sprite('no310_00', 6)
     sprite('no310_01', 3)
     SFX_0('010_swing_sword_0')
@@ -3677,7 +3677,7 @@ def NmlAtkBackThrow():
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
         zIndexInterval(0, 50)
-        ThrowRange(85000)
+        ThrowRange(82500)
     sprite('no310_00', 6)
     sprite('no310_01', 3)
     SFX_0('010_swing_sword_0')

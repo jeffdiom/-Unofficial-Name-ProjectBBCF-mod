@@ -4969,7 +4969,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(100000)
 
         def upon_STATE_END():
             SLOT_65 = 0
@@ -5072,7 +5072,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(100000)
 
         def upon_STATE_END():
             SLOT_65 = 0

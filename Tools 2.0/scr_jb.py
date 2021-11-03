@@ -3889,7 +3889,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(81000)
     sprite('jb310_00', 3)
     sprite('jb310_01', 3)
     sprite('jb310_02', 3)
@@ -3976,7 +3976,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(81000)
     sprite('jb310_00', 3)
     sprite('jb310_01', 3)
     sprite('jb310_02', 3)

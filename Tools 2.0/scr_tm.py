@@ -3606,7 +3606,7 @@ def NmlAtkThrow():
 
         def upon_STATE_END():
             Unknown2019(0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(78000)
     sprite('tm310_00', 3)
     sprite('tm310_01', 3)
     sprite('tm310_02', 3)
@@ -3692,7 +3692,7 @@ def NmlAtkBackThrow():
 
         def upon_STATE_END():
             Unknown2019(0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(78000)
     sprite('tm310_00', 3)
     sprite('tm310_01', 3)
     sprite('tm310_02', 3)

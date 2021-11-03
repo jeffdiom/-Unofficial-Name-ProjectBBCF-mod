@@ -3275,7 +3275,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        ThrowRange(80000)
+        ThrowRange(79000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)
@@ -3366,7 +3366,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        ThrowRange(80000)
+        ThrowRange(79000)
         callSubroutine('Delete_hole')
     sprite('kk310_00', 3)
     sprite('kk310_01', 3)

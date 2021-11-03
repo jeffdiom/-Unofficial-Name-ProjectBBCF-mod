@@ -3464,7 +3464,7 @@ def NmlAtkThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(80000)
     sprite('hb310_00', 4)
     sprite('hb310_01', 2)
     StartMultihit()
@@ -3585,7 +3585,7 @@ def NmlAtkBackThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(80000)
     sprite('hb310_00', 4)
     sprite('hb310_01', 2)
     StartMultihit()

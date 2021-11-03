@@ -2872,7 +2872,7 @@ def NmlAtkAIR5C():
         AttackP1(80)
         AirPushbackX(48000)
         AirHitstunAnimation(19)
-        AirUntechableTime(55)
+        AirUntechableTime(50)
         Wallbounce(1)
         WallstickLength(1)
         AirPushbackY(10000)
@@ -3807,7 +3807,7 @@ def NmlAtkThrow():
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
         zIndexInterval(0, 50)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(120000)
     sprite('ha310_00', 3)
     sprite('ha310_01', 3)
     sprite('ha310_02', 3)
@@ -3867,7 +3867,7 @@ def NmlAtkBackThrow():
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
         zIndexInterval(0, 50)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(120000)
     sprite('ha310_00', 3)
     sprite('ha310_01', 3)
     sprite('ha310_02', 3)
