@@ -910,7 +910,7 @@ def OnFrameStep():
                     if SLOT_110:
                         SLOT_61 = 10
                     else:
-                        SLOT_61 = 4
+                        SLOT_61 = 3
             if (SLOT_7 == 2):
                 SLOT_61 = 0
         else:
@@ -2207,7 +2207,7 @@ def NmlAtk5C():
         AirPushbackY(8000)
         Unknown9324(2)
         Unknown9180(1)
-        StunLength(90)
+        StunLength(60)
         StunRecoveryLength(30)
         StarterRating(3)
         CounterHitAirPushbackY(12000)
@@ -2308,7 +2308,7 @@ def NmlAtk2B():
         HitLow(2)
         StarterRating(3)
         PunchFX(1)
-        AirUntechableTime(17)
+        AirUntechableTime(19)
         HitOrBlockCancel('NmlAtk6A')
         HitOrBlockCancel('NmlAtk5B')
         HitOrBlockCancel('NmlAtk5C')
@@ -2781,7 +2781,6 @@ def NmlAtkAIR5A():
         Unknown11092(1)
         hitstun(14)
         StarterRating(2)
-        AirUntechableTime(15)
         HitOverhead(2)
 
         def upon_11():
@@ -2878,7 +2877,7 @@ def NmlAtkAIR5C():
         AirPushbackX(44000)
         AirPushbackY(22000)
         StarterRating(3)
-        StunLength(90)
+        StunLength(60)
         StunRecoveryLength(30)
         YImpluseBeforeWallbounce(1500)
         Unknown9324(2)
@@ -2940,7 +2939,6 @@ def NmlAtkAIR2C():
         Hitstop(15)
         FatalCounter(1)
         StarterRating(3)
-        blockstun(19)
         HitOrBlockCancel('AirDrive')
 
         def upon_60():
@@ -3482,7 +3480,7 @@ def NmlAtkAirThrow():
 
     def upon_IMMEDIATE():
         AttackDefaults_Throw('AirThrowExe', 1, 1, 0)
-        ThrowRange(180000)
+        ThrowRange(150000)
         callSubroutine('Delete_hole')
     sprite('kk320_00', 3)
     sprite('kk320_01', 3)
@@ -4672,7 +4670,7 @@ def Warp():
     sprite('kk404_07ex02', 3)
     setInvincible(0)
     Collidable(1)
-    sprite('kk404_08ex02', 1)
+    sprite('kk404_08ex02', 2)
     sprite('kk404_09ex02', 1)
 
 @State
@@ -4710,7 +4708,7 @@ def SpinAssault():
                     AirPushbackY(8000)
                     YImpluseBeforeWallbounce(1800)
                     PushbackX(8000)
-                    blockstun(28)
+                    blockstun(23)
                     AirUntechableTime(40)
                     StarterRating(3)
                     ChipPercentage(10)
@@ -4853,7 +4851,7 @@ def UltimateShot_A():
         GroundedHitstunAnimation(18)
         Unknown11056(0)
         FireFX(1)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         Unknown23159('UltimateShot')
         callSubroutine('Delete_hole')
@@ -4928,7 +4926,7 @@ def UltimateShot_B():
         GroundedHitstunAnimation(18)
         Unknown11056(0)
         FireFX(1)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         Unknown23159('UltimateShot')
         callSubroutine('Delete_hole')
@@ -5002,7 +5000,7 @@ def UltimateShot_C():
         GroundedHitstunAnimation(18)
         Unknown11056(0)
         FireFX(1)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         Unknown23159('UltimateShot')
         callSubroutine('Delete_hole')
@@ -5076,7 +5074,7 @@ def UltimateAirShot_A():
         GroundedHitstunAnimation(18)
         Unknown11056(0)
         FireFX(1)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         endMomentum(1)
         Unknown22004(6, 1)
@@ -5139,7 +5137,7 @@ def UltimateAirShot_B():
         GroundedHitstunAnimation(18)
         Unknown11056(0)
         FireFX(1)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         endMomentum(1)
         Unknown22004(6, 1)
@@ -5202,7 +5200,7 @@ def UltimateAirShot_C():
         GroundedHitstunAnimation(18)
         Unknown11056(0)
         FireFX(1)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         endMomentum(1)
         Unknown22004(6, 1)
@@ -5265,7 +5263,7 @@ def UltimateShotOD_A():
         Unknown11056(0)
         FireFX(1)
         Unknown9001(4)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         Unknown23159('UltimateShotOD')
         callSubroutine('Delete_hole')
@@ -5338,7 +5336,7 @@ def UltimateShotOD_B():
         Unknown11056(0)
         FireFX(1)
         Unknown9001(4)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         Unknown23159('UltimateShotOD')
         callSubroutine('Delete_hole')
@@ -5412,7 +5410,7 @@ def UltimateShotOD_C():
         Unknown11056(0)
         FireFX(1)
         Unknown9001(4)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         Unknown23159('UltimateShotOD')
         callSubroutine('Delete_hole')
@@ -5486,7 +5484,7 @@ def UltimateAirShotOD_A():
         Unknown11056(0)
         FireFX(1)
         Unknown9001(4)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         endMomentum(1)
         Unknown22004(6, 1)
@@ -5549,7 +5547,7 @@ def UltimateAirShotOD_B():
         Unknown11056(0)
         FireFX(1)
         Unknown9001(4)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         endMomentum(1)
         Unknown22004(6, 1)
@@ -5612,7 +5610,7 @@ def UltimateAirShotOD_C():
         Unknown11056(0)
         FireFX(1)
         Unknown9001(4)
-        StarterRating(3)
+        StarterRating(2)
         setInvincible(1)
         endMomentum(1)
         Unknown22004(6, 1)

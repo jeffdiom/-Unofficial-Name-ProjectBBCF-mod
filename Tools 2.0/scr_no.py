@@ -1919,12 +1919,22 @@ def CmnActAirBurstEnd():
 
 @State
 def CmnActOverDriveBegin():
-    sprite('no334_00', 3)
+    sprite('no350_00', 3)
+    sprite('no350_01', 3)
+    sprite('no350_02', 3)
+    Unknown23119(16639, 20, 1)
+    sprite('no350_03', 3)
+    GFX_0('BLT', 0)
+    GFX_0('BLT', 1)
+    sprite('no350_04', 3)
+    GFX_0('EMB_NO_OD', -1)
+    sprite('no350_05', 3)
+    sprite('no350_06', 3)
+    sprite('no350_07', 3)
+    sprite('no334_00', 3)    
     sprite('no334_01', 3)
     sprite('no334_02', 3)
-    Unknown23119(16639, 20, 1)
     sprite('no334_03', 32767)
-    GFX_0('EMB_NO_OD', -1)
     loopRest()
 
 @State
@@ -3039,7 +3049,7 @@ def NmlAtk8D():
         AttackDefaults_StandingNormal()
         AttackLevel_(4)
         ProjectileDurabilityLvl(1)
-        Damage(350)
+        Damage(300)
         AttackP1(80)
         AttackP2(82)
         SameMoveProration(65)
@@ -3048,6 +3058,7 @@ def NmlAtk8D():
         Hitstop(2)
         HitOverhead(2)
         AirUntechableTime(40)
+        AirHitstunAfterWallbounce(30)
         hitstun(30)
         YImpluseBeforeWallbounce(1600)
         PushbackX(12000)
@@ -3061,13 +3072,11 @@ def NmlAtk8D():
         setInvincible(1)
         defineInvincibility(0, 0, 1, 0, 0)
         JumpCancel_(1)
-        GroundUntechableTime(1)
+        GroundUntechableTime(-1)
         StarterRating(3)
 
         def upon_ON_HIT_OR_BLOCK():
             Unknown14072('AirSpecial')
-            Unknown14072('UltimateAirShot')
-            Unknown14072('UltimateAirShotOD')
     sprite('no213_00', 4)
     Unknown20(2, 2, 54)
     sprite('no213_01', 5)
@@ -3080,10 +3089,11 @@ def NmlAtk8D():
     SFX_0('airbackdash_l')
     if SLOT_110:
         SLOT_58 = 1
-        Damage(700)
+        Damage(600)
         physicsXImpulse(18000)
         physicsYImpulse(30000)
-        GroundUntechableTime(18)
+        AirHitstunAfterWallbounce(60)
+        GroundUntechableTime(10)
         AttackP1(90)
         AttackP2(92)
         setGravity(2400)
@@ -3115,6 +3125,14 @@ def NmlAtk8D():
     sprite('no213_04', 2)
     RefreshMultihit()
     AirPushbackY(-45000)
+    if SLOT_110:
+        SLOT_58 = 1
+        AirPushbackY(-15000)
+        EnableGroundBounce(1)
+        GroundedHitstunAnimation(10)
+        AirHitstunAnimation(10)
+        Unknown9324(10)
+        GroundbounceHeight(45)
     SFX_3('nose_00')
     SFX_0('bomb_m')
     GFX_0('EFF_Spark', 2)
@@ -3134,7 +3152,6 @@ def NmlAtk8D():
     SFX_1('no108')
     RefreshMultihit()
     AirPushbackY(20000)
-    EnableGroundBounce(1)
     SFX_3('nose_00')
     SFX_0('bomb_m')
     GFX_0('EFF_Spark', 1)
@@ -3199,8 +3216,6 @@ def NmlAtkAIR5D():
 
         def upon_ON_HIT_OR_BLOCK():
             Unknown14072('AirSpecial')
-            Unknown14072('UltimateAirShot')
-            Unknown14072('UltimateAirShotOD')
     sprite('no253_00', 3)
     sprite('no253_01', 4)
     SFX_1('no111')
@@ -3254,6 +3269,7 @@ def NmlAtkAIR5D():
     sprite('no253_11', 3)
     sprite('no253_12', 3)
     sprite('no253_13', 32767)
+    WhiffCancelEnable(0)
     label(1)
     sprite('no024_01', 3)
     Unknown20(2, 2, 58)
@@ -3581,7 +3597,7 @@ def NmlAtkThrow():
     def upon_IMMEDIATE():
         AttackDefaults_Throw('ThrowExe', 1, 0, 0)
         zIndexInterval(0, 50)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(85000)
     sprite('no310_00', 6)
     sprite('no310_01', 3)
     SFX_0('010_swing_sword_0')
@@ -3661,7 +3677,7 @@ def NmlAtkBackThrow():
     def upon_IMMEDIATE():
         AttackDefaults_Throw('BackThrowExe', 1, 0, 0)
         zIndexInterval(0, 50)
-        Unknown11032(200000, 1, 130000, 0)
+        ThrowRange(85000)
     sprite('no310_00', 6)
     sprite('no310_01', 3)
     SFX_0('010_swing_sword_0')
@@ -4377,8 +4393,6 @@ def con2D():
 
         def upon_ON_HIT_OR_BLOCK():
             Unknown14072('AirSpecial')
-            Unknown14072('UltimateAirShot')
-            Unknown14072('UltimateAirShotOD')
     sprite('no234_00', 3)
     sprite('no234_00', 2)
     setInvincible(1)
@@ -5187,8 +5201,7 @@ def SpecialThrowExe():
         Unknown11002(-1)
         AirPushbackY(-30000)
         Unknown11072(1, -50000, -500000)
-        StarterRating(3)
-        BonusProrationPct(110)
+        StarterRating(2)
         Unknown1006(50000)
         Unknown13021(1)
         Unknown21005(1)
@@ -6697,7 +6710,8 @@ def ShortAssault():
         Wallbounce(1)
         Unknown9346(1)
         Wallstick(1)
-        WallstickLength(36)
+        WallstickLength(39)
+        AirHitstunAfterWallbounce(0)
         GroundUntechableTime(1)
         Unknown9365(20)
         ProjectileDurabilityLvl(1)

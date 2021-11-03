@@ -1841,9 +1841,9 @@ def ha214_col_dmy():
 
     def upon_IMMEDIATE():
         callSubroutine('ShotDelete_dmy')
-    sprite('ha214_col_dmy_00', 1)
-    sprite('ha214_col_dmy_01', 1)
-    sprite('ha214_col_dmy_02', 1)
+    sprite('ha214_col_dmy_00', 2)
+    sprite('ha214_col_dmy_01', 2)
+    sprite('ha214_col_dmy_02', 2)
 
 @State
 def ha252_col_dmy():

@@ -1612,7 +1612,7 @@ def efkk_403_TrapB():
     sprite('kk403_h10', 2)
     sprite('kk403_h11', 2)
     sprite('kk403_h12', 2)
-    sprite('kk403_h13', 240)
+    sprite('kk403_h13', 120)
 
     def upon_3():
         if (SLOT_19 < 250000):
@@ -3453,7 +3453,7 @@ def efkk_AtkGravityBallexe2nd():
         AttackP2(100)
         StarterRating(3)
         AirHitstunAnimation(11)
-        GroundUntechableTime(10)
+        GroundUntechableTime(5)
         AirPushbackY(-220000)
         Hitstop(0)
         Unknown11050(9, '')
