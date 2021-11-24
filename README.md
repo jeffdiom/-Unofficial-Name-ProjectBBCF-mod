@@ -2,8 +2,6 @@
 * The goal of this mod is to spice things up for patch BBCF 2.0. Another goal of this mod is bringing returning movesets, framedata and/or properties from BBCPEX (maybe other BB games) in BBCF.
 * This is a BlazBlue Centralfiction mod
 
-* Name Suggestions: Blazblue ChronoFiction, BBCF Plus, or the Current Name  
-
 # 
 This project was heavily insipred by Guilty Gear Xrd Rev0 and Project M/+.
 
