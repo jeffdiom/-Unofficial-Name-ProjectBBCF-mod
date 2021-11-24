@@ -1,4 +1,4 @@
-# -Unofficial-Name-ProjectCentralfiction-mod
+# ProjectCentralfiction-mod
 * The goal of this mod is to spice things up for patch BBCF 2.0. Another goal of this mod is bringing returning movesets, framedata and/or properties from BBCPEX (maybe other BB games) in BBCF.
 * This is a BlazBlue Centralfiction mod
 
