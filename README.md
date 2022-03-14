@@ -12,7 +12,7 @@ This project was heavily insipred by Guilty Gear Xrd Rev0 and Project M/+.
 *Other: BBCF Unlimited MOD (Created by (B)aroque https://www.nexusmods.com/blazbluecentralfiction/mods/5)
 
 # Project CF Universal Mechanics Changes
-* Universial changes for all of the characters Throw range (No Longer have pitful throw range)
+* Universial changes for all of the characters Throw range (No Longer have small throw range)
 * Soon every character will have their 3C's to have an air untechabletime to be 60f
 * Returning moves/properties are coming back from previous Blazblue titles (Not 100% of them, but most of them will be)
 * And More Coming Soon
